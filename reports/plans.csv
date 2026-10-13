@@ -2,7 +2,7 @@ provider,id,name,price,currency,billing_months,traffic_gb,reset,multiplier,fee_p
 大哥云,dageyun,VIP2 小流量年付15GB,88,CNY,12,15,monthly,1,,dageyun-screenshot,2026-10-13,user_screenshot,500,False,365天；每月15GB；订单日重置或购买流量包重置。,48.888888888888886,https://a03.dgy02.com/#/register?code=70MvRuqr
 大哥云,dageyun,年付套餐A 500GB,299,CNY,12,500,monthly,1,,dageyun-screenshot,2026-10-13,user_screenshot,1000,False,365天；每月500GB；页面列9折券mcuE8uOq，期限与结算适用性未核验；不按优惠价排名。,4.983333333333333,https://a03.dgy02.com/#/register?code=70MvRuqr
 大哥云,dageyun,年付套餐A 300GB,199,CNY,12,300,monthly,1,,dageyun-screenshot,2026-10-13,user_screenshot,1000,False,365天；每月300GB；页面列9折券mcuE8uOq，期限与结算适用性未核验；不按优惠价排名。,5.527777777777778,https://a03.dgy02.com/#/register?code=70MvRuqr
-大哥云,dageyun,季付套餐A 200GB（周期待确认）,69,CNY,3,200,monthly,1,,dageyun-screenshot,,user_screenshot,1000,True,标题写季付、价格下方写半年付、时长写90天。周期存在冲突，不计算折合月费或流量单价、不参与排名；下单前确认。,,https://a03.dgy02.com/#/register?code=70MvRuqr
+大哥云,dageyun,季付套餐A 200GB,69,CNY,3,200,monthly,1,,dageyun-screenshot,2026-10-13,user_screenshot,1000,False,维护者确认实际有效期3个月（90天），每月200GB；订单日重置或购买流量包重置。原页面价格下方标为半年付，与标题及90天说明不一致，按维护者确认记录。,11.5,https://a03.dgy02.com/#/register?code=70MvRuqr
 大哥云,dageyun,单月套餐B 150GB,29,CNY,1,150,monthly,1,,dageyun-screenshot,2026-10-13,user_screenshot,500,False,按自然月计算；每月150GB；订单日重置或续费套餐重置。,19.333333333333332,https://a03.dgy02.com/#/register?code=70MvRuqr
 大哥云,dageyun,单月套餐A 100GB,19.9,CNY,1,100,monthly,1,,dageyun-screenshot,2026-10-13,user_screenshot,500,False,按自然月计算；每月100GB；订单日重置或续费套餐重置。,19.9,https://a03.dgy02.com/#/register?code=70MvRuqr
 365VPN,365vpn,基础月卡,38.88,CNY,1,,unlimited,1,,hwanz-paid,,,,,,,https://365vpn.org
