@@ -1,0 +1,284 @@
+{
+  "checked_at": "2026-10-13T11:53:21+08:00",
+  "checks": [
+    {
+      "id": "provider:365vpn",
+      "url": "https://365vpn.org",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:beibei",
+      "url": "https://jctj.beibei.cloud",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:boostnet",
+      "url": "https://jc.boostqz.com",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:ciyy",
+      "url": "https://ciyy.one/",
+      "kind": "entry",
+      "status": "restricted",
+      "http_code": 403
+    },
+    {
+      "id": "provider:eix",
+      "url": "https://cdn12.e-ix.com",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:flybit",
+      "url": "https://flybit.vip/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:fmyun",
+      "url": "https://www.fmyun.top/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:freecat",
+      "url": "https://us.freecat.cloud/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:fwcloud",
+      "url": "https://api.fwcloud.life/",
+      "kind": "entry",
+      "status": "restricted",
+      "http_code": 403
+    },
+    {
+      "id": "provider:haita",
+      "url": "https://haita.link",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:happymao",
+      "url": "https://www.happymao.cat/",
+      "kind": "entry",
+      "status": "restricted",
+      "http_code": 403
+    },
+    {
+      "id": "provider:inets",
+      "url": "https://inets.io/",
+      "kind": "entry",
+      "status": "restricted",
+      "http_code": 403
+    },
+    {
+      "id": "provider:jms",
+      "url": "https://justmysocks.net",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:kycloud",
+      "url": "https://my.ihcloud.cc",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:laomao",
+      "url": "https://www.laomaourl.com",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:liangxin",
+      "url": "https://xn--9kqz23b19z.com/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:m78star",
+      "url": "https://m78star.cloud/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:nfsq",
+      "url": "https://w05.nfsqweba01.cc/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:nianyun",
+      "url": "https://xnyun.wiki/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:nyanss",
+      "url": "https://billing.nyanss001.top/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:ofonet",
+      "url": "https://ofotw.org/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:onesy",
+      "url": "https://www.onesy1.cc/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:peiqian",
+      "url": "https://xn--mes358aby2apfg.com/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:shanhai",
+      "url": "https://shanhai.me",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:tag",
+      "url": "https://honven.l49.net",
+      "kind": "entry",
+      "status": "restricted",
+      "http_code": 403
+    },
+    {
+      "id": "provider:tutuyun",
+      "url": "https://www.tutuyun.uk/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:wgetcloud",
+      "url": "https://invite.wgetcloud.ltd",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "TimeoutError"
+    },
+    {
+      "id": "provider:yifen",
+      "url": "https://xn--4gqx1hgtfdmt.com/",
+      "kind": "entry",
+      "status": "restricted",
+      "http_code": 403
+    },
+    {
+      "id": "provider:youtu",
+      "url": "https://jctj.youtunice.com",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "source:hwanz-paid",
+      "url": "https://raw.githubusercontent.com/hwanz/SSR-V2ray-Trojan/HEAD/README.md",
+      "kind": "source",
+      "status": "reachable",
+      "http_code": 200,
+      "sha256": "b6f116c75a9d6dcc00e9425effb609f081bb49561ff61ce26eabe6e7a7fc173d",
+      "baseline_sha256": "b6f116c75a9d6dcc00e9425effb609f081bb49561ff61ce26eabe6e7a7fc173d"
+    },
+    {
+      "id": "source:panda",
+      "url": "https://raw.githubusercontent.com/DiningFactory/panda-vpn-pro/HEAD/README.md",
+      "kind": "source",
+      "status": "reachable",
+      "http_code": 200,
+      "sha256": "e28e3458197943dbe295a13bf1451dac522b72b5099420b08bcf8d2cd042cfec",
+      "baseline_sha256": "e28e3458197943dbe295a13bf1451dac522b72b5099420b08bcf8d2cd042cfec"
+    },
+    {
+      "id": "source:hwanz-free",
+      "url": "https://raw.githubusercontent.com/hwanz/SSR-V2ray-Trojan-vpn/HEAD/README.md",
+      "kind": "source",
+      "status": "reachable",
+      "http_code": 200,
+      "sha256": "35181dbd34de5b3a69e6832635cfe9cee685f6826acaa49123fc3bde24b79fd1",
+      "baseline_sha256": "35181dbd34de5b3a69e6832635cfe9cee685f6826acaa49123fc3bde24b79fd1"
+    },
+    {
+      "id": "source:jms-official",
+      "url": "https://justmysocks.net/members/cart.php",
+      "kind": "source",
+      "status": "reachable",
+      "http_code": 200,
+      "sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068",
+      "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
+    }
+  ],
+  "attention": [
+    "provider:ciyy: restricted",
+    "provider:fwcloud: restricted",
+    "provider:happymao: restricted",
+    "provider:inets: restricted",
+    "provider:tag: restricted",
+    "provider:wgetcloud: unknown",
+    "provider:yifen: restricted"
+  ],
+  "pending_price_review": [
+    "365vpn",
+    "beibei",
+    "boostnet",
+    "ciyy",
+    "eix",
+    "flybit",
+    "fmyun",
+    "freecat",
+    "fwcloud",
+    "haita",
+    "happymao",
+    "inets",
+    "kycloud",
+    "laomao",
+    "liangxin",
+    "m78star",
+    "nfsq",
+    "nianyun",
+    "nyanss",
+    "ofonet",
+    "onesy",
+    "peiqian",
+    "shanhai",
+    "tag",
+    "tutuyun",
+    "wgetcloud",
+    "yifen",
+    "youtu"
+  ],
+  "fingerprint": "6d25ccf0db7063f9870dfc12ec8ca863d16ee98786e38960393e2be1fe9c487a"
+}
