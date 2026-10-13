@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-13T11:53:21+08:00",
+  "checked_at": "2026-10-13T12:52:24+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -9,11 +9,88 @@
       "http_code": 200
     },
     {
+      "id": "provider:afun",
+      "url": "https://dash.afun.la/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:aimacloud",
+      "url": "https://www.aimacloud.info/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "URLError"
+    },
+    {
+      "id": "provider:alori",
+      "url": "https://oukasou.xyz/index.php",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "gaierror"
+    },
+    {
+      "id": "provider:aoxiang",
+      "url": "https://www.aoxiangyun.top/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "URLError"
+    },
+    {
+      "id": "provider:baiyangxing",
+      "url": "https://baiyangxing.com/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:baobei",
+      "url": "https://v3ssy.xyz/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:bbq",
+      "url": "https://qiaoxbbq.com/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "gaierror"
+    },
+    {
+      "id": "provider:bbxy",
+      "url": "https://bbxy.xn--cesw6hd3s99f.com/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "URLError"
+    },
+    {
+      "id": "provider:bcast",
+      "url": "https://bcast.ink/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "gaierror"
+    },
+    {
       "id": "provider:beibei",
       "url": "https://jctj.beibei.cloud",
       "kind": "entry",
       "status": "reachable",
       "http_code": 200
+    },
+    {
+      "id": "provider:besnow",
+      "url": "https://besnow.me/index.php",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:bochidev",
+      "url": "https://b0chi.r-yu.me/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "gaierror"
     },
     {
       "id": "provider:boostnet",
@@ -23,11 +100,81 @@
       "http_code": 200
     },
     {
+      "id": "provider:bt3",
+      "url": "https://px.bt3.one/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:caihong",
+      "url": "https://chy.fit/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "gaierror"
+    },
+    {
+      "id": "provider:cd520",
+      "url": "https://cd520.xyz/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "gaierror"
+    },
+    {
+      "id": "provider:china-international",
+      "url": "https://affman.mellanox.fyi/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "ValueError"
+    },
+    {
       "id": "provider:ciyy",
       "url": "https://ciyy.one/",
       "kind": "entry",
       "status": "restricted",
       "http_code": 403
+    },
+    {
+      "id": "provider:cocolink",
+      "url": "https://cocolink.org/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "gaierror"
+    },
+    {
+      "id": "provider:daniu",
+      "url": "https://daniu.e300daniu.top/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "gaierror"
+    },
+    {
+      "id": "provider:daxun",
+      "url": "https://daxun.club/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "gaierror"
+    },
+    {
+      "id": "provider:dengta",
+      "url": "https://www.dengta12.com/reg",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:doucat",
+      "url": "https://doucat.top/index.php",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:edcloud",
+      "url": "https://cdn.ednovas.org/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
     },
     {
       "id": "provider:eix",
@@ -51,8 +198,29 @@
       "http_code": 200
     },
     {
+      "id": "provider:free-airport",
+      "url": "https://zero.76898102.xyz",
+      "kind": "entry",
+      "status": "restricted",
+      "http_code": 429
+    },
+    {
       "id": "provider:freecat",
       "url": "https://us.freecat.cloud/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:freesocks",
+      "url": "https://freesocks.org/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:fscloud",
+      "url": "https://dash.fscloud.cc/",
       "kind": "entry",
       "status": "reachable",
       "http_code": 200
@@ -63,6 +231,27 @@
       "kind": "entry",
       "status": "restricted",
       "http_code": 403
+    },
+    {
+      "id": "provider:ghost101",
+      "url": "https://101ghost.com/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:glados",
+      "url": "https://glados.space/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:goutou",
+      "url": "https://lksi.xyz/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
     },
     {
       "id": "provider:haita",
@@ -79,6 +268,13 @@
       "http_code": 403
     },
     {
+      "id": "provider:ikuuu",
+      "url": "https://ikuuu.de/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
       "id": "provider:inets",
       "url": "https://inets.io/",
       "kind": "entry",
@@ -86,11 +282,60 @@
       "http_code": 403
     },
     {
+      "id": "provider:jetfast",
+      "url": "https://my.jetfast.dev/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "gaierror"
+    },
+    {
+      "id": "provider:jiasula",
+      "url": "https://jiasu.la/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:jifeng",
+      "url": "https://jifeng468.xyz/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "gaierror"
+    },
+    {
+      "id": "provider:jiguang",
+      "url": "https://jgjs02.com/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:jike",
+      "url": "https://board.jike99.xyz/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "ValueError"
+    },
+    {
       "id": "provider:jms",
       "url": "https://justmysocks.net",
       "kind": "entry",
       "status": "reachable",
       "http_code": 200
+    },
+    {
+      "id": "provider:kelecloud",
+      "url": "https://panel.keleofficial.com/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "gaierror"
+    },
+    {
+      "id": "provider:kuailexingqiu",
+      "url": "https://klxq.djgskc.top/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "gaierror"
     },
     {
       "id": "provider:kycloud",
@@ -107,6 +352,13 @@
       "http_code": 200
     },
     {
+      "id": "provider:lemao",
+      "url": "https://a1.lemao888.top/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
       "id": "provider:liangxin",
       "url": "https://xn--9kqz23b19z.com/",
       "kind": "entry",
@@ -114,8 +366,57 @@
       "http_code": 200
     },
     {
+      "id": "provider:liulian",
+      "url": "https://www.liulianvpn.org/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "gaierror"
+    },
+    {
+      "id": "provider:longmaoyun",
+      "url": "https://jichangtj01.lmvipaff.com/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
       "id": "provider:m78star",
       "url": "https://m78star.cloud/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:maoxiong",
+      "url": "https://mxwljsq.xyz/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:mickey",
+      "url": "https://www.mickey.business/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "gaierror"
+    },
+    {
+      "id": "provider:mojie",
+      "url": "https://www.mojie.me/",
+      "kind": "entry",
+      "status": "restricted",
+      "http_code": 403
+    },
+    {
+      "id": "provider:naiyun",
+      "url": "https://www.v2ny.com/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "gaierror"
+    },
+    {
+      "id": "provider:nanmin",
+      "url": "https://nanmin.xyz/",
       "kind": "entry",
       "status": "reachable",
       "http_code": 200
@@ -163,11 +464,74 @@
       "http_code": 200
     },
     {
+      "id": "provider:proxyvip",
+      "url": "https://www.proxyvip.xyz/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "gaierror"
+    },
+    {
+      "id": "provider:qlgq",
+      "url": "https://www.qlgq.top/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "gaierror"
+    },
+    {
+      "id": "provider:shandiangou",
+      "url": "https://shandiandog.com/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
       "id": "provider:shanhai",
       "url": "https://shanhai.me",
       "kind": "entry",
       "status": "reachable",
       "http_code": 200
+    },
+    {
+      "id": "provider:shengfeng",
+      "url": "https://xn--iiq540h.com/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "URLError"
+    },
+    {
+      "id": "provider:sockboom",
+      "url": "https://sockboom.love/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "ValueError"
+    },
+    {
+      "id": "provider:speedy",
+      "url": "https://cloud.speedypro.xyz/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:ssrsub",
+      "url": "https://sub.ssrsub.com/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:suyun",
+      "url": "https://zhu.suyun.bio/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:synapse",
+      "url": "https://user.xinna.co/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "gaierror"
     },
     {
       "id": "provider:tag",
@@ -177,8 +541,29 @@
       "http_code": 403
     },
     {
+      "id": "provider:taishan",
+      "url": "https://jp.taishan.pro/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:tly",
+      "url": "https://tly.sh/",
+      "kind": "entry",
+      "status": "unknown",
+      "error_type": "TimeoutError"
+    },
+    {
       "id": "provider:tutuyun",
       "url": "https://www.tutuyun.uk/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:wandayun",
+      "url": "https://www.z1z1.top/vip",
       "kind": "entry",
       "status": "reachable",
       "http_code": 200
@@ -191,6 +576,13 @@
       "error_type": "TimeoutError"
     },
     {
+      "id": "provider:xqc",
+      "url": "https://xqc.best/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
       "id": "provider:yifen",
       "url": "https://xn--4gqx1hgtfdmt.com/",
       "kind": "entry",
@@ -198,8 +590,43 @@
       "http_code": 403
     },
     {
+      "id": "provider:yiyuan",
+      "url": "https://xn--4gq62f52gdss.com/",
+      "kind": "entry",
+      "status": "restricted",
+      "http_code": 403
+    },
+    {
       "id": "provider:youtu",
       "url": "https://jctj.youtunice.com",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:yuyan",
+      "url": "https://yuyan.online/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:yylx",
+      "url": "https://yyssr.net/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
+    },
+    {
+      "id": "provider:zongheng",
+      "url": "https://www.okvpn.cc/",
+      "kind": "entry",
+      "status": "http_error",
+      "http_code": 521
+    },
+    {
+      "id": "provider:zongyunti",
+      "url": "https://zongyunti.com/",
       "kind": "entry",
       "status": "reachable",
       "http_code": 200
@@ -237,21 +664,54 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068",
+      "sha256": "fd0609bdf475942a6ca4a90bdd1f33d6ad05454ff5963a3c0724feffa925fb99",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     }
   ],
   "attention": [
+    "provider:aimacloud: unknown",
+    "provider:alori: unknown",
+    "provider:aoxiang: unknown",
+    "provider:bbq: unknown",
+    "provider:bbxy: unknown",
+    "provider:bcast: unknown",
+    "provider:bochidev: unknown",
+    "provider:caihong: unknown",
+    "provider:cd520: unknown",
+    "provider:china-international: unknown",
     "provider:ciyy: restricted",
+    "provider:cocolink: unknown",
+    "provider:daniu: unknown",
+    "provider:daxun: unknown",
+    "provider:free-airport: restricted",
     "provider:fwcloud: restricted",
     "provider:happymao: restricted",
     "provider:inets: restricted",
+    "provider:jetfast: unknown",
+    "provider:jifeng: unknown",
+    "provider:jike: unknown",
+    "provider:kelecloud: unknown",
+    "provider:kuailexingqiu: unknown",
+    "provider:liulian: unknown",
+    "provider:mickey: unknown",
+    "provider:mojie: restricted",
+    "provider:naiyun: unknown",
+    "provider:proxyvip: unknown",
+    "provider:qlgq: unknown",
+    "provider:shengfeng: unknown",
+    "provider:sockboom: unknown",
+    "provider:synapse: unknown",
     "provider:tag: restricted",
+    "provider:tly: unknown",
     "provider:wgetcloud: unknown",
-    "provider:yifen: restricted"
+    "provider:yifen: restricted",
+    "provider:yiyuan: restricted",
+    "provider:zongheng: http_error",
+    "source:jms-official: 来源正文变化，需复核"
   ],
   "pending_price_review": [
     "365vpn",
+    "arisaka",
     "beibei",
     "boostnet",
     "ciyy",
@@ -275,10 +735,12 @@
     "peiqian",
     "shanhai",
     "tag",
+    "taishan",
     "tutuyun",
     "wgetcloud",
     "yifen",
+    "yiyuan",
     "youtu"
   ],
-  "fingerprint": "6d25ccf0db7063f9870dfc12ec8ca863d16ee98786e38960393e2be1fe9c487a"
+  "fingerprint": "f93c02fef449b811f1b60e7532c576e9f389203464ea81ec2977e2bd26ff94bd"
 }
