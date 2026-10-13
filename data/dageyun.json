@@ -1,0 +1,23 @@
+{
+  "id": "dageyun",
+  "name": "大哥云",
+  "official_url": "https://a03.dgy02.com/",
+  "mirrors": [],
+  "route": "待核验",
+  "protocols": [
+    "待核验"
+  ],
+  "regions": [],
+  "client_policy": "待核验",
+  "device_limit": null,
+  "trial": null,
+  "status": "unverified",
+  "notes": "用户提供注册入口。公开页面为动态应用，目前未取得可核对的套餐价格与容量；同名第三方网站价格未采用。",
+  "observed_at": "2026-10-13",
+  "sources": [
+    "dageyun-entry"
+  ],
+  "plans": [],
+  "quality": null,
+  "category": "paid"
+}

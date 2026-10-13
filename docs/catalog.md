@@ -25,6 +25,7 @@
 | 中国国际机场 | 待核验 | 2天 / 15GB（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | unverified | [详情](../providers/china-international.md) | [官方入口（来源记录）](https://affman.mellanox.fyi/) |
 | 次元雲 | 17 CNY/月 | 158 GB/月 | ★★★☆☆ · 来源收录 | 中转 | unverified | [详情](../providers/ciyy.md) | [官方入口（来源记录）](https://ciyy.one/) |
 | cocolink | 待核验 | 7天 / 64GB（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | unverified | [详情](../providers/cocolink.md) | [官方入口（来源记录）](https://cocolink.org/) |
+| 大哥云 | 待核验 | 待核验 | ★★☆☆☆ · 待核验候选 | 待核验 | unverified | [详情](../providers/dageyun.md) | [官方入口（来源记录）](https://a03.dgy02.com/) |
 | 大牛机场 | 待核验 | 1小时 / 1GB（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | unverified | [详情](../providers/daniu.md) | [官方入口（来源记录）](https://daniu.e300daniu.top/) |
 | 大迅云 | 待核验 | 2天 / 10GB（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | unverified | [详情](../providers/daxun.md) | [官方入口（来源记录）](https://daxun.club/) |
 | 灯塔加速器 | 待核验 | 3天；额度待核验（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | unverified | [详情](../providers/dengta.md) | [官方入口（来源记录）](https://www.dengta12.com/reg) |

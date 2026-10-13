@@ -22,5 +22,12 @@
     "url": "https://justmysocks.net/members/cart.php",
     "kind": "official",
     "reviewed_at": "2026-10-13"
+  },
+  {
+    "id": "dageyun-entry",
+    "url": "https://a03.dgy02.com/",
+    "kind": "official",
+    "reviewed_at": "2026-10-13",
+    "note": "用户提供入口；未核验套餐价格，官网可访问不代表价格已确认"
   }
 ]

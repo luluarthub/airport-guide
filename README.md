@@ -2,7 +2,7 @@
 
 [![检查](https://github.com/luluarthub/airport-guide/actions/workflows/ci.yml/badge.svg)](https://github.com/luluarthub/airport-guide/actions/workflows/ci.yml)
 
-收录 **92 家服务、74 个套餐**。覆盖专线、中转、直连、低价、全年流量包和不限时套餐。资料按来源整理，未亲测条目明确标记。
+收录 **93 家服务、74 个套餐**。覆盖专线、中转、直连、低价、全年流量包和不限时套餐。资料按来源整理，未亲测条目明确标记。
 
 ## 快速入口
 
@@ -92,6 +92,7 @@ python3 scripts/catalog.py search --protocol AnyTLS --reset total
 | cd520 | 待核验 | 3天 / 5GB（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | [查看](providers/cd520.md) |
 | 中国国际机场 | 待核验 | 2天 / 15GB（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | [查看](providers/china-international.md) |
 | cocolink | 待核验 | 7天 / 64GB（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | [查看](providers/cocolink.md) |
+| 大哥云 | 待核验 | 待核验 | ★★☆☆☆ · 待核验候选 | 待核验 | [查看](providers/dageyun.md) |
 | 大牛机场 | 待核验 | 1小时 / 1GB（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | [查看](providers/daniu.md) |
 | 大迅云 | 待核验 | 2天 / 10GB（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | [查看](providers/daxun.md) |
 | 灯塔加速器 | 待核验 | 3天；额度待核验（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | [查看](providers/dengta.md) |
