@@ -88,3 +88,9 @@ python3 scripts/catalog.py generate
 概览的参考价格、容量自动从同一个套餐生成。推荐指数规则见 [推荐指数依据](recommendation.md)；没有实测证据时仅显示来源等级。`category=historical` 的历史条目单列，`official_url=null` 表示原文只有不透明短链而尚无可信官网，此时展示来源查询，巡检跳过缺失官网。
 
 `config/coverage.json` 保存三个来源逐条核对后的项目名与本仓库ID映射，生成 `docs/coverage.md`。免费来源同名重复入口已合并；不能仅因为两个不同名字使用相似域名就合并。新来源变更后需要人工重新核对这份映射。
+
+## 维护者主力推荐与截图核验
+
+`owner_review` 记录 role=primary、reported_at、statement，用于维护者明确确认的长期主力推荐。watch/inactive优先于主力标签。主力条目优先展示，不改价格数学排序；没有地区和分项测速证据时不填quality。
+
+套餐 `verification_method=user_screenshot` 表示价格来自维护者提供的套餐页截图，需登记截图/转录来源与核验日期。页面标注相互矛盾时设 `billing_ambiguous=true`，保留原始冲突说明并排除单价计算、入门套餐选择与折合月费过滤，不猜测付款周期。

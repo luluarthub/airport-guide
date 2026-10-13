@@ -28,6 +28,13 @@
     "url": "https://a03.dgy02.com/",
     "kind": "official",
     "reviewed_at": "2026-10-13",
-    "note": "用户提供入口；未核验套餐价格，官网可访问不代表价格已确认"
+    "note": "用户提供入口；套餐依据用户后续提供的页面截图录入，未通过公开接口取得价格。"
+  },
+  {
+    "id": "dageyun-screenshot",
+    "url": "https://raw.githubusercontent.com/luluarthub/airport-guide/main/docs/evidence/dageyun-20261013.md",
+    "kind": "user_screenshot",
+    "reviewed_at": "2026-10-13",
+    "note": "维护者提供套餐页截图，包含5个周期明确套餐和1个周期冲突套餐；价格证据与长期体验报告分开记录。"
   }
 ]

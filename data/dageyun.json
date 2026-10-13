@@ -5,19 +5,125 @@
   "mirrors": [],
   "route": "待核验",
   "protocols": [
-    "待核验"
+    "Trojan（套餐页截图）"
   ],
   "regions": [],
   "client_policy": "待核验",
   "device_limit": null,
   "trial": null,
-  "status": "unverified",
-  "notes": "用户提供注册入口。公开页面为动态应用，目前未取得可核对的套餐价格与容量；同名第三方网站价格未采用。",
+  "status": "active",
+  "notes": "维护者提供6个套餐的页面截图，价格与额度按截图录入；均标注新疆地区不可用、不支持原路退款。页面宣称带宽上限不等于测速结果。69元套餐付款周期标注冲突，暂不参与排名。",
   "observed_at": "2026-10-13",
   "sources": [
-    "dageyun-entry"
+    "dageyun-entry",
+    "dageyun-screenshot"
   ],
-  "plans": [],
+  "plans": [
+    {
+      "name": "VIP2 小流量年付15GB",
+      "price": 88,
+      "currency": "CNY",
+      "billing_months": 12,
+      "traffic_gb": 15,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "dageyun-screenshot",
+      "verified_at": "2026-10-13",
+      "verification_method": "user_screenshot",
+      "advertised_speed_mbps": 500,
+      "billing_ambiguous": false,
+      "notes": "365天；每月15GB；订单日重置或购买流量包重置。"
+    },
+    {
+      "name": "年付套餐A 500GB",
+      "price": 299,
+      "currency": "CNY",
+      "billing_months": 12,
+      "traffic_gb": 500,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "dageyun-screenshot",
+      "verified_at": "2026-10-13",
+      "verification_method": "user_screenshot",
+      "advertised_speed_mbps": 1000,
+      "billing_ambiguous": false,
+      "notes": "365天；每月500GB；页面列9折券mcuE8uOq，期限与结算适用性未核验；不按优惠价排名。"
+    },
+    {
+      "name": "年付套餐A 300GB",
+      "price": 199,
+      "currency": "CNY",
+      "billing_months": 12,
+      "traffic_gb": 300,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "dageyun-screenshot",
+      "verified_at": "2026-10-13",
+      "verification_method": "user_screenshot",
+      "advertised_speed_mbps": 1000,
+      "billing_ambiguous": false,
+      "notes": "365天；每月300GB；页面列9折券mcuE8uOq，期限与结算适用性未核验；不按优惠价排名。"
+    },
+    {
+      "name": "季付套餐A 200GB（周期待确认）",
+      "price": 69,
+      "currency": "CNY",
+      "billing_months": 3,
+      "traffic_gb": 200,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "dageyun-screenshot",
+      "verified_at": null,
+      "verification_method": "user_screenshot",
+      "advertised_speed_mbps": 1000,
+      "billing_ambiguous": true,
+      "notes": "标题写季付、价格下方写半年付、时长写90天。周期存在冲突，不计算折合月费或流量单价、不参与排名；下单前确认。"
+    },
+    {
+      "name": "单月套餐B 150GB",
+      "price": 29,
+      "currency": "CNY",
+      "billing_months": 1,
+      "traffic_gb": 150,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "dageyun-screenshot",
+      "verified_at": "2026-10-13",
+      "verification_method": "user_screenshot",
+      "advertised_speed_mbps": 500,
+      "billing_ambiguous": false,
+      "notes": "按自然月计算；每月150GB；订单日重置或续费套餐重置。"
+    },
+    {
+      "name": "单月套餐A 100GB",
+      "price": 19.9,
+      "currency": "CNY",
+      "billing_months": 1,
+      "traffic_gb": 100,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "dageyun-screenshot",
+      "verified_at": "2026-10-13",
+      "verification_method": "user_screenshot",
+      "advertised_speed_mbps": 500,
+      "billing_ambiguous": false,
+      "notes": "按自然月计算；每月100GB；订单日重置或续费套餐重置。"
+    }
+  ],
   "quality": null,
-  "category": "paid"
+  "category": "paid",
+  "owner_review": {
+    "role": "primary",
+    "reported_at": "2026-10-13",
+    "statement": "这是维护者主要使用的机场，稳定使用2年以上，未遇到问题；节点足够丰富，稳定性强，性价比高。",
+    "evidence_type": "owner_report",
+    "network": null,
+    "region": null
+  }
 }

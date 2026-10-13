@@ -1,75 +1,81 @@
-provider,id,name,price,currency,billing_months,traffic_gb,reset,multiplier,fee_percent,source,verified_at,cost_per_100gb,registration_url
-365VPN,365vpn,基础月卡,38.88,CNY,1,,unlimited,1,,hwanz-paid,,,https://365vpn.org
-365VPN,365vpn,标准月卡,58.88,CNY,1,,unlimited,1,,hwanz-paid,,,https://365vpn.org
-Arisaka,arisaka,来源入门套餐,15.99,CNY,1,80,monthly,1,,hwanz-free,,19.9875,https://github.com/hwanz/SSR-V2ray-Trojan-vpn
-贝贝云,beibei,半年100G,129.9,CNY,6,100,monthly,1,,hwanz-paid,,21.65,https://jctj.beibei.cloud
-贝贝云,beibei,年付100G,249.9,CNY,12,100,monthly,1,,hwanz-paid,,20.825000000000003,https://jctj.beibei.cloud
-贝贝云,beibei,半年200G,189.9,CNY,6,200,monthly,1,,hwanz-paid,,15.825,https://jctj.beibei.cloud
-贝贝云,beibei,大流量月付,109.9,CNY,1,1000,monthly,1,,hwanz-paid,,10.990000000000002,https://jctj.beibei.cloud
-BoostNet,boostnet,轻量年付,200,CNY,12,20,monthly,1,,hwanz-paid,,83.33333333333334,https://jc.boostqz.com
-BoostNet,boostnet,半年标准,260,CNY,6,200,monthly,1,,hwanz-paid,,21.666666666666668,https://jc.boostqz.com
-BoostNet,boostnet,年付标准,500,CNY,12,200,monthly,1,,hwanz-paid,,20.833333333333336,https://jc.boostqz.com
-BoostNet,boostnet,大流量月付,129,CNY,1,1000,monthly,1,,hwanz-paid,,12.9,https://jc.boostqz.com
-次元雲,ciyy,月付,17.0,CNY,1,158.0,monthly,1,,panda,,10.759493670886076,https://ciyy.one/
-次元雲,ciyy,不限时流量包,125.0,CNY,,520.0,total,1,,panda,,24.03846153846154,https://ciyy.one/
-E-IX,eix,全年共用流量,199,CNY,12,1024,total,1,,hwanz-paid,,19.43359375,https://cdn12.e-ix.com
-E-IX,eix,基础季付,199,CNY,3,256,monthly,1,,hwanz-paid,,25.911458333333332,https://cdn12.e-ix.com
-E-IX,eix,标准月付,75,CNY,1,512,monthly,1,,hwanz-paid,,14.6484375,https://cdn12.e-ix.com
-FlyBit,flybit,月付,15.0,CNY,1,128.0,monthly,1,,panda,,11.71875,https://flybit.vip/
-FlyBit,flybit,不限时流量包,36.0,CNY,,128.0,total,1,,panda,,28.125,https://flybit.vip/
-飞喵云,fmyun,月付,9.88,CNY,1,100.0,monthly,1,,panda,,9.88,https://www.fmyun.top/
-飞喵云,fmyun,不限时流量包,25.0,CNY,,100.0,total,1,,panda,,25.0,https://www.fmyun.top/
-自由猫,freecat,月付,12.0,CNY,1,100.0,monthly,1,,panda,,12.0,https://us.freecat.cloud/
-自由猫,freecat,不限时流量包,65.0,CNY,,500.0,total,1,,panda,,13.0,https://us.freecat.cloud/
-蜂窝云,fwcloud,月付,20.0,CNY,1,200.0,monthly,1,,panda,,10.0,https://api.fwcloud.life/
-海獭,haita,轻量季付,25,CNY,3,50,monthly,1,,hwanz-paid,,16.666666666666664,https://haita.link
-海獭,haita,月付100G,15.99,CNY,1,100,monthly,1,,hwanz-paid,,15.990000000000002,https://haita.link
-海獭,haita,月付200G,25.99,CNY,1,200,monthly,1,,hwanz-paid,,12.994999999999997,https://haita.link
-海獭,haita,月付700G,54.99,CNY,1,700,monthly,1,,hwanz-paid,,7.855714285714285,https://haita.link
-happy猫,happymao,月付,9.9,CNY,1,200.0,monthly,1,,panda,,4.95,https://www.happymao.cat/
-happy猫,happymao,不限时流量包,19.9,CNY,,200.0,total,1,,panda,,9.95,https://www.happymao.cat/
-iNetS,inets,月付,7.5,CNY,1,50.0,monthly,1,,panda,,15.0,https://inets.io/
-Just My Socks,jms,LA 500,5.88,USD,1,500,monthly,1,,jms-official,2026-10-13,1.176,https://justmysocks.net
-Just My Socks,jms,LA 1000,9.88,USD,1,1000,monthly,1,,jms-official,2026-10-13,0.9880000000000002,https://justmysocks.net
-Just My Socks,jms,HK CMI 500,8.99,USD,1,500,monthly,1,,jms-official,2026-10-13,1.798,https://justmysocks.net
-Just My Socks,jms,Tokyo 100,29.99,USD,1,100,monthly,1,,jms-official,2026-10-13,29.99,https://justmysocks.net
-Kycloud,kycloud,Mini年付,150,CNY,12,10,monthly,1,,hwanz-paid,,125.0,https://my.ihcloud.cc
-Kycloud,kycloud,Basic季付,75,CNY,3,50,monthly,1,,hwanz-paid,,50.0,https://my.ihcloud.cc
-Kycloud,kycloud,Silver季付,105,CNY,3,100,monthly,1,,hwanz-paid,,35.0,https://my.ihcloud.cc
-老猫云,laomao,B季付,45,CNY,3,50,monthly,1,,hwanz-paid,,30.0,https://www.laomaourl.com
-老猫云,laomao,C季付,60,CNY,3,100,monthly,1,,hwanz-paid,,20.0,https://www.laomaourl.com
-老猫云,laomao,E月付,40,CNY,1,300,monthly,1,,hwanz-paid,,13.333333333333334,https://www.laomaourl.com
-老猫云,laomao,F月付,50,CNY,1,500,monthly,1,,hwanz-paid,,10.0,https://www.laomaourl.com
-良心云,liangxin,月付,2.0,CNY,1,100.0,monthly,1,,panda,,2.0,https://xn--9kqz23b19z.com/
-良心云,liangxin,不限时流量包,21.0,CNY,,1000.0,total,1,,panda,,2.1,https://xn--9kqz23b19z.com/
-M78星云,m78star,月付,12.8,CNY,1,150.0,monthly,1,,panda,,8.533333333333335,https://m78star.cloud/
-M78星云,m78star,不限时流量包,99.0,CNY,,300.0,total,1,,panda,,33.0,https://m78star.cloud/
-农夫山泉,nfsq,月付,15.0,CNY,1,200.0,monthly,1,,panda,,7.5,https://w05.nfsqweba01.cc/
-农夫山泉,nfsq,不限时流量包,45.0,CNY,,200.0,total,1,,panda,,22.5,https://w05.nfsqweba01.cc/
-念云,nianyun,月付,12.0,CNY,1,150.0,monthly,1,,panda,,8.0,https://xnyun.wiki/
-念云,nianyun,不限时流量包,89.0,CNY,,1000.0,total,1,,panda,,8.9,https://xnyun.wiki/
-NyanSS,nyanss,月付,7.5,CNY,1,50.0,monthly,1,,panda,,15.0,https://billing.nyanss001.top/
-NyanSS,nyanss,不限时流量包,25.0,CNY,,100.0,total,1,,panda,,25.0,https://billing.nyanss001.top/
-ofoNET,ofonet,月付,12.87,CNY,1,200.0,monthly,1,,panda,,6.434999999999999,https://ofotw.org/
-壹速云,onesy,月付,19.9,CNY,1,100.0,monthly,1,,panda,,19.9,https://www.onesy1.cc/
-壹速云,onesy,不限时流量包,188.0,CNY,,1000.0,total,1,,panda,,18.8,https://www.onesy1.cc/
-赔钱机场,peiqian,月付,2.99,CNY,1,500.0,monthly,1,,panda,,0.598,https://xn--mes358aby2apfg.com/
-赔钱机场,peiqian,不限时流量包,18.9,CNY,,1000.0,total,1,,panda,,1.8900000000000001,https://xn--mes358aby2apfg.com/
-山海,shanhai,月付128G,15,CNY,1,128,monthly,1,,hwanz-paid,,11.71875,https://shanhai.me
-山海,shanhai,月付256G,25,CNY,1,256,monthly,1,,hwanz-paid,,9.765625,https://shanhai.me
-山海,shanhai,月付512G,45,CNY,1,512,monthly,1,,hwanz-paid,,8.7890625,https://shanhai.me
-TAG,tag,特选全年包,154,CNY,12,200,total,1,,hwanz-paid,,77.0,https://honven.l49.net
-TAG,tag,Bronze季付,176,CNY,3,250,monthly,1,,hwanz-paid,,23.466666666666665,https://honven.l49.net
-TAG,tag,Silver月付,109,CNY,1,500,monthly,1,,hwanz-paid,,21.8,https://honven.l49.net
-泰山机场,taishan,来源入门套餐,8.5,CNY,1,64,monthly,1,,hwanz-free,,13.28125,https://jp.taishan.pro/
-兔兔云,tutuyun,月付,11.88,CNY,1,140.0,monthly,1,,panda,,8.485714285714288,https://www.tutuyun.uk/
-兔兔云,tutuyun,不限时流量包,18.0,CNY,,60.0,total,1,,panda,,30.0,https://www.tutuyun.uk/
-WgetCloud,wgetcloud,基础月付,59,CNY,1,140,monthly,1,,hwanz-paid,,42.142857142857146,https://invite.wgetcloud.ltd
-WgetCloud,wgetcloud,优质月付,69,CNY,1,160,monthly,1,,hwanz-paid,,43.125,https://invite.wgetcloud.ltd
-WgetCloud,wgetcloud,精品月付,79,CNY,1,180,monthly,1,,hwanz-paid,,43.888888888888886,https://invite.wgetcloud.ltd
-一分机场,yifen,月付,2.0,CNY,1,100.0,monthly,1,,panda,,2.0,https://xn--4gqx1hgtfdmt.com/
-一分机场,yifen,不限时流量包,19.88,CNY,,1000.0,total,1,,panda,,1.9879999999999998,https://xn--4gqx1hgtfdmt.com/
-一元机场,yiyuan,来源入门套餐,11,CNY,12,50,monthly,1,,hwanz-free,,1.8333333333333333,https://xn--4gq62f52gdss.com/
-悠兔,youtu,全年流量包,199,CNY,12,200,total,1,,hwanz-paid,,99.5,https://jctj.youtunice.com
-悠兔,youtu,半年标准,210,CNY,6,150,monthly,1,,hwanz-paid,,23.333333333333332,https://jctj.youtunice.com
-悠兔,youtu,大流量月付,119,CNY,1,1000,monthly,1,,hwanz-paid,,11.899999999999999,https://jctj.youtunice.com
+provider,id,name,price,currency,billing_months,traffic_gb,reset,multiplier,fee_percent,source,verified_at,verification_method,advertised_speed_mbps,billing_ambiguous,notes,cost_per_100gb,registration_url
+大哥云,dageyun,VIP2 小流量年付15GB,88,CNY,12,15,monthly,1,,dageyun-screenshot,2026-10-13,user_screenshot,500,False,365天；每月15GB；订单日重置或购买流量包重置。,48.888888888888886,https://a03.dgy02.com/#/register?code=70MvRuqr
+大哥云,dageyun,年付套餐A 500GB,299,CNY,12,500,monthly,1,,dageyun-screenshot,2026-10-13,user_screenshot,1000,False,365天；每月500GB；页面列9折券mcuE8uOq，期限与结算适用性未核验；不按优惠价排名。,4.983333333333333,https://a03.dgy02.com/#/register?code=70MvRuqr
+大哥云,dageyun,年付套餐A 300GB,199,CNY,12,300,monthly,1,,dageyun-screenshot,2026-10-13,user_screenshot,1000,False,365天；每月300GB；页面列9折券mcuE8uOq，期限与结算适用性未核验；不按优惠价排名。,5.527777777777778,https://a03.dgy02.com/#/register?code=70MvRuqr
+大哥云,dageyun,季付套餐A 200GB（周期待确认）,69,CNY,3,200,monthly,1,,dageyun-screenshot,,user_screenshot,1000,True,标题写季付、价格下方写半年付、时长写90天。周期存在冲突，不计算折合月费或流量单价、不参与排名；下单前确认。,,https://a03.dgy02.com/#/register?code=70MvRuqr
+大哥云,dageyun,单月套餐B 150GB,29,CNY,1,150,monthly,1,,dageyun-screenshot,2026-10-13,user_screenshot,500,False,按自然月计算；每月150GB；订单日重置或续费套餐重置。,19.333333333333332,https://a03.dgy02.com/#/register?code=70MvRuqr
+大哥云,dageyun,单月套餐A 100GB,19.9,CNY,1,100,monthly,1,,dageyun-screenshot,2026-10-13,user_screenshot,500,False,按自然月计算；每月100GB；订单日重置或续费套餐重置。,19.9,https://a03.dgy02.com/#/register?code=70MvRuqr
+365VPN,365vpn,基础月卡,38.88,CNY,1,,unlimited,1,,hwanz-paid,,,,,,,https://365vpn.org
+365VPN,365vpn,标准月卡,58.88,CNY,1,,unlimited,1,,hwanz-paid,,,,,,,https://365vpn.org
+Arisaka,arisaka,来源入门套餐,15.99,CNY,1,80,monthly,1,,hwanz-free,,,,,,19.9875,https://github.com/hwanz/SSR-V2ray-Trojan-vpn
+贝贝云,beibei,半年100G,129.9,CNY,6,100,monthly,1,,hwanz-paid,,,,,,21.65,https://jctj.beibei.cloud
+贝贝云,beibei,年付100G,249.9,CNY,12,100,monthly,1,,hwanz-paid,,,,,,20.825000000000003,https://jctj.beibei.cloud
+贝贝云,beibei,半年200G,189.9,CNY,6,200,monthly,1,,hwanz-paid,,,,,,15.825,https://jctj.beibei.cloud
+贝贝云,beibei,大流量月付,109.9,CNY,1,1000,monthly,1,,hwanz-paid,,,,,,10.990000000000002,https://jctj.beibei.cloud
+BoostNet,boostnet,轻量年付,200,CNY,12,20,monthly,1,,hwanz-paid,,,,,,83.33333333333334,https://jc.boostqz.com
+BoostNet,boostnet,半年标准,260,CNY,6,200,monthly,1,,hwanz-paid,,,,,,21.666666666666668,https://jc.boostqz.com
+BoostNet,boostnet,年付标准,500,CNY,12,200,monthly,1,,hwanz-paid,,,,,,20.833333333333336,https://jc.boostqz.com
+BoostNet,boostnet,大流量月付,129,CNY,1,1000,monthly,1,,hwanz-paid,,,,,,12.9,https://jc.boostqz.com
+次元雲,ciyy,月付,17.0,CNY,1,158.0,monthly,1,,panda,,,,,,10.759493670886076,https://ciyy.one/
+次元雲,ciyy,不限时流量包,125.0,CNY,,520.0,total,1,,panda,,,,,,24.03846153846154,https://ciyy.one/
+E-IX,eix,全年共用流量,199,CNY,12,1024,total,1,,hwanz-paid,,,,,,19.43359375,https://cdn12.e-ix.com
+E-IX,eix,基础季付,199,CNY,3,256,monthly,1,,hwanz-paid,,,,,,25.911458333333332,https://cdn12.e-ix.com
+E-IX,eix,标准月付,75,CNY,1,512,monthly,1,,hwanz-paid,,,,,,14.6484375,https://cdn12.e-ix.com
+FlyBit,flybit,月付,15.0,CNY,1,128.0,monthly,1,,panda,,,,,,11.71875,https://flybit.vip/
+FlyBit,flybit,不限时流量包,36.0,CNY,,128.0,total,1,,panda,,,,,,28.125,https://flybit.vip/
+飞喵云,fmyun,月付,9.88,CNY,1,100.0,monthly,1,,panda,,,,,,9.88,https://www.fmyun.top/
+飞喵云,fmyun,不限时流量包,25.0,CNY,,100.0,total,1,,panda,,,,,,25.0,https://www.fmyun.top/
+自由猫,freecat,月付,12.0,CNY,1,100.0,monthly,1,,panda,,,,,,12.0,https://us.freecat.cloud/
+自由猫,freecat,不限时流量包,65.0,CNY,,500.0,total,1,,panda,,,,,,13.0,https://us.freecat.cloud/
+蜂窝云,fwcloud,月付,20.0,CNY,1,200.0,monthly,1,,panda,,,,,,10.0,https://api.fwcloud.life/
+海獭,haita,轻量季付,25,CNY,3,50,monthly,1,,hwanz-paid,,,,,,16.666666666666664,https://haita.link
+海獭,haita,月付100G,15.99,CNY,1,100,monthly,1,,hwanz-paid,,,,,,15.990000000000002,https://haita.link
+海獭,haita,月付200G,25.99,CNY,1,200,monthly,1,,hwanz-paid,,,,,,12.994999999999997,https://haita.link
+海獭,haita,月付700G,54.99,CNY,1,700,monthly,1,,hwanz-paid,,,,,,7.855714285714285,https://haita.link
+happy猫,happymao,月付,9.9,CNY,1,200.0,monthly,1,,panda,,,,,,4.95,https://www.happymao.cat/
+happy猫,happymao,不限时流量包,19.9,CNY,,200.0,total,1,,panda,,,,,,9.95,https://www.happymao.cat/
+iNetS,inets,月付,7.5,CNY,1,50.0,monthly,1,,panda,,,,,,15.0,https://inets.io/
+Just My Socks,jms,LA 500,5.88,USD,1,500,monthly,1,,jms-official,2026-10-13,,,,,1.176,https://justmysocks.net
+Just My Socks,jms,LA 1000,9.88,USD,1,1000,monthly,1,,jms-official,2026-10-13,,,,,0.9880000000000002,https://justmysocks.net
+Just My Socks,jms,HK CMI 500,8.99,USD,1,500,monthly,1,,jms-official,2026-10-13,,,,,1.798,https://justmysocks.net
+Just My Socks,jms,Tokyo 100,29.99,USD,1,100,monthly,1,,jms-official,2026-10-13,,,,,29.99,https://justmysocks.net
+Kycloud,kycloud,Mini年付,150,CNY,12,10,monthly,1,,hwanz-paid,,,,,,125.0,https://my.ihcloud.cc
+Kycloud,kycloud,Basic季付,75,CNY,3,50,monthly,1,,hwanz-paid,,,,,,50.0,https://my.ihcloud.cc
+Kycloud,kycloud,Silver季付,105,CNY,3,100,monthly,1,,hwanz-paid,,,,,,35.0,https://my.ihcloud.cc
+老猫云,laomao,B季付,45,CNY,3,50,monthly,1,,hwanz-paid,,,,,,30.0,https://www.laomaourl.com
+老猫云,laomao,C季付,60,CNY,3,100,monthly,1,,hwanz-paid,,,,,,20.0,https://www.laomaourl.com
+老猫云,laomao,E月付,40,CNY,1,300,monthly,1,,hwanz-paid,,,,,,13.333333333333334,https://www.laomaourl.com
+老猫云,laomao,F月付,50,CNY,1,500,monthly,1,,hwanz-paid,,,,,,10.0,https://www.laomaourl.com
+良心云,liangxin,月付,2.0,CNY,1,100.0,monthly,1,,panda,,,,,,2.0,https://xn--9kqz23b19z.com/
+良心云,liangxin,不限时流量包,21.0,CNY,,1000.0,total,1,,panda,,,,,,2.1,https://xn--9kqz23b19z.com/
+M78星云,m78star,月付,12.8,CNY,1,150.0,monthly,1,,panda,,,,,,8.533333333333335,https://m78star.cloud/
+M78星云,m78star,不限时流量包,99.0,CNY,,300.0,total,1,,panda,,,,,,33.0,https://m78star.cloud/
+农夫山泉,nfsq,月付,15.0,CNY,1,200.0,monthly,1,,panda,,,,,,7.5,https://w05.nfsqweba01.cc/
+农夫山泉,nfsq,不限时流量包,45.0,CNY,,200.0,total,1,,panda,,,,,,22.5,https://w05.nfsqweba01.cc/
+念云,nianyun,月付,12.0,CNY,1,150.0,monthly,1,,panda,,,,,,8.0,https://xnyun.wiki/
+念云,nianyun,不限时流量包,89.0,CNY,,1000.0,total,1,,panda,,,,,,8.9,https://xnyun.wiki/
+NyanSS,nyanss,月付,7.5,CNY,1,50.0,monthly,1,,panda,,,,,,15.0,https://billing.nyanss001.top/
+NyanSS,nyanss,不限时流量包,25.0,CNY,,100.0,total,1,,panda,,,,,,25.0,https://billing.nyanss001.top/
+ofoNET,ofonet,月付,12.87,CNY,1,200.0,monthly,1,,panda,,,,,,6.434999999999999,https://ofotw.org/
+壹速云,onesy,月付,19.9,CNY,1,100.0,monthly,1,,panda,,,,,,19.9,https://www.onesy1.cc/
+壹速云,onesy,不限时流量包,188.0,CNY,,1000.0,total,1,,panda,,,,,,18.8,https://www.onesy1.cc/
+赔钱机场,peiqian,月付,2.99,CNY,1,500.0,monthly,1,,panda,,,,,,0.598,https://xn--mes358aby2apfg.com/
+赔钱机场,peiqian,不限时流量包,18.9,CNY,,1000.0,total,1,,panda,,,,,,1.8900000000000001,https://xn--mes358aby2apfg.com/
+山海,shanhai,月付128G,15,CNY,1,128,monthly,1,,hwanz-paid,,,,,,11.71875,https://shanhai.me
+山海,shanhai,月付256G,25,CNY,1,256,monthly,1,,hwanz-paid,,,,,,9.765625,https://shanhai.me
+山海,shanhai,月付512G,45,CNY,1,512,monthly,1,,hwanz-paid,,,,,,8.7890625,https://shanhai.me
+TAG,tag,特选全年包,154,CNY,12,200,total,1,,hwanz-paid,,,,,,77.0,https://honven.l49.net
+TAG,tag,Bronze季付,176,CNY,3,250,monthly,1,,hwanz-paid,,,,,,23.466666666666665,https://honven.l49.net
+TAG,tag,Silver月付,109,CNY,1,500,monthly,1,,hwanz-paid,,,,,,21.8,https://honven.l49.net
+泰山机场,taishan,来源入门套餐,8.5,CNY,1,64,monthly,1,,hwanz-free,,,,,,13.28125,https://jp.taishan.pro/
+兔兔云,tutuyun,月付,11.88,CNY,1,140.0,monthly,1,,panda,,,,,,8.485714285714288,https://www.tutuyun.uk/
+兔兔云,tutuyun,不限时流量包,18.0,CNY,,60.0,total,1,,panda,,,,,,30.0,https://www.tutuyun.uk/
+WgetCloud,wgetcloud,基础月付,59,CNY,1,140,monthly,1,,hwanz-paid,,,,,,42.142857142857146,https://invite.wgetcloud.ltd
+WgetCloud,wgetcloud,优质月付,69,CNY,1,160,monthly,1,,hwanz-paid,,,,,,43.125,https://invite.wgetcloud.ltd
+WgetCloud,wgetcloud,精品月付,79,CNY,1,180,monthly,1,,hwanz-paid,,,,,,43.888888888888886,https://invite.wgetcloud.ltd
+一分机场,yifen,月付,2.0,CNY,1,100.0,monthly,1,,panda,,,,,,2.0,https://xn--4gqx1hgtfdmt.com/
+一分机场,yifen,不限时流量包,19.88,CNY,,1000.0,total,1,,panda,,,,,,1.9879999999999998,https://xn--4gqx1hgtfdmt.com/
+一元机场,yiyuan,来源入门套餐,11,CNY,12,50,monthly,1,,hwanz-free,,,,,,1.8333333333333333,https://xn--4gq62f52gdss.com/
+悠兔,youtu,全年流量包,199,CNY,12,200,total,1,,hwanz-paid,,,,,,99.5,https://jctj.youtunice.com
+悠兔,youtu,半年标准,210,CNY,6,150,monthly,1,,hwanz-paid,,,,,,23.333333333333332,https://jctj.youtunice.com
+悠兔,youtu,大流量月付,119,CNY,1,1000,monthly,1,,hwanz-paid,,,,,,11.899999999999999,https://jctj.youtunice.com

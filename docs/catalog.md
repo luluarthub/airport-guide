@@ -4,6 +4,7 @@
 
 | 机场 | 参考价格 | 对应容量 | 推荐指数 | 线路 | 状态 | 资料 | 查询入口 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 大哥云 | 88 CNY/年（折合7.33/月） | 15 GB/月 | ★★★★★ · 维护者主力 | 待核验 | active | [详情](../providers/dageyun.md) | [官方入口（来源记录）](https://a03.dgy02.com/) |
 | 365VPN | 38.88 CNY/月 | 不限量（留意限速） | ★★★★☆ · 来源主推 | 官方客户端 | unverified | [详情](../providers/365vpn.md) | [官方入口（来源记录）](https://365vpn.org) |
 | 爱翻机场 | 待核验 | 3天 / 10GB；来源称限速200Mbps（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | unverified | [详情](../providers/afun.md) | [官方入口（来源记录）](https://dash.afun.la/) |
 | aimacloud | 待核验 | 6天 / 20GB（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | unverified | [详情](../providers/aimacloud.md) | [官方入口（来源记录）](https://www.aimacloud.info/) |
@@ -25,7 +26,6 @@
 | 中国国际机场 | 待核验 | 2天 / 15GB（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | unverified | [详情](../providers/china-international.md) | [官方入口（来源记录）](https://affman.mellanox.fyi/) |
 | 次元雲 | 17 CNY/月 | 158 GB/月 | ★★★☆☆ · 来源收录 | 中转 | unverified | [详情](../providers/ciyy.md) | [官方入口（来源记录）](https://ciyy.one/) |
 | cocolink | 待核验 | 7天 / 64GB（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | unverified | [详情](../providers/cocolink.md) | [官方入口（来源记录）](https://cocolink.org/) |
-| 大哥云 | 待核验 | 待核验 | ★★☆☆☆ · 待核验候选 | 待核验 | unverified | [详情](../providers/dageyun.md) | [官方入口（来源记录）](https://a03.dgy02.com/) |
 | 大牛机场 | 待核验 | 1小时 / 1GB（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | unverified | [详情](../providers/daniu.md) | [官方入口（来源记录）](https://daniu.e300daniu.top/) |
 | 大迅云 | 待核验 | 2天 / 10GB（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | unverified | [详情](../providers/daxun.md) | [官方入口（来源记录）](https://daxun.club/) |
 | 灯塔加速器 | 待核验 | 3天；额度待核验（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | unverified | [详情](../providers/dengta.md) | [官方入口（来源记录）](https://www.dengta12.com/reg) |

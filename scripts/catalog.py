@@ -40,7 +40,7 @@ def fresh(date,days):
 
 def unit_cost(plan):
     """Cost per 100 nominal usable GB; resets must never be conflated."""
-    if plan['reset']=='unlimited' or not plan['traffic_gb']:
+    if plan.get('billing_ambiguous') or plan['reset']=='unlimited' or not plan['traffic_gb']:
         return None
     total = plan['traffic_gb'] * (plan['billing_months'] if plan['reset']=='monthly' else 1)
     return plan['price'] * (1+(plan['fee_percent'] or 0)/100) / total * plan['multiplier'] * 100
@@ -76,6 +76,9 @@ def validate(providers=None):
             q=p['quality']; assert q['evidence'] and q['network'] and q['region']
             url_valid(q['evidence']); dt.date.fromisoformat(q['tested_at'])
             for key in read('config/ranking.json')['quality_weights']: assert 0<=q[key]<=100
+        if p.get('owner_review'):
+            review=p['owner_review']; assert review['statement'] and review['role']=='primary'
+            assert dt.date.fromisoformat(review['reported_at'])<=TODAY
     links=read('config/affiliate-links.json'); assert set(links)==ids,'affiliate ids must match data ids'
     for value in links.values():
         if value: url_valid(value)
@@ -99,6 +102,8 @@ def recommendation(p):
     """Source-editorial tiers, explicitly separate from measured quality."""
     if p['status']=='inactive': return '0/5 · 已停用'
     if p['status']=='watch': return '1/5 · 暂缓'
+    if p.get('owner_review'):
+        return '★★★★★ · 维护者主力'
     q=p['quality']; cfg=read('config/ranking.json')
     if p['status']=='active' and q and fresh(q['tested_at'],cfg['stale_after_days']):
         score=sum(q[k]*v for k,v in cfg['quality_weights'].items())/20
@@ -109,8 +114,9 @@ def recommendation(p):
 
 def overview_offer(p):
     """Display price and quota from the very same entry-level plan."""
-    plans=[x for x in p['plans'] if x['billing_months']]
-    if not plans: plans=p['plans']
+    known=[x for x in p['plans'] if not x.get('billing_ambiguous')]
+    plans=[x for x in known if x['billing_months']]
+    if not plans: plans=known
     if not plans:
         return '待核验', (p['trial']+'（活动记录）' if p['trial'] else '待核验')
     # Compare only within one currency; currencies must not be silently converted.
@@ -150,7 +156,8 @@ def generate_coverage(providers):
     write('docs/coverage.md',text)
 
 def generate():
-    ps=validate(); sources={s['id']:s for s in read('config/sources.json')}
+    ps=validate(); ps.sort(key=lambda p:(not bool(p.get('owner_review')),p['id']))
+    sources={s['id']:s for s in read('config/sources.json')}
     generate_coverage(ps)
     intro='# 机场资料库 · 套餐对比与性价比排行\n\n'
     intro+='[![检查](https://github.com/luluarthub/airport-guide/actions/workflows/ci.yml/badge.svg)](https://github.com/luluarthub/airport-guide/actions/workflows/ci.yml)\n\n'
@@ -167,15 +174,23 @@ def generate():
         text=f"# {p['name']}\n\n{official} · {register}\n\n"
         text+=f"资料观察日期：{p['observed_at']}；运营状态：{p['status']}（unverified=未实测，watch=来源提示问题）。\n\n"
         text+=f"推荐指数：**{recommendation(p)}**；[指数依据](../docs/recommendation.md)。\n\n"
+        if p.get('owner_review'):
+            review=p['owner_review']
+            text+=f"## 维护者长期使用推荐\n\n**本仓库维护者的主力机场，优先推荐。**\n\n{review['statement']}\n\n反馈日期：{review['reported_at']}。这是维护者个人长期使用体验；未记录地区、运营商和分项测速条件，不等同于所有网络环境的实测保证。\n\n"
         text+=f"线路记录：{p['route']}\n\n协议记录：{' / '.join(p['protocols'])}\n\n客户端限制：{p['client_policy']}\n\n设备限制：{p['device_limit'] or '待核验'}\n\n地区：{'、'.join(p['regions']) or '待官网核验'}\n\n备注：{p['notes']}\n\n## 套餐\n\n"
         prows=[]
         for x in p['plans']:
             fee=f"{x['fee_percent']}%" if x['fee_percent'] is not None else '待核验'
             unit=unit_cost(x); period=f"{x['billing_months']}个月" if x['billing_months'] else '不限时'
             flow=f"{x['traffic_gb']:g} GB" if x['traffic_gb'] else '不限量（留意限速）'
-            prows.append([x['name'],f"{x['price']:g} {x['currency']}",period,flow,x['reset'],fee,f'{unit:.2f}' if unit is not None else '不参与流量排名',x['verified_at'] or '社区参考 / 待核验'])
+            if x.get('billing_ambiguous'): period='待确认（页面标注冲突）'
+            verification=(x['verified_at']+' · 用户截图' if x.get('verification_method')=='user_screenshot' else x['verified_at']) if x['verified_at'] else '待核验'
+            prows.append([x['name'],f"{x['price']:g} {x['currency']}",period,flow,x['reset'],fee,f'{unit:.2f}' if unit is not None else '不参与流量排名',verification])
             exported.append({'provider':p['name'],'id':p['id'],**x,'cost_per_100gb':unit,'registration_url':link(p)})
-        text+=table(['套餐','支付金额','付费周期','额度','重置周期','手续费','每100GB价格（原币）','官网核验日期'],prows)
+        text+=table(['套餐','支付金额','付费周期','额度','重置周期','手续费','每100GB价格（原币）','价格核验日期／方式'],prows)
+        supplements=[x for x in p['plans'] if x.get('notes') or x.get('advertised_speed_mbps')]
+        if supplements:
+            text+='\n### 套餐补充说明\n\n'+table(['套餐','页面宣称带宽上限','说明'],[[x['name'],str(x.get('advertised_speed_mbps','待核验'))+' Mbps',x.get('notes','')] for x in supplements])+'\n页面宣称带宽不是本仓库测速结果。优惠以结算页为准，价格排名按标价计算。\n'
         if not prows: text+='\n尚未录入可核对的付费套餐；不将历史免费／试用活动当作当前零元套餐。\n'
         if p.get('trial_records'):
             text+='\n### 免费／试用历史记录\n\n'+table(['来源','活动记录','资料观察日期'],[[x['source'],x['offer'],x['observed_at']] for x in p['trial_records']])
@@ -193,16 +208,22 @@ def generate():
         if p['trial']: trial.append([p['name'],p['trial'],entry,official,'社区记录 / 待核验'])
     catalog='# 全部机场与查询入口\n\n价格与容量对应同一入门套餐；全年总量不等于每月额度。推荐指数采用[来源等级规则](recommendation.md)，不是未经测试的速度评分。状态为资料标记，不是实时可用性。\n\n'+table(['机场','参考价格','对应容量','推荐指数','线路','状态','资料','查询入口'],rows)
     write('docs/catalog.md',catalog)
-    intro+='价格和容量对应**同一个入门套餐**；多周期套餐按同币种最低折合月费选取，显示真实支付金额。全年共用流量标为总量。来源记录可能过期，未知手续费未计入。\n\n推荐指数采用[来源推荐等级](docs/recommendation.md)：★★★★☆ 来源当前主推、★★★☆☆ 来源普通收录、★★☆☆☆ 待核验候选；1/5 暂缓。**这些参考等级不等于本仓库实测评分**，仅反映收录依据。\n\n'
+    intro+='价格和容量对应**同一个入门套餐**；多周期套餐按同币种最低折合月费选取，显示真实支付金额。全年共用流量标为总量。来源记录可能过期，未知手续费未计入。\n\n推荐指数采用[推荐依据](docs/recommendation.md)：★★★★★ 维护者长期主力推荐、★★★★☆ 来源当前主推、★★★☆☆ 来源普通收录、★★☆☆☆ 待核验候选；1/5 暂缓。维护者主力优先展示；来源等级不等于本仓库测速评分。\n\n'
+    for p in ps:
+        if p.get('owner_review'):
+            intro+=f"**优先推荐：[{p['name']}](providers/{p['id']}.md)** — {p['owner_review']['statement']}（维护者个人体验，反馈于{p['owner_review']['reported_at']}。）\n\n"
     for title,group in [('有套餐资料', [p for p in ps if p['plans'] and p.get('category')!='historical']),('免费／试用及待核验候选',[p for p in ps if not p['plans'] and p.get('category')!='historical']),('已撤下的历史条目',[p for p in ps if p.get('category')=='historical'])]:
         if group:
             intro+=f'### {title}\n\n'+table(['机场','参考价格','对应容量','推荐指数','线路','资料'],[[p['name'],*overview_offer(p),recommendation(p),p['route'],f"[查看](providers/{p['id']}.md)"] for p in group])+'\n'
     intro+='\n## 透明原则\n\n价格按来源和核验日期公开；参考数据不冒充实测。推广链接不参与评分，默认全部使用无邀请码的入口，配置后可能包含推广收益。榜单按币种、重置方式分组，不通过猜测汇率混排。\n\n仅检查公开网站，不公开用户订阅、节点凭据或账号信息。速度与解锁需要有日期、地区和运营商的测试证据。建议先短期验证自己的网络体验。\n\n## 更新与贡献\n\n每天北京时间 10:17 自动检查入口和参考来源，生成报告；每次提交自动校验数据和页面。资料修改用 JSON 单一来源，避免 README 与详情互相矛盾。参见 [维护说明](docs/maintenance.md) 和 [贡献流程](CONTRIBUTING.md)。\n\n代码采用 MIT；社区参考仓库文章、截图与品牌标识未复制，相关权利归原作者。\n'
     write('README.md',intro)
     ranking='# 性价比排行\n\n价格单价只是一个维度。低价格不代表节点稳定、解锁可靠或未来持续运营。\n\n**每100GB成本 = 支付价格 × (1 + 已知手续费) ÷ 可用流量 × 节点倍率 × 100**。月重置流量乘付费月数；全年共用和不限时流量不乘。未知手续费与倍率差异另行核验。\n\n榜单展示每家在该组的最低单位成本套餐，保留真实预付金额。美元与人民币分组；不限量套餐没有可比流量单价。\n\n'
+    for p in ps:
+        if p.get('owner_review') and p['status'] not in ('watch','inactive'):
+            ranking+=f"## 维护者优先推荐：[{p['name']}](../providers/{p['id']}.md)\n\n**{recommendation(p)}**。{p['owner_review']['statement']}（维护者个人体验，反馈于{p['owner_review']['reported_at']}。）\n\n下面的价格榜仍按单位流量成本排序。\n\n"
     for verified in (True,False):
-        ranking+=('## 官网已核验套餐价格榜\n\n' if verified else '## 社区参考价格榜（待官网核验）\n\n')
-        ranking+='已核验只代表公开套餐价格核验，运营质量仍待实测。\n\n' if verified else '这些价格来自社区，可能过期；本榜用于查资料，不构成实测推荐。watch与inactive条目被排除。\n\n'
+        ranking+=('## 已核验套餐价格榜（官网／用户截图）\n\n' if verified else '## 社区参考价格榜（待官网核验）\n\n')
+        ranking+='已核验表示价格与容量有官网或用户提供套餐页截图依据；不代表节点测速完成。页面周期有冲突的套餐不参与排名。\n\n' if verified else '这些价格来自社区，可能过期；本榜用于查资料，不构成实测推荐。watch与inactive条目被排除。\n\n'
         groups={}
         for p in ps:
             if p['status'] in ('watch','inactive'): continue
@@ -226,7 +247,8 @@ def generate():
     write('docs/trials.md','# 免费与试用入口\n\n活动可能变化，以下为社区记录，注册前以官方当前规则为准。免费和试用均不等于永久免费。\n\n'+table(['服务','试用记录','详情','官方入口','核验'],trial)+'\n## 免费工具官方查询\n\n- [迷雾通 Geph](https://geph.io/)：免费层与使用条件请查官方\n- [Lantern](https://github.com/getlantern/lantern)：下载与免费额度请查官方\n\n不汇总来源未知的共享订阅。相关社区线索见 [来源](sources.md)。\n')
     write('reports/catalog.json',json.dumps(ps,ensure_ascii=False,indent=2)+'\n')
     with (ROOT/'reports/plans.csv').open('w') as f:
-        writer=csv.DictWriter(f,fieldnames=list(exported[0]),lineterminator='\n'); writer.writeheader(); writer.writerows(exported)
+        fields=list(dict.fromkeys(key for row in exported for key in row))
+        writer=csv.DictWriter(f,fieldnames=fields,lineterminator='\n'); writer.writeheader(); writer.writerows(exported)
     print(f'Generated {len(ps)} providers')
 
 def search(args):
@@ -234,7 +256,7 @@ def search(args):
         if args.query and args.query.casefold() not in json.dumps(p,ensure_ascii=False).casefold(): continue
         if args.route and args.route not in p['route']: continue
         if args.protocol and args.protocol.casefold() not in ' '.join(p['protocols']).casefold(): continue
-        plans=[x for x in p['plans'] if (not args.currency or x['currency']==args.currency) and (not args.reset or x['reset']==args.reset) and (args.max_monthly is None or x['billing_months'] and x['price']/x['billing_months']<=args.max_monthly)]
+        plans=[x for x in p['plans'] if (not args.currency or x['currency']==args.currency) and (not args.reset or x['reset']==args.reset) and (args.max_monthly is None or not x.get('billing_ambiguous') and x['billing_months'] and x['price']/x['billing_months']<=args.max_monthly)]
         if not plans and (p['plans'] or args.currency or args.reset or args.max_monthly is not None): continue
         print(json.dumps({'name':p['name'],'status':p['status'],'official_url':p['official_url'],'registration_url':link(p),'plans':plans},ensure_ascii=False))
 

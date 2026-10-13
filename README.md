@@ -2,7 +2,7 @@
 
 [![检查](https://github.com/luluarthub/airport-guide/actions/workflows/ci.yml/badge.svg)](https://github.com/luluarthub/airport-guide/actions/workflows/ci.yml)
 
-收录 **93 家服务、74 个套餐**。覆盖专线、中转、直连、低价、全年流量包和不限时套餐。资料按来源整理，未亲测条目明确标记。
+收录 **93 家服务、80 个套餐**。覆盖专线、中转、直连、低价、全年流量包和不限时套餐。资料按来源整理，未亲测条目明确标记。
 
 ## 快速入口
 
@@ -33,12 +33,15 @@ python3 scripts/catalog.py search --protocol AnyTLS --reset total
 
 价格和容量对应**同一个入门套餐**；多周期套餐按同币种最低折合月费选取，显示真实支付金额。全年共用流量标为总量。来源记录可能过期，未知手续费未计入。
 
-推荐指数采用[来源推荐等级](docs/recommendation.md)：★★★★☆ 来源当前主推、★★★☆☆ 来源普通收录、★★☆☆☆ 待核验候选；1/5 暂缓。**这些参考等级不等于本仓库实测评分**，仅反映收录依据。
+推荐指数采用[推荐依据](docs/recommendation.md)：★★★★★ 维护者长期主力推荐、★★★★☆ 来源当前主推、★★★☆☆ 来源普通收录、★★☆☆☆ 待核验候选；1/5 暂缓。维护者主力优先展示；来源等级不等于本仓库测速评分。
+
+**优先推荐：[大哥云](providers/dageyun.md)** — 这是维护者主要使用的机场，稳定使用2年以上，未遇到问题；节点足够丰富，稳定性强，性价比高。（维护者个人体验，反馈于2026-10-13。）
 
 ### 有套餐资料
 
 | 机场 | 参考价格 | 对应容量 | 推荐指数 | 线路 | 资料 |
 | --- | --- | --- | --- | --- | --- |
+| 大哥云 | 88 CNY/年（折合7.33/月） | 15 GB/月 | ★★★★★ · 维护者主力 | 待核验 | [查看](providers/dageyun.md) |
 | 365VPN | 38.88 CNY/月 | 不限量（留意限速） | ★★★★☆ · 来源主推 | 官方客户端 | [查看](providers/365vpn.md) |
 | Arisaka | 15.99 CNY/月 | 80 GB/月 | ★★☆☆☆ · 待核验候选 | 待核验 | [查看](providers/arisaka.md) |
 | 贝贝云 | 249.9 CNY/年（折合20.82/月） | 100 GB/月 | ★★★★☆ · 来源主推 | 海外中转 | [查看](providers/beibei.md) |
@@ -92,7 +95,6 @@ python3 scripts/catalog.py search --protocol AnyTLS --reset total
 | cd520 | 待核验 | 3天 / 5GB（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | [查看](providers/cd520.md) |
 | 中国国际机场 | 待核验 | 2天 / 15GB（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | [查看](providers/china-international.md) |
 | cocolink | 待核验 | 7天 / 64GB（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | [查看](providers/cocolink.md) |
-| 大哥云 | 待核验 | 待核验 | ★★☆☆☆ · 待核验候选 | 待核验 | [查看](providers/dageyun.md) |
 | 大牛机场 | 待核验 | 1小时 / 1GB（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | [查看](providers/daniu.md) |
 | 大迅云 | 待核验 | 2天 / 10GB（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | [查看](providers/daxun.md) |
 | 灯塔加速器 | 待核验 | 3天；额度待核验（活动记录） | ★★☆☆☆ · 待核验候选 | 待核验 | [查看](providers/dengta.md) |

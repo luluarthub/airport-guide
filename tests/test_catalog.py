@@ -65,5 +65,20 @@ class CatalogTests(unittest.TestCase):
         items=read('config/coverage.json')['items']
         counts={key:sum(x['source']==key and x['section']==section for x in items) for key,section in [('hwanz-paid','当前推荐名单'),('panda','套餐对比表'),('hwanz-free','免费／试用名单')]}
         self.assertEqual(counts,{'hwanz-paid':12,'panda':17,'hwanz-free':62})
+    def test_ambiguous_billing_excluded_from_cost(self):
+        p=next(p for p in load() if p['id']=='dageyun')
+        x=next(x for x in p['plans'] if x['price']==69)
+        self.assertIsNone(unit_cost(x))
+        self.assertNotIn('69 CNY',overview_offer(p)[0])
+    def test_screenshot_annual_quotas_reset_monthly(self):
+        p=next(p for p in load() if p['id']=='dageyun')
+        x=next(x for x in p['plans'] if x['price']==299)
+        self.assertEqual(x['reset'],'monthly')
+        self.assertAlmostEqual(unit_cost(x),299/(500*12)*100)
+    def test_owner_primary_requires_personal_label(self):
+        p=copy.deepcopy(next(p for p in load() if p['id']=='dageyun'))
+        self.assertEqual(recommendation(p),'★★★★★ · 维护者主力')
+        self.assertIsNone(p['quality'])
+        p['status']='watch'; self.assertEqual(recommendation(p),'1/5 · 暂缓')
 
 if __name__=='__main__': unittest.main()
