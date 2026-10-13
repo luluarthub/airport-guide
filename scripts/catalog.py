@@ -226,7 +226,7 @@ def generate():
     write('docs/trials.md','# 免费与试用入口\n\n活动可能变化，以下为社区记录，注册前以官方当前规则为准。免费和试用均不等于永久免费。\n\n'+table(['服务','试用记录','详情','官方入口','核验'],trial)+'\n## 免费工具官方查询\n\n- [迷雾通 Geph](https://geph.io/)：免费层与使用条件请查官方\n- [Lantern](https://github.com/getlantern/lantern)：下载与免费额度请查官方\n\n不汇总来源未知的共享订阅。相关社区线索见 [来源](sources.md)。\n')
     write('reports/catalog.json',json.dumps(ps,ensure_ascii=False,indent=2)+'\n')
     with (ROOT/'reports/plans.csv').open('w') as f:
-        writer=csv.DictWriter(f,fieldnames=list(exported[0])); writer.writeheader(); writer.writerows(exported)
+        writer=csv.DictWriter(f,fieldnames=list(exported[0]),lineterminator='\n'); writer.writeheader(); writer.writerows(exported)
     print(f'Generated {len(ps)} providers')
 
 def search(args):
