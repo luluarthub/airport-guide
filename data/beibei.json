@@ -1,0 +1,92 @@
+{
+  "id": "beibei",
+  "name": "贝贝云",
+  "official_url": "https://jctj.beibei.cloud",
+  "mirrors": [],
+  "route": "海外中转",
+  "protocols": [
+    "AnyTLS"
+  ],
+  "regions": [
+    "香港",
+    "台湾",
+    "新加坡",
+    "日本",
+    "美国"
+  ],
+  "client_policy": "待核验",
+  "device_limit": "5个设备",
+  "trial": null,
+  "status": "unverified",
+  "notes": "来源提示地区限制及支付手续费，购买前核对。",
+  "observed_at": "2026-10-13",
+  "sources": [
+    "hwanz-paid"
+  ],
+  "plans": [
+    {
+      "name": "半年100G",
+      "price": 129.9,
+      "currency": "CNY",
+      "billing_months": 6,
+      "traffic_gb": 100,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    },
+    {
+      "name": "年付100G",
+      "price": 249.9,
+      "currency": "CNY",
+      "billing_months": 12,
+      "traffic_gb": 100,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    },
+    {
+      "name": "半年200G",
+      "price": 189.9,
+      "currency": "CNY",
+      "billing_months": 6,
+      "traffic_gb": 200,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    },
+    {
+      "name": "大流量月付",
+      "price": 109.9,
+      "currency": "CNY",
+      "billing_months": 1,
+      "traffic_gb": 1000,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    }
+  ],
+  "quality": null,
+  "details": {
+    "udp": "支持",
+    "payment": "支付宝、微信",
+    "ssh_port": "22端口已屏蔽",
+    "mail_protocols": "禁止(用各家邮箱官方APP和网页不影响)",
+    "service_restrictions": "屏蔽轮媒、rfa、pincong",
+    "support": "有",
+    "overseas_access": "能，福建无法使用",
+    "unlock_claim": "除香港基本全解锁",
+    "evidence_level": "社区描述 / 尚未本仓库实测"
+  },
+  "review_links": [
+    "https://jichangcesu.com/beibeicloud.html",
+    "https://jichangcesu.com/uploads/vpn/beibei.webp"
+  ]
+}

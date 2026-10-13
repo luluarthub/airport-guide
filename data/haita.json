@@ -1,0 +1,94 @@
+{
+  "id": "haita",
+  "name": "海獭",
+  "official_url": "https://haita.link",
+  "mirrors": [],
+  "route": "中转 / 透传",
+  "protocols": [
+    "Trojan"
+  ],
+  "regions": [
+    "香港",
+    "日本",
+    "新加坡",
+    "美国",
+    "加拿大",
+    "台湾",
+    "韩国"
+  ],
+  "client_policy": "待核验",
+  "device_limit": "不限制",
+  "trial": null,
+  "status": "unverified",
+  "notes": "解锁与地区限制待实测；导入兼容性向官方客服确认。",
+  "observed_at": "2026-10-13",
+  "sources": [
+    "hwanz-paid"
+  ],
+  "plans": [
+    {
+      "name": "轻量季付",
+      "price": 25,
+      "currency": "CNY",
+      "billing_months": 3,
+      "traffic_gb": 50,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    },
+    {
+      "name": "月付100G",
+      "price": 15.99,
+      "currency": "CNY",
+      "billing_months": 1,
+      "traffic_gb": 100,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    },
+    {
+      "name": "月付200G",
+      "price": 25.99,
+      "currency": "CNY",
+      "billing_months": 1,
+      "traffic_gb": 200,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    },
+    {
+      "name": "月付700G",
+      "price": 54.99,
+      "currency": "CNY",
+      "billing_months": 1,
+      "traffic_gb": 700,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    }
+  ],
+  "quality": null,
+  "details": {
+    "udp": null,
+    "payment": "支付宝",
+    "ssh_port": "22端口未屏蔽",
+    "mail_protocols": null,
+    "service_restrictions": "屏蔽轮媒和pingcong",
+    "support": null,
+    "overseas_access": null,
+    "unlock_claim": "部分解锁",
+    "evidence_level": "社区描述 / 尚未本仓库实测"
+  },
+  "review_links": [
+    "https://jichangcesu.com/海獭机场怎么样.html",
+    "https://jichangcesu.com/uploads/vpn/haita.webp"
+  ]
+}

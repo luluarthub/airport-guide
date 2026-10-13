@@ -1,0 +1,74 @@
+{
+  "id": "eix",
+  "name": "E-IX",
+  "official_url": "https://cdn12.e-ix.com",
+  "mirrors": [],
+  "route": "透传专线",
+  "protocols": [
+    "AnyTLS"
+  ],
+  "regions": [],
+  "client_policy": "待核验",
+  "device_limit": null,
+  "trial": null,
+  "status": "unverified",
+  "notes": "来源称存在区域限制及5%支付费，待官网确认。",
+  "observed_at": "2026-10-13",
+  "sources": [
+    "hwanz-paid"
+  ],
+  "plans": [
+    {
+      "name": "全年共用流量",
+      "price": 199,
+      "currency": "CNY",
+      "billing_months": 12,
+      "traffic_gb": 1024,
+      "reset": "total",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    },
+    {
+      "name": "基础季付",
+      "price": 199,
+      "currency": "CNY",
+      "billing_months": 3,
+      "traffic_gb": 256,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    },
+    {
+      "name": "标准月付",
+      "price": 75,
+      "currency": "CNY",
+      "billing_months": 1,
+      "traffic_gb": 512,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    }
+  ],
+  "quality": null,
+  "details": {
+    "udp": "支持",
+    "payment": "支付宝+微信",
+    "ssh_port": "屏蔽22端口",
+    "mail_protocols": "禁止",
+    "service_restrictions": "屏蔽轮媒",
+    "support": null,
+    "overseas_access": "是,新疆可用",
+    "unlock_claim": "全解锁",
+    "evidence_level": "社区描述 / 尚未本仓库实测"
+  },
+  "review_links": [
+    "https://jichangcesu.com/eix.html",
+    "https://jichangcesu.com/uploads/vpn/eix.webp"
+  ]
+}

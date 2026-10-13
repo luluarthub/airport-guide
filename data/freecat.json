@@ -1,0 +1,47 @@
+{
+  "id": "freecat",
+  "name": "自由猫",
+  "official_url": "https://us.freecat.cloud/",
+  "mirrors": [],
+  "route": "中转",
+  "protocols": [
+    "待核验"
+  ],
+  "regions": [],
+  "client_policy": "仅官方客户端（社区记录）",
+  "device_limit": null,
+  "trial": null,
+  "status": "unverified",
+  "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。",
+  "observed_at": "2026-10-13",
+  "sources": [
+    "panda"
+  ],
+  "plans": [
+    {
+      "name": "月付",
+      "price": 12.0,
+      "currency": "CNY",
+      "billing_months": 1,
+      "traffic_gb": 100.0,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "panda",
+      "verified_at": null
+    },
+    {
+      "name": "不限时流量包",
+      "price": 65.0,
+      "currency": "CNY",
+      "billing_months": null,
+      "traffic_gb": 500.0,
+      "reset": "total",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "panda",
+      "verified_at": null
+    }
+  ],
+  "quality": null
+}

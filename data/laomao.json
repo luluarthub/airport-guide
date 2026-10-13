@@ -1,0 +1,94 @@
+{
+  "id": "laomao",
+  "name": "老猫云",
+  "official_url": "https://www.laomaourl.com",
+  "mirrors": [],
+  "route": "海外中转",
+  "protocols": [
+    "AnyTLS"
+  ],
+  "regions": [
+    "香港",
+    "日本",
+    "新加坡",
+    "美国",
+    "台湾",
+    "英国",
+    "俄罗斯"
+  ],
+  "client_policy": "待核验",
+  "device_limit": null,
+  "trial": null,
+  "status": "unverified",
+  "notes": "来源D套餐价格与相邻档位异常，暂不录入。",
+  "observed_at": "2026-10-13",
+  "sources": [
+    "hwanz-paid"
+  ],
+  "plans": [
+    {
+      "name": "B季付",
+      "price": 45,
+      "currency": "CNY",
+      "billing_months": 3,
+      "traffic_gb": 50,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    },
+    {
+      "name": "C季付",
+      "price": 60,
+      "currency": "CNY",
+      "billing_months": 3,
+      "traffic_gb": 100,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    },
+    {
+      "name": "E月付",
+      "price": 40,
+      "currency": "CNY",
+      "billing_months": 1,
+      "traffic_gb": 300,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    },
+    {
+      "name": "F月付",
+      "price": 50,
+      "currency": "CNY",
+      "billing_months": 1,
+      "traffic_gb": 500,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    }
+  ],
+  "quality": null,
+  "details": {
+    "udp": "支持",
+    "payment": "支付宝",
+    "ssh_port": null,
+    "mail_protocols": null,
+    "service_restrictions": null,
+    "support": "有",
+    "overseas_access": null,
+    "unlock_claim": "参考流媒体解锁图",
+    "evidence_level": "社区描述 / 尚未本仓库实测"
+  },
+  "review_links": [
+    "https://jichangcesu.com/老猫云历史测速结果整合.html",
+    "https://jichangcesu.com/uploads/vpn/laomao.webp"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "inets",
+  "name": "iNetS",
+  "official_url": "https://inets.io/",
+  "mirrors": [],
+  "route": "直连 优化",
+  "protocols": [
+    "待核验"
+  ],
+  "regions": [],
+  "client_policy": "待核验",
+  "device_limit": null,
+  "trial": "7 days 极少节点",
+  "status": "unverified",
+  "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。",
+  "observed_at": "2026-10-13",
+  "sources": [
+    "panda"
+  ],
+  "plans": [
+    {
+      "name": "月付",
+      "price": 7.5,
+      "currency": "CNY",
+      "billing_months": 1,
+      "traffic_gb": 50.0,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "panda",
+      "verified_at": null
+    }
+  ],
+  "quality": null
+}

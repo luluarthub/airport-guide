@@ -1,0 +1,92 @@
+{
+  "id": "kycloud",
+  "name": "Kycloud",
+  "official_url": "https://my.ihcloud.cc",
+  "mirrors": [],
+  "route": "专线 / 海外中转",
+  "protocols": [
+    "AnyTLS"
+  ],
+  "regions": [
+    "香港",
+    "台湾",
+    "韩国",
+    "日本",
+    "新加坡",
+    "美国",
+    "英国",
+    "巴西",
+    "德国",
+    "阿根廷",
+    "土耳其",
+    "阿根廷",
+    "印度",
+    "马来西亚",
+    "泰国",
+    "菲律宾",
+    "俄罗斯"
+  ],
+  "client_policy": "待核验",
+  "device_limit": "不限制",
+  "trial": null,
+  "status": "unverified",
+  "notes": "部分高档套餐流量周期在来源中存疑，暂不收录；付款可能有手续费。",
+  "observed_at": "2026-10-13",
+  "sources": [
+    "hwanz-paid"
+  ],
+  "plans": [
+    {
+      "name": "Mini年付",
+      "price": 150,
+      "currency": "CNY",
+      "billing_months": 12,
+      "traffic_gb": 10,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    },
+    {
+      "name": "Basic季付",
+      "price": 75,
+      "currency": "CNY",
+      "billing_months": 3,
+      "traffic_gb": 50,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    },
+    {
+      "name": "Silver季付",
+      "price": 105,
+      "currency": "CNY",
+      "billing_months": 3,
+      "traffic_gb": 100,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    }
+  ],
+  "quality": null,
+  "details": {
+    "udp": "基本支持Full-Cone NAT",
+    "payment": "支付宝、虚拟币USDT、信用卡",
+    "ssh_port": "未屏蔽22端口",
+    "mail_protocols": "未禁止",
+    "service_restrictions": "基本未屏蔽",
+    "support": null,
+    "overseas_access": "是，购买套餐包括海外直连节点。新疆也用他家直连试试",
+    "unlock_claim": "TVB/Netflix/BBC/AbemaTV/DMM/hulu(us/jp)/Disney+ Paravi/rakutenTV(jp) 等",
+    "evidence_level": "社区描述 / 尚未本仓库实测"
+  },
+  "review_links": [
+    "https://jichangcesu.com/IEPL专线机场kycloud历史测速结果整合.html",
+    "https://jichangcesu.com/uploads/vpn/kycloud.webp"
+  ]
+}

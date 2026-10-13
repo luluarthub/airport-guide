@@ -1,0 +1,38 @@
+name: Daily public link maintenance
+on:
+  schedule:
+    - cron: '17 2 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: daily-catalog-maintenance
+  cancel-in-progress: false
+jobs:
+  maintain:
+    if: github.event.repository.fork == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tests -v
+      - run: python3 scripts/monitor.py
+      - run: python3 scripts/catalog.py generate
+      - run: python3 scripts/catalog.py validate
+      - name: Maintain issue when findings change
+        run: python3 scripts/notify.py
+      - name: Commit generated public reports
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md docs providers reports
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh public entry checks and generated catalog'
+            git push origin HEAD:main
+          fi

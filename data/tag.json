@@ -1,0 +1,78 @@
+{
+  "id": "tag",
+  "name": "TAG",
+  "official_url": "https://honven.l49.net",
+  "mirrors": [],
+  "route": "专线",
+  "protocols": [
+    "Shadowsocks"
+  ],
+  "regions": [
+    "90+个国家",
+    "220+条线路",
+    "节点国家与地区非常多"
+  ],
+  "client_policy": "待核验",
+  "device_limit": "10",
+  "trial": null,
+  "status": "unverified",
+  "notes": "冷门地区与家宽IP为社区描述；国际站可能需单独购买。",
+  "observed_at": "2026-10-13",
+  "sources": [
+    "hwanz-paid"
+  ],
+  "plans": [
+    {
+      "name": "特选全年包",
+      "price": 154,
+      "currency": "CNY",
+      "billing_months": 12,
+      "traffic_gb": 200,
+      "reset": "total",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    },
+    {
+      "name": "Bronze季付",
+      "price": 176,
+      "currency": "CNY",
+      "billing_months": 3,
+      "traffic_gb": 250,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    },
+    {
+      "name": "Silver月付",
+      "price": 109,
+      "currency": "CNY",
+      "billing_months": 1,
+      "traffic_gb": 500,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    }
+  ],
+  "quality": null,
+  "details": {
+    "udp": "大多数支持Full Cone",
+    "payment": "支付宝、虚拟币",
+    "ssh_port": "屏蔽高位10000-65535端口和22端口",
+    "mail_protocols": "禁止(用各家邮箱官方APP和网页不影响)",
+    "service_restrictions": "屏蔽轮媒",
+    "support": "有",
+    "overseas_access": "否，他家有国际站，需要另外买国际站节点",
+    "unlock_claim": "全解锁，除了香港基本可以",
+    "evidence_level": "社区描述 / 尚未本仓库实测"
+  },
+  "review_links": [
+    "https://jichangcesu.com/tag测速整合.html",
+    "https://jichangcesu.com/uploads/vpn/tag.webp"
+  ]
+}

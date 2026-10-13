@@ -1,0 +1,47 @@
+{
+  "id": "yifen",
+  "name": "一分机场",
+  "official_url": "https://xn--4gqx1hgtfdmt.com/",
+  "mirrors": [],
+  "route": "直连",
+  "protocols": [
+    "待核验"
+  ],
+  "regions": [],
+  "client_policy": "待核验",
+  "device_limit": null,
+  "trial": null,
+  "status": "unverified",
+  "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。",
+  "observed_at": "2026-10-13",
+  "sources": [
+    "panda"
+  ],
+  "plans": [
+    {
+      "name": "月付",
+      "price": 2.0,
+      "currency": "CNY",
+      "billing_months": 1,
+      "traffic_gb": 100.0,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "panda",
+      "verified_at": null
+    },
+    {
+      "name": "不限时流量包",
+      "price": 19.88,
+      "currency": "CNY",
+      "billing_months": null,
+      "traffic_gb": 1000.0,
+      "reset": "total",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "panda",
+      "verified_at": null
+    }
+  ],
+  "quality": null
+}

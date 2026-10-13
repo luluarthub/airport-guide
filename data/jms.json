@@ -1,0 +1,84 @@
+{
+  "id": "jms",
+  "name": "Just My Socks",
+  "official_url": "https://justmysocks.net",
+  "mirrors": [],
+  "route": "直连",
+  "protocols": [
+    "按官方节点信息核对"
+  ],
+  "regions": [],
+  "client_policy": "以官方文档为准",
+  "device_limit": null,
+  "trial": null,
+  "status": "unverified",
+  "notes": "HK CMI官方标注仅移动方向；不同地区套餐不能视为同一线路。",
+  "observed_at": "2026-10-13",
+  "sources": [
+    "jms-official",
+    "hwanz-paid"
+  ],
+  "plans": [
+    {
+      "name": "LA 500",
+      "price": 5.88,
+      "currency": "USD",
+      "billing_months": 1,
+      "traffic_gb": 500,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "jms-official",
+      "verified_at": "2026-10-13"
+    },
+    {
+      "name": "LA 1000",
+      "price": 9.88,
+      "currency": "USD",
+      "billing_months": 1,
+      "traffic_gb": 1000,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "jms-official",
+      "verified_at": "2026-10-13"
+    },
+    {
+      "name": "HK CMI 500",
+      "price": 8.99,
+      "currency": "USD",
+      "billing_months": 1,
+      "traffic_gb": 500,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "jms-official",
+      "verified_at": "2026-10-13"
+    },
+    {
+      "name": "Tokyo 100",
+      "price": 29.99,
+      "currency": "USD",
+      "billing_months": 1,
+      "traffic_gb": 100,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "jms-official",
+      "verified_at": "2026-10-13"
+    }
+  ],
+  "quality": null,
+  "details": {
+    "udp": null,
+    "payment": "支付宝、银联、Paypal",
+    "ssh_port": "未屏蔽22端口",
+    "mail_protocols": "未禁止",
+    "service_restrictions": "无",
+    "support": "有",
+    "overseas_access": "是，购买直连节点即可。",
+    "unlock_claim": "支持",
+    "evidence_level": "社区描述 / 尚未本仓库实测"
+  },
+  "review_links": []
+}

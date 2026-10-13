@@ -1,0 +1,92 @@
+{
+  "id": "shanhai",
+  "name": "山海",
+  "official_url": "https://shanhai.me",
+  "mirrors": [],
+  "route": "直连 / 中转",
+  "protocols": [
+    "AnyTLS"
+  ],
+  "regions": [
+    "中转：香港",
+    "台湾",
+    "日本",
+    "美国",
+    "英国",
+    "越南",
+    "法国",
+    "德国",
+    "泰国",
+    "印度",
+    "埃及",
+    "新加坡",
+    "菲律宾",
+    "加拿大",
+    "澳洲",
+    "巴基斯坦",
+    "马来",
+    "韩国"
+  ],
+  "client_policy": "待核验",
+  "device_limit": null,
+  "trial": null,
+  "status": "unverified",
+  "notes": "来源称官方客户端与通用客户端线路不同。",
+  "observed_at": "2026-10-13",
+  "sources": [
+    "hwanz-paid"
+  ],
+  "plans": [
+    {
+      "name": "月付128G",
+      "price": 15,
+      "currency": "CNY",
+      "billing_months": 1,
+      "traffic_gb": 128,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    },
+    {
+      "name": "月付256G",
+      "price": 25,
+      "currency": "CNY",
+      "billing_months": 1,
+      "traffic_gb": 256,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    },
+    {
+      "name": "月付512G",
+      "price": 45,
+      "currency": "CNY",
+      "billing_months": 1,
+      "traffic_gb": 512,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    }
+  ],
+  "quality": null,
+  "details": {
+    "udp": "支持",
+    "payment": null,
+    "ssh_port": "未屏蔽22端口",
+    "mail_protocols": null,
+    "service_restrictions": "轮媒",
+    "support": null,
+    "overseas_access": "否，有海外入口，大陆外用户可用",
+    "unlock_claim": null,
+    "evidence_level": "社区描述 / 尚未本仓库实测"
+  },
+  "review_links": [
+    "https://jichangcesu.com/uploads/vpn/shanhai.webp"
+  ]
+}

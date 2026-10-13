@@ -1,0 +1,3 @@
+# Repository instructions
+
+Use Python standard library only. Data in data/*.json is authoritative; referral URLs belong only in config/affiliate-links.json. Generate README, provider pages, catalog, rankings, trials and CSV/JSON exports with scripts/catalog.py generate. Never copy competitor prose or screenshots, claim personal testing without evidence, import other authors’ referral codes, or publish subscription credentials. Public website reachability does not establish node usability. Keep original facts with source/date, mark missing values unknown. Validate and run unit tests before pushing. Work on main unless the user requests another workflow.

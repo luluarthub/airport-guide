@@ -1,0 +1,26 @@
+[
+  {
+    "id": "hwanz-paid",
+    "url": "https://github.com/hwanz/SSR-V2ray-Trojan",
+    "kind": "community",
+    "reviewed_at": "2026-10-13"
+  },
+  {
+    "id": "panda",
+    "url": "https://github.com/DiningFactory/panda-vpn-pro",
+    "kind": "community",
+    "reviewed_at": "2026-10-13"
+  },
+  {
+    "id": "hwanz-free",
+    "url": "https://github.com/hwanz/SSR-V2ray-Trojan-vpn",
+    "kind": "community",
+    "reviewed_at": "2026-10-13"
+  },
+  {
+    "id": "jms-official",
+    "url": "https://justmysocks.net/members/cart.php",
+    "kind": "official",
+    "reviewed_at": "2026-10-13"
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "id": "365vpn",
+  "name": "365VPN",
+  "official_url": "https://365vpn.org",
+  "mirrors": [],
+  "route": "官方客户端",
+  "protocols": [
+    "私有协议"
+  ],
+  "regions": [
+    "香港",
+    "台湾",
+    "日本",
+    "新加坡",
+    "美国",
+    "韩国",
+    "泰国",
+    "越南",
+    "英国",
+    "澳大利亚",
+    "加拿大",
+    "俄罗斯",
+    "法国",
+    "德国",
+    "塞尔维亚",
+    "希腊",
+    "巴西",
+    "芬兰",
+    "意大利",
+    "乌克兰",
+    "爱尔兰",
+    "比利时",
+    "匈牙利",
+    "葡萄牙",
+    "西班牙"
+  ],
+  "client_policy": "仅官方客户端（社区记录）",
+  "device_limit": null,
+  "trial": "来源称可试用，具体期限与退款规则待官网确认",
+  "status": "unverified",
+  "notes": "来源标题与正文套餐不一致，采用正文月卡数据并标记待核验；不限流量仍可能限速。",
+  "observed_at": "2026-10-13",
+  "sources": [
+    "hwanz-paid"
+  ],
+  "plans": [
+    {
+      "name": "基础月卡",
+      "price": 38.88,
+      "currency": "CNY",
+      "billing_months": 1,
+      "traffic_gb": null,
+      "reset": "unlimited",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    },
+    {
+      "name": "标准月卡",
+      "price": 58.88,
+      "currency": "CNY",
+      "billing_months": 1,
+      "traffic_gb": null,
+      "reset": "unlimited",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-paid",
+      "verified_at": null
+    }
+  ],
+  "quality": null,
+  "details": {
+    "udp": null,
+    "payment": null,
+    "ssh_port": null,
+    "mail_protocols": null,
+    "service_restrictions": null,
+    "support": null,
+    "overseas_access": null,
+    "unlock_claim": null,
+    "evidence_level": "社区描述 / 尚未本仓库实测"
+  },
+  "review_links": [
+    "https://jichangcesu.com/uploads/jichang/365vpn/2025-11-14移动香港.webp",
+    "https://jichangcesu.com/uploads/jichang/365vpn/2025-11-14移动新加坡.webp",
+    "https://jichangcesu.com/uploads/jichang/365vpn/2025-11-14移动日本.webp"
+  ]
+}

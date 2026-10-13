@@ -1,0 +1,24 @@
+name: 机场资料 / 套餐更正
+description: 提交新机场、套餐变动、域名或活动更新
+title: "[资料] "
+body:
+  - type: input
+    id: provider
+    attributes:
+      label: 机场名称与ID
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 公开来源URL与核验日期
+      description: 不要填写私人订阅或邀请码凭据
+    validations:
+      required: true
+  - type: textarea
+    id: changes
+    attributes:
+      label: 变更内容
+      description: 价格、币种、付费周期、流量重置、倍率、手续费、设备限制
+    validations:
+      required: true

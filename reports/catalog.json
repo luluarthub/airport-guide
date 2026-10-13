@@ -1,0 +1,1821 @@
+[
+  {
+    "id": "365vpn",
+    "name": "365VPN",
+    "official_url": "https://365vpn.org",
+    "mirrors": [],
+    "route": "官方客户端",
+    "protocols": [
+      "私有协议"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "日本",
+      "新加坡",
+      "美国",
+      "韩国",
+      "泰国",
+      "越南",
+      "英国",
+      "澳大利亚",
+      "加拿大",
+      "俄罗斯",
+      "法国",
+      "德国",
+      "塞尔维亚",
+      "希腊",
+      "巴西",
+      "芬兰",
+      "意大利",
+      "乌克兰",
+      "爱尔兰",
+      "比利时",
+      "匈牙利",
+      "葡萄牙",
+      "西班牙"
+    ],
+    "client_policy": "仅官方客户端（社区记录）",
+    "device_limit": null,
+    "trial": "来源称可试用，具体期限与退款规则待官网确认",
+    "status": "unverified",
+    "notes": "来源标题与正文套餐不一致，采用正文月卡数据并标记待核验；不限流量仍可能限速。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-paid"
+    ],
+    "plans": [
+      {
+        "name": "基础月卡",
+        "price": 38.88,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": null,
+        "reset": "unlimited",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "标准月卡",
+        "price": 58.88,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": null,
+        "reset": "unlimited",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      }
+    ],
+    "quality": null,
+    "details": {
+      "udp": null,
+      "payment": null,
+      "ssh_port": null,
+      "mail_protocols": null,
+      "service_restrictions": null,
+      "support": null,
+      "overseas_access": null,
+      "unlock_claim": null,
+      "evidence_level": "社区描述 / 尚未本仓库实测"
+    },
+    "review_links": [
+      "https://jichangcesu.com/uploads/jichang/365vpn/2025-11-14移动香港.webp",
+      "https://jichangcesu.com/uploads/jichang/365vpn/2025-11-14移动新加坡.webp",
+      "https://jichangcesu.com/uploads/jichang/365vpn/2025-11-14移动日本.webp"
+    ]
+  },
+  {
+    "id": "beibei",
+    "name": "贝贝云",
+    "official_url": "https://jctj.beibei.cloud",
+    "mirrors": [],
+    "route": "海外中转",
+    "protocols": [
+      "AnyTLS"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "client_policy": "待核验",
+    "device_limit": "5个设备",
+    "trial": null,
+    "status": "unverified",
+    "notes": "来源提示地区限制及支付手续费，购买前核对。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-paid"
+    ],
+    "plans": [
+      {
+        "name": "半年100G",
+        "price": 129.9,
+        "currency": "CNY",
+        "billing_months": 6,
+        "traffic_gb": 100,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "年付100G",
+        "price": 249.9,
+        "currency": "CNY",
+        "billing_months": 12,
+        "traffic_gb": 100,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "半年200G",
+        "price": 189.9,
+        "currency": "CNY",
+        "billing_months": 6,
+        "traffic_gb": 200,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "大流量月付",
+        "price": 109.9,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 1000,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      }
+    ],
+    "quality": null,
+    "details": {
+      "udp": "支持",
+      "payment": "支付宝、微信",
+      "ssh_port": "22端口已屏蔽",
+      "mail_protocols": "禁止(用各家邮箱官方APP和网页不影响)",
+      "service_restrictions": "屏蔽轮媒、rfa、pincong",
+      "support": "有",
+      "overseas_access": "能，福建无法使用",
+      "unlock_claim": "除香港基本全解锁",
+      "evidence_level": "社区描述 / 尚未本仓库实测"
+    },
+    "review_links": [
+      "https://jichangcesu.com/beibeicloud.html",
+      "https://jichangcesu.com/uploads/vpn/beibei.webp"
+    ]
+  },
+  {
+    "id": "boostnet",
+    "name": "BoostNet",
+    "official_url": "https://jc.boostqz.com",
+    "mirrors": [],
+    "route": "专线 / 透传",
+    "protocols": [
+      "AnyTLS"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "client_policy": "待核验",
+    "device_limit": "软性限制5个ip",
+    "trial": null,
+    "status": "unverified",
+    "notes": "线路与解锁为社区描述；注意官方客户端与第三方客户端可能使用不同线路。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-paid"
+    ],
+    "plans": [
+      {
+        "name": "轻量年付",
+        "price": 200,
+        "currency": "CNY",
+        "billing_months": 12,
+        "traffic_gb": 20,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "半年标准",
+        "price": 260,
+        "currency": "CNY",
+        "billing_months": 6,
+        "traffic_gb": 200,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "年付标准",
+        "price": 500,
+        "currency": "CNY",
+        "billing_months": 12,
+        "traffic_gb": 200,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "大流量月付",
+        "price": 129,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 1000,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      }
+    ],
+    "quality": null,
+    "details": {
+      "udp": "支持",
+      "payment": "支付宝、微信",
+      "ssh_port": "22端口已屏蔽",
+      "mail_protocols": "禁止(用各家邮箱官方APP和网页不影响)",
+      "service_restrictions": "屏蔽轮媒、rfa、pincong",
+      "support": "有",
+      "overseas_access": "否，有海外入口",
+      "unlock_claim": "基本全解锁",
+      "evidence_level": "社区描述 / 尚未本仓库实测"
+    },
+    "review_links": [
+      "https://jichangtuijian.com/boostnet.html",
+      "https://jichangcesu.com/uploads/vpn/boostnet.webp"
+    ]
+  },
+  {
+    "id": "ciyy",
+    "name": "次元雲",
+    "official_url": "https://ciyy.one/",
+    "mirrors": [],
+    "route": "中转",
+    "protocols": [
+      "AnyTLS（社区记录）"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": null,
+    "status": "unverified",
+    "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "panda"
+    ],
+    "plans": [
+      {
+        "name": "月付",
+        "price": 17.0,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 158.0,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      },
+      {
+        "name": "不限时流量包",
+        "price": 125.0,
+        "currency": "CNY",
+        "billing_months": null,
+        "traffic_gb": 520.0,
+        "reset": "total",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      }
+    ],
+    "quality": null
+  },
+  {
+    "id": "eix",
+    "name": "E-IX",
+    "official_url": "https://cdn12.e-ix.com",
+    "mirrors": [],
+    "route": "透传专线",
+    "protocols": [
+      "AnyTLS"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": null,
+    "status": "unverified",
+    "notes": "来源称存在区域限制及5%支付费，待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-paid"
+    ],
+    "plans": [
+      {
+        "name": "全年共用流量",
+        "price": 199,
+        "currency": "CNY",
+        "billing_months": 12,
+        "traffic_gb": 1024,
+        "reset": "total",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "基础季付",
+        "price": 199,
+        "currency": "CNY",
+        "billing_months": 3,
+        "traffic_gb": 256,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "标准月付",
+        "price": 75,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 512,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      }
+    ],
+    "quality": null,
+    "details": {
+      "udp": "支持",
+      "payment": "支付宝+微信",
+      "ssh_port": "屏蔽22端口",
+      "mail_protocols": "禁止",
+      "service_restrictions": "屏蔽轮媒",
+      "support": null,
+      "overseas_access": "是,新疆可用",
+      "unlock_claim": "全解锁",
+      "evidence_level": "社区描述 / 尚未本仓库实测"
+    },
+    "review_links": [
+      "https://jichangcesu.com/eix.html",
+      "https://jichangcesu.com/uploads/vpn/eix.webp"
+    ]
+  },
+  {
+    "id": "flybit",
+    "name": "FlyBit",
+    "official_url": "https://flybit.vip/",
+    "mirrors": [],
+    "route": "中转",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "2 GB",
+    "status": "unverified",
+    "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "panda"
+    ],
+    "plans": [
+      {
+        "name": "月付",
+        "price": 15.0,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 128.0,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      },
+      {
+        "name": "不限时流量包",
+        "price": 36.0,
+        "currency": "CNY",
+        "billing_months": null,
+        "traffic_gb": 128.0,
+        "reset": "total",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      }
+    ],
+    "quality": null
+  },
+  {
+    "id": "fmyun",
+    "name": "飞喵云",
+    "official_url": "https://www.fmyun.top/",
+    "mirrors": [],
+    "route": "中转",
+    "protocols": [
+      "AnyTLS（社区记录）"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": null,
+    "status": "unverified",
+    "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "panda"
+    ],
+    "plans": [
+      {
+        "name": "月付",
+        "price": 9.88,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 100.0,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      },
+      {
+        "name": "不限时流量包",
+        "price": 25.0,
+        "currency": "CNY",
+        "billing_months": null,
+        "traffic_gb": 100.0,
+        "reset": "total",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      }
+    ],
+    "quality": null
+  },
+  {
+    "id": "freecat",
+    "name": "自由猫",
+    "official_url": "https://us.freecat.cloud/",
+    "mirrors": [],
+    "route": "中转",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "仅官方客户端（社区记录）",
+    "device_limit": null,
+    "trial": null,
+    "status": "unverified",
+    "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "panda"
+    ],
+    "plans": [
+      {
+        "name": "月付",
+        "price": 12.0,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 100.0,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      },
+      {
+        "name": "不限时流量包",
+        "price": 65.0,
+        "currency": "CNY",
+        "billing_months": null,
+        "traffic_gb": 500.0,
+        "reset": "total",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      }
+    ],
+    "quality": null
+  },
+  {
+    "id": "fwcloud",
+    "name": "蜂窝云",
+    "official_url": "https://api.fwcloud.life/",
+    "mirrors": [],
+    "route": "中转",
+    "protocols": [
+      "AnyTLS（社区记录）"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": null,
+    "status": "unverified",
+    "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "panda"
+    ],
+    "plans": [
+      {
+        "name": "月付",
+        "price": 20.0,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 200.0,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      }
+    ],
+    "quality": null
+  },
+  {
+    "id": "haita",
+    "name": "海獭",
+    "official_url": "https://haita.link",
+    "mirrors": [],
+    "route": "中转 / 透传",
+    "protocols": [
+      "Trojan"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国",
+      "加拿大",
+      "台湾",
+      "韩国"
+    ],
+    "client_policy": "待核验",
+    "device_limit": "不限制",
+    "trial": null,
+    "status": "unverified",
+    "notes": "解锁与地区限制待实测；导入兼容性向官方客服确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-paid"
+    ],
+    "plans": [
+      {
+        "name": "轻量季付",
+        "price": 25,
+        "currency": "CNY",
+        "billing_months": 3,
+        "traffic_gb": 50,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "月付100G",
+        "price": 15.99,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 100,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "月付200G",
+        "price": 25.99,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 200,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "月付700G",
+        "price": 54.99,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 700,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      }
+    ],
+    "quality": null,
+    "details": {
+      "udp": null,
+      "payment": "支付宝",
+      "ssh_port": "22端口未屏蔽",
+      "mail_protocols": null,
+      "service_restrictions": "屏蔽轮媒和pingcong",
+      "support": null,
+      "overseas_access": null,
+      "unlock_claim": "部分解锁",
+      "evidence_level": "社区描述 / 尚未本仓库实测"
+    },
+    "review_links": [
+      "https://jichangcesu.com/海獭机场怎么样.html",
+      "https://jichangcesu.com/uploads/vpn/haita.webp"
+    ]
+  },
+  {
+    "id": "happymao",
+    "name": "happy猫",
+    "official_url": "https://www.happymao.cat/",
+    "mirrors": [],
+    "route": "中转",
+    "protocols": [
+      "AnyTLS（社区记录）"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": null,
+    "status": "unverified",
+    "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。 来源提示订阅可能一次性或限时有效。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "panda"
+    ],
+    "plans": [
+      {
+        "name": "月付",
+        "price": 9.9,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 200.0,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      },
+      {
+        "name": "不限时流量包",
+        "price": 19.9,
+        "currency": "CNY",
+        "billing_months": null,
+        "traffic_gb": 200.0,
+        "reset": "total",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      }
+    ],
+    "quality": null
+  },
+  {
+    "id": "inets",
+    "name": "iNetS",
+    "official_url": "https://inets.io/",
+    "mirrors": [],
+    "route": "直连 优化",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "7 days 极少节点",
+    "status": "unverified",
+    "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "panda"
+    ],
+    "plans": [
+      {
+        "name": "月付",
+        "price": 7.5,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 50.0,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      }
+    ],
+    "quality": null
+  },
+  {
+    "id": "jms",
+    "name": "Just My Socks",
+    "official_url": "https://justmysocks.net",
+    "mirrors": [],
+    "route": "直连",
+    "protocols": [
+      "按官方节点信息核对"
+    ],
+    "regions": [],
+    "client_policy": "以官方文档为准",
+    "device_limit": null,
+    "trial": null,
+    "status": "unverified",
+    "notes": "HK CMI官方标注仅移动方向；不同地区套餐不能视为同一线路。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "jms-official",
+      "hwanz-paid"
+    ],
+    "plans": [
+      {
+        "name": "LA 500",
+        "price": 5.88,
+        "currency": "USD",
+        "billing_months": 1,
+        "traffic_gb": 500,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "jms-official",
+        "verified_at": "2026-10-13"
+      },
+      {
+        "name": "LA 1000",
+        "price": 9.88,
+        "currency": "USD",
+        "billing_months": 1,
+        "traffic_gb": 1000,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "jms-official",
+        "verified_at": "2026-10-13"
+      },
+      {
+        "name": "HK CMI 500",
+        "price": 8.99,
+        "currency": "USD",
+        "billing_months": 1,
+        "traffic_gb": 500,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "jms-official",
+        "verified_at": "2026-10-13"
+      },
+      {
+        "name": "Tokyo 100",
+        "price": 29.99,
+        "currency": "USD",
+        "billing_months": 1,
+        "traffic_gb": 100,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "jms-official",
+        "verified_at": "2026-10-13"
+      }
+    ],
+    "quality": null,
+    "details": {
+      "udp": null,
+      "payment": "支付宝、银联、Paypal",
+      "ssh_port": "未屏蔽22端口",
+      "mail_protocols": "未禁止",
+      "service_restrictions": "无",
+      "support": "有",
+      "overseas_access": "是，购买直连节点即可。",
+      "unlock_claim": "支持",
+      "evidence_level": "社区描述 / 尚未本仓库实测"
+    },
+    "review_links": []
+  },
+  {
+    "id": "kycloud",
+    "name": "Kycloud",
+    "official_url": "https://my.ihcloud.cc",
+    "mirrors": [],
+    "route": "专线 / 海外中转",
+    "protocols": [
+      "AnyTLS"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "韩国",
+      "日本",
+      "新加坡",
+      "美国",
+      "英国",
+      "巴西",
+      "德国",
+      "阿根廷",
+      "土耳其",
+      "阿根廷",
+      "印度",
+      "马来西亚",
+      "泰国",
+      "菲律宾",
+      "俄罗斯"
+    ],
+    "client_policy": "待核验",
+    "device_limit": "不限制",
+    "trial": null,
+    "status": "unverified",
+    "notes": "部分高档套餐流量周期在来源中存疑，暂不收录；付款可能有手续费。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-paid"
+    ],
+    "plans": [
+      {
+        "name": "Mini年付",
+        "price": 150,
+        "currency": "CNY",
+        "billing_months": 12,
+        "traffic_gb": 10,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "Basic季付",
+        "price": 75,
+        "currency": "CNY",
+        "billing_months": 3,
+        "traffic_gb": 50,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "Silver季付",
+        "price": 105,
+        "currency": "CNY",
+        "billing_months": 3,
+        "traffic_gb": 100,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      }
+    ],
+    "quality": null,
+    "details": {
+      "udp": "基本支持Full-Cone NAT",
+      "payment": "支付宝、虚拟币USDT、信用卡",
+      "ssh_port": "未屏蔽22端口",
+      "mail_protocols": "未禁止",
+      "service_restrictions": "基本未屏蔽",
+      "support": null,
+      "overseas_access": "是，购买套餐包括海外直连节点。新疆也用他家直连试试",
+      "unlock_claim": "TVB/Netflix/BBC/AbemaTV/DMM/hulu(us/jp)/Disney+ Paravi/rakutenTV(jp) 等",
+      "evidence_level": "社区描述 / 尚未本仓库实测"
+    },
+    "review_links": [
+      "https://jichangcesu.com/IEPL专线机场kycloud历史测速结果整合.html",
+      "https://jichangcesu.com/uploads/vpn/kycloud.webp"
+    ]
+  },
+  {
+    "id": "laomao",
+    "name": "老猫云",
+    "official_url": "https://www.laomaourl.com",
+    "mirrors": [],
+    "route": "海外中转",
+    "protocols": [
+      "AnyTLS"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国",
+      "台湾",
+      "英国",
+      "俄罗斯"
+    ],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": null,
+    "status": "unverified",
+    "notes": "来源D套餐价格与相邻档位异常，暂不录入。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-paid"
+    ],
+    "plans": [
+      {
+        "name": "B季付",
+        "price": 45,
+        "currency": "CNY",
+        "billing_months": 3,
+        "traffic_gb": 50,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "C季付",
+        "price": 60,
+        "currency": "CNY",
+        "billing_months": 3,
+        "traffic_gb": 100,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "E月付",
+        "price": 40,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 300,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "F月付",
+        "price": 50,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 500,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      }
+    ],
+    "quality": null,
+    "details": {
+      "udp": "支持",
+      "payment": "支付宝",
+      "ssh_port": null,
+      "mail_protocols": null,
+      "service_restrictions": null,
+      "support": "有",
+      "overseas_access": null,
+      "unlock_claim": "参考流媒体解锁图",
+      "evidence_level": "社区描述 / 尚未本仓库实测"
+    },
+    "review_links": [
+      "https://jichangcesu.com/老猫云历史测速结果整合.html",
+      "https://jichangcesu.com/uploads/vpn/laomao.webp"
+    ]
+  },
+  {
+    "id": "liangxin",
+    "name": "良心云",
+    "official_url": "https://xn--9kqz23b19z.com/",
+    "mirrors": [],
+    "route": "直连",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": null,
+    "status": "unverified",
+    "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "panda"
+    ],
+    "plans": [
+      {
+        "name": "月付",
+        "price": 2.0,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 100.0,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      },
+      {
+        "name": "不限时流量包",
+        "price": 21.0,
+        "currency": "CNY",
+        "billing_months": null,
+        "traffic_gb": 1000.0,
+        "reset": "total",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      }
+    ],
+    "quality": null
+  },
+  {
+    "id": "m78star",
+    "name": "M78星云",
+    "official_url": "https://m78star.cloud/",
+    "mirrors": [],
+    "route": "中转",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "仅官方客户端（社区记录）",
+    "device_limit": null,
+    "trial": null,
+    "status": "unverified",
+    "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "panda"
+    ],
+    "plans": [
+      {
+        "name": "月付",
+        "price": 12.8,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 150.0,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      },
+      {
+        "name": "不限时流量包",
+        "price": 99.0,
+        "currency": "CNY",
+        "billing_months": null,
+        "traffic_gb": 300.0,
+        "reset": "total",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      }
+    ],
+    "quality": null
+  },
+  {
+    "id": "nfsq",
+    "name": "农夫山泉",
+    "official_url": "https://w05.nfsqweba01.cc/",
+    "mirrors": [],
+    "route": "中转",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "仅官方客户端（社区记录）",
+    "device_limit": null,
+    "trial": null,
+    "status": "watch",
+    "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。 来源标为存在问题，排除排行；需核实恢复情况。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "panda"
+    ],
+    "plans": [
+      {
+        "name": "月付",
+        "price": 15.0,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 200.0,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      },
+      {
+        "name": "不限时流量包",
+        "price": 45.0,
+        "currency": "CNY",
+        "billing_months": null,
+        "traffic_gb": 200.0,
+        "reset": "total",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      }
+    ],
+    "quality": null
+  },
+  {
+    "id": "nianyun",
+    "name": "念云",
+    "official_url": "https://xnyun.wiki/",
+    "mirrors": [],
+    "route": "直连 优化",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": null,
+    "status": "unverified",
+    "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "panda"
+    ],
+    "plans": [
+      {
+        "name": "月付",
+        "price": 12.0,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 150.0,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      },
+      {
+        "name": "不限时流量包",
+        "price": 89.0,
+        "currency": "CNY",
+        "billing_months": null,
+        "traffic_gb": 1000.0,
+        "reset": "total",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      }
+    ],
+    "quality": null
+  },
+  {
+    "id": "nyanss",
+    "name": "NyanSS",
+    "official_url": "https://billing.nyanss001.top/",
+    "mirrors": [],
+    "route": "中转",
+    "protocols": [
+      "AnyTLS（社区记录）"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": null,
+    "status": "watch",
+    "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。 来源标为存在问题，排除排行；需核实恢复情况。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "panda"
+    ],
+    "plans": [
+      {
+        "name": "月付",
+        "price": 7.5,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 50.0,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      },
+      {
+        "name": "不限时流量包",
+        "price": 25.0,
+        "currency": "CNY",
+        "billing_months": null,
+        "traffic_gb": 100.0,
+        "reset": "total",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      }
+    ],
+    "quality": null
+  },
+  {
+    "id": "ofonet",
+    "name": "ofoNET",
+    "official_url": "https://ofotw.org/",
+    "mirrors": [],
+    "route": "中转",
+    "protocols": [
+      "AnyTLS（社区记录）"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": null,
+    "status": "unverified",
+    "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "panda"
+    ],
+    "plans": [
+      {
+        "name": "月付",
+        "price": 12.87,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 200.0,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      }
+    ],
+    "quality": null
+  },
+  {
+    "id": "onesy",
+    "name": "壹速云",
+    "official_url": "https://www.onesy1.cc/",
+    "mirrors": [],
+    "route": "中转",
+    "protocols": [
+      "AnyTLS（社区记录）"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": null,
+    "status": "watch",
+    "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。 来源标为存在问题，排除排行；需核实恢复情况。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "panda"
+    ],
+    "plans": [
+      {
+        "name": "月付",
+        "price": 19.9,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 100.0,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      },
+      {
+        "name": "不限时流量包",
+        "price": 188.0,
+        "currency": "CNY",
+        "billing_months": null,
+        "traffic_gb": 1000.0,
+        "reset": "total",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      }
+    ],
+    "quality": null
+  },
+  {
+    "id": "peiqian",
+    "name": "赔钱机场",
+    "official_url": "https://xn--mes358aby2apfg.com/",
+    "mirrors": [],
+    "route": "直连",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": null,
+    "status": "unverified",
+    "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "panda"
+    ],
+    "plans": [
+      {
+        "name": "月付",
+        "price": 2.99,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 500.0,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      },
+      {
+        "name": "不限时流量包",
+        "price": 18.9,
+        "currency": "CNY",
+        "billing_months": null,
+        "traffic_gb": 1000.0,
+        "reset": "total",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      }
+    ],
+    "quality": null
+  },
+  {
+    "id": "shanhai",
+    "name": "山海",
+    "official_url": "https://shanhai.me",
+    "mirrors": [],
+    "route": "直连 / 中转",
+    "protocols": [
+      "AnyTLS"
+    ],
+    "regions": [
+      "中转：香港",
+      "台湾",
+      "日本",
+      "美国",
+      "英国",
+      "越南",
+      "法国",
+      "德国",
+      "泰国",
+      "印度",
+      "埃及",
+      "新加坡",
+      "菲律宾",
+      "加拿大",
+      "澳洲",
+      "巴基斯坦",
+      "马来",
+      "韩国"
+    ],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": null,
+    "status": "unverified",
+    "notes": "来源称官方客户端与通用客户端线路不同。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-paid"
+    ],
+    "plans": [
+      {
+        "name": "月付128G",
+        "price": 15,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 128,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "月付256G",
+        "price": 25,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 256,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "月付512G",
+        "price": 45,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 512,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      }
+    ],
+    "quality": null,
+    "details": {
+      "udp": "支持",
+      "payment": null,
+      "ssh_port": "未屏蔽22端口",
+      "mail_protocols": null,
+      "service_restrictions": "轮媒",
+      "support": null,
+      "overseas_access": "否，有海外入口，大陆外用户可用",
+      "unlock_claim": null,
+      "evidence_level": "社区描述 / 尚未本仓库实测"
+    },
+    "review_links": [
+      "https://jichangcesu.com/uploads/vpn/shanhai.webp"
+    ]
+  },
+  {
+    "id": "tag",
+    "name": "TAG",
+    "official_url": "https://honven.l49.net",
+    "mirrors": [],
+    "route": "专线",
+    "protocols": [
+      "Shadowsocks"
+    ],
+    "regions": [
+      "90+个国家",
+      "220+条线路",
+      "节点国家与地区非常多"
+    ],
+    "client_policy": "待核验",
+    "device_limit": "10",
+    "trial": null,
+    "status": "unverified",
+    "notes": "冷门地区与家宽IP为社区描述；国际站可能需单独购买。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-paid"
+    ],
+    "plans": [
+      {
+        "name": "特选全年包",
+        "price": 154,
+        "currency": "CNY",
+        "billing_months": 12,
+        "traffic_gb": 200,
+        "reset": "total",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "Bronze季付",
+        "price": 176,
+        "currency": "CNY",
+        "billing_months": 3,
+        "traffic_gb": 250,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "Silver月付",
+        "price": 109,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 500,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      }
+    ],
+    "quality": null,
+    "details": {
+      "udp": "大多数支持Full Cone",
+      "payment": "支付宝、虚拟币",
+      "ssh_port": "屏蔽高位10000-65535端口和22端口",
+      "mail_protocols": "禁止(用各家邮箱官方APP和网页不影响)",
+      "service_restrictions": "屏蔽轮媒",
+      "support": "有",
+      "overseas_access": "否，他家有国际站，需要另外买国际站节点",
+      "unlock_claim": "全解锁，除了香港基本可以",
+      "evidence_level": "社区描述 / 尚未本仓库实测"
+    },
+    "review_links": [
+      "https://jichangcesu.com/tag测速整合.html",
+      "https://jichangcesu.com/uploads/vpn/tag.webp"
+    ]
+  },
+  {
+    "id": "tutuyun",
+    "name": "兔兔云",
+    "official_url": "https://www.tutuyun.uk/",
+    "mirrors": [],
+    "route": "中转",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "12 hours",
+    "status": "unverified",
+    "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "panda"
+    ],
+    "plans": [
+      {
+        "name": "月付",
+        "price": 11.88,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 140.0,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      },
+      {
+        "name": "不限时流量包",
+        "price": 18.0,
+        "currency": "CNY",
+        "billing_months": null,
+        "traffic_gb": 60.0,
+        "reset": "total",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      }
+    ],
+    "quality": null
+  },
+  {
+    "id": "wgetcloud",
+    "name": "WgetCloud",
+    "official_url": "https://invite.wgetcloud.ltd",
+    "mirrors": [],
+    "route": "专线",
+    "protocols": [
+      "Trojan",
+      "Shadowsocks"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国",
+      "台湾",
+      "加拿大",
+      "俄罗斯",
+      "韩国",
+      "印尼",
+      "印度",
+      "土耳其",
+      "巴西",
+      "德国",
+      "泰国",
+      "澳洲",
+      "英国",
+      "荷兰",
+      "菲律宾",
+      "马来西亚"
+    ],
+    "client_policy": "待核验",
+    "device_limit": "3",
+    "trial": null,
+    "status": "unverified",
+    "notes": "来源称有设备和区域限制；年付流量配置不同，不按月付简单乘12。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-paid"
+    ],
+    "plans": [
+      {
+        "name": "基础月付",
+        "price": 59,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 140,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "优质月付",
+        "price": 69,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 160,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "精品月付",
+        "price": 79,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 180,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      }
+    ],
+    "quality": null,
+    "details": {
+      "udp": "支持",
+      "payment": "支付宝",
+      "ssh_port": "屏蔽22端口",
+      "mail_protocols": "未禁止",
+      "service_restrictions": "屏蔽轮媒、voa、rfa、pincong",
+      "support": "有",
+      "overseas_access": "否",
+      "unlock_claim": "台湾3动态ip支持，但不保证可用",
+      "evidence_level": "社区描述 / 尚未本仓库实测"
+    },
+    "review_links": [
+      "https://jichangcesu.com/阿里云ss线路机场推荐GaCloud.html",
+      "https://jichangcesu.com/uploads/vpn/gacloud.webp"
+    ]
+  },
+  {
+    "id": "yifen",
+    "name": "一分机场",
+    "official_url": "https://xn--4gqx1hgtfdmt.com/",
+    "mirrors": [],
+    "route": "直连",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": null,
+    "status": "unverified",
+    "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "panda"
+    ],
+    "plans": [
+      {
+        "name": "月付",
+        "price": 2.0,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 100.0,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      },
+      {
+        "name": "不限时流量包",
+        "price": 19.88,
+        "currency": "CNY",
+        "billing_months": null,
+        "traffic_gb": 1000.0,
+        "reset": "total",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "panda",
+        "verified_at": null
+      }
+    ],
+    "quality": null
+  },
+  {
+    "id": "youtu",
+    "name": "悠兔",
+    "official_url": "https://jctj.youtunice.com",
+    "mirrors": [],
+    "route": "专线 / 中转",
+    "protocols": [
+      "AnyTLS"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "client_policy": "待核验",
+    "device_limit": "软性限制5个ip",
+    "trial": null,
+    "status": "unverified",
+    "notes": "轻量包为全年共用200GB。来源基础套餐年价异常，暂不录入。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-paid"
+    ],
+    "plans": [
+      {
+        "name": "全年流量包",
+        "price": 199,
+        "currency": "CNY",
+        "billing_months": 12,
+        "traffic_gb": 200,
+        "reset": "total",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "半年标准",
+        "price": 210,
+        "currency": "CNY",
+        "billing_months": 6,
+        "traffic_gb": 150,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      },
+      {
+        "name": "大流量月付",
+        "price": 119,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 1000,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-paid",
+        "verified_at": null
+      }
+    ],
+    "quality": null,
+    "details": {
+      "udp": "支持",
+      "payment": "支付宝、微信",
+      "ssh_port": "22端口已屏蔽",
+      "mail_protocols": "禁止(用各家邮箱官方APP和网页不影响)",
+      "service_restrictions": "屏蔽轮媒、rfa、pincong",
+      "support": "有",
+      "overseas_access": "能",
+      "unlock_claim": "基本全解锁",
+      "evidence_level": "社区描述 / 尚未本仓库实测"
+    },
+    "review_links": [
+      "https://jichangcesu.com/便宜SS机场推荐之悠兔.html",
+      "https://jichangcesu.com/uploads/vpn/youtu.webp"
+    ]
+  }
+]

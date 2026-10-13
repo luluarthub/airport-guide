@@ -1,0 +1,47 @@
+{
+  "id": "tutuyun",
+  "name": "兔兔云",
+  "official_url": "https://www.tutuyun.uk/",
+  "mirrors": [],
+  "route": "中转",
+  "protocols": [
+    "待核验"
+  ],
+  "regions": [],
+  "client_policy": "待核验",
+  "device_limit": null,
+  "trial": "12 hours",
+  "status": "unverified",
+  "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。",
+  "observed_at": "2026-10-13",
+  "sources": [
+    "panda"
+  ],
+  "plans": [
+    {
+      "name": "月付",
+      "price": 11.88,
+      "currency": "CNY",
+      "billing_months": 1,
+      "traffic_gb": 140.0,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "panda",
+      "verified_at": null
+    },
+    {
+      "name": "不限时流量包",
+      "price": 18.0,
+      "currency": "CNY",
+      "billing_months": null,
+      "traffic_gb": 60.0,
+      "reset": "total",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "panda",
+      "verified_at": null
+    }
+  ],
+  "quality": null
+}
