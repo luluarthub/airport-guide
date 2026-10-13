@@ -58,7 +58,9 @@ def validate(providers=None):
         ids.add(p['id']); assert (ROOT/'data'/f"{p['id']}.json").exists()
         assert p['status'] in ('unverified','active','watch','inactive')
         assert p['name'] and p['sources'] and set(p['sources']) <= sources
-        dt.date.fromisoformat(p['observed_at']); url_valid(p['official_url'])
+        dt.date.fromisoformat(p['observed_at'])
+        if p['official_url']: url_valid(p['official_url'])
+        else: assert p['sources'], 'missing entry must have a source for lookup'
         for url in p['mirrors']: url_valid(url)
         for x in p['plans']:
             assert x['source'] in sources and x['currency'] in ('CNY','USD','EUR','HKD')
@@ -78,13 +80,50 @@ def validate(providers=None):
     for value in links.values():
         if value: url_valid(value)
     cfg=read('config/ranking.json'); assert abs(sum(cfg['quality_weights'].values())-1)<1e-9
+    if (ROOT/'config/coverage.json').exists():
+        for item in read('config/coverage.json')['items']:
+            assert item['source'] in sources
+            assert item['provider_id'] is None or item['provider_id'] in ids
     return providers
 
 def md(s):
     return str(s).replace('|','\\|').replace('\n',' ').replace('<','&lt;').replace('>','&gt;')
 
 def link(p):
-    return read('config/affiliate-links.json').get(p['id']) or p['official_url']
+    return read('config/affiliate-links.json').get(p['id']) or lookup_url(p)
+
+def lookup_url(p):
+    return p['official_url'] or next(s['url'] for s in read('config/sources.json') if s['id']==p['sources'][0])
+
+def recommendation(p):
+    """Source-editorial tiers, explicitly separate from measured quality."""
+    if p['status']=='inactive': return '0/5 · 已停用'
+    if p['status']=='watch': return '1/5 · 暂缓'
+    q=p['quality']; cfg=read('config/ranking.json')
+    if p['status']=='active' and q and fresh(q['tested_at'],cfg['stale_after_days']):
+        score=sum(q[k]*v for k,v in cfg['quality_weights'].items())/20
+        return f'{score:.1f}/5 · 实测'
+    if 'hwanz-paid' in p['sources']: return '★★★★☆ · 来源主推'
+    if 'panda' in p['sources']: return '★★★☆☆ · 来源收录'
+    return '★★☆☆☆ · 待核验候选'
+
+def overview_offer(p):
+    """Display price and quota from the very same entry-level plan."""
+    plans=[x for x in p['plans'] if x['billing_months']]
+    if not plans: plans=p['plans']
+    if not plans:
+        return '待核验', (p['trial']+'（活动记录）' if p['trial'] else '待核验')
+    # Compare only within one currency; currencies must not be silently converted.
+    currency='CNY' if any(x['currency']=='CNY' for x in plans) else plans[0]['currency']
+    plans=[x for x in plans if x['currency']==currency]
+    x=min(plans,key=lambda x:(x['price']/x['billing_months'] if x['billing_months'] else x['price'],x['price'],x['name']))
+    months=x['billing_months']; period={1:'月',3:'季',6:'半年',12:'年'}.get(months,f'{months}个月') if months else '不限时包'
+    price=f"{x['price']:g} {currency}/{period}"
+    if months and months>1: price+=f"（折合{x['price']/months:.2f}/月）"
+    if x['reset']=='unlimited': quota='不限量（留意限速）'
+    else:
+        quota=f"{x['traffic_gb']:g} GB"+('/月' if x['reset']=='monthly' else f'/{period}总量' if months else '总量（不限时）')
+    return price,quota
 
 def table(headers,rows):
     return '| '+' | '.join(headers)+' |\n| '+' | '.join('---' for _ in headers)+' |\n'+''.join('| '+' | '.join(md(v) for v in row)+' |\n' for row in rows)
@@ -93,21 +132,41 @@ def write(path,text):
     (ROOT/path).parent.mkdir(parents=True,exist_ok=True)
     (ROOT/path).write_text(text,encoding='utf-8')
 
+def generate_coverage(providers):
+    audit=read('config/coverage.json'); items=audit['items']
+    by_id={p['id']:p for p in providers}
+    text='# 三个参考仓库的汇总范围\n\n'
+    text+=f"核对日期：{audit['audited_at']}。服务名单逐项登记，套餐和免费活动仍需核验。原文的重复入口映射到同一资料页；不把收录等同于当前可用。\n\n"
+    text+='首次版本收录12家主力与17家低价服务，未完整收录免费来源；本次补齐免费／试用与补充服务名单，并单列付费来源已撤下的历史条目。\n\n'
+    sources={s['id']:s for s in read('config/sources.json')}
+    for sid in ('hwanz-paid','panda','hwanz-free'):
+        subset=[x for x in items if x['source']==sid]
+        text+=f"## [{sid}]({sources[sid]['url']})\n\n"
+        for section in dict.fromkeys(x['section'] for x in subset):
+            selected=[x for x in subset if x['section']==section]
+            text+=f'### {section}（{len(selected)}项）\n\n'
+            text+=table(['原文项目','汇总位置','处理方式'],[[x['name'],f"[{by_id[x['provider_id']]['name']}](../providers/{x['provider_id']}.md)" if x['provider_id'] else '[辅助范围说明](#辅助栏目的边界)',x['coverage']] for x in selected])+'\n'
+    text+='## 辅助栏目的边界\n\n免费来源的4个软件栏目已登记，其中365VPN有资料页，迷雾通与Lantern保留官方查询；绿茶VPN仅保留原来源查询，其旧HTTP入口未核验。8个节点池／订阅工具只登记项目名和来源，不转载公共订阅、节点凭据或流量刷取方案。改hosts、学术镜像、GitHub代理及其它博客只记录栏目范围，相关外部链接未逐条搬运。\n\n因此可以说**三个来源的服务名单已登记汇总**，不能说原文所有链接、套餐、优惠与节点都已完整复制或验证。免费来源历史数据较多，未知价格、容量和协议保留待核验。\n'
+    write('docs/coverage.md',text)
+
 def generate():
     ps=validate(); sources={s['id']:s for s in read('config/sources.json')}
+    generate_coverage(ps)
     intro='# 机场资料库 · 套餐对比与性价比排行\n\n'
     intro+='[![检查](https://github.com/luluarthub/airport-guide/actions/workflows/ci.yml/badge.svg)](https://github.com/luluarthub/airport-guide/actions/workflows/ci.yml)\n\n'
     intro+=f'收录 **{len(ps)} 家服务、{sum(len(p["plans"]) for p in ps)} 个套餐**。覆盖专线、中转、直连、低价、全年流量包和不限时套餐。资料按来源整理，未亲测条目明确标记。\n\n'
-    intro+='## 快速入口\n\n- [全部机场与信息查询](docs/catalog.md)\n- [性价比排行：已核验 / 参考 / 综合](docs/rankings.md)\n- [免费与试用入口](docs/trials.md)\n- [购前检查与场景选择](docs/buying.md)\n- [客户端与使用入门](docs/clients.md)\n- [故障排查与常见问题](docs/faq.md)\n- [入口检查与来源变更报告](reports/health.md)\n- [邀请码替换与自动维护](docs/maintenance.md)\n- [来源与数据说明](docs/sources.md)\n\n'
+    intro+='## 快速入口\n\n- [全部机场与信息查询](docs/catalog.md)\n- [性价比排行：已核验 / 参考 / 综合](docs/rankings.md)\n- [免费与试用入口](docs/trials.md)\n- [三个参考仓库的逐项汇总范围](docs/coverage.md)\n- [购前检查与场景选择](docs/buying.md)\n- [客户端与使用入门](docs/clients.md)\n- [故障排查与常见问题](docs/faq.md)\n- [入口检查与来源变更报告](reports/health.md)\n- [邀请码替换与自动维护](docs/maintenance.md)\n- [来源与数据说明](docs/sources.md)\n\n'
     intro+='## 按需求查找\n\nGitHub 页面内可使用浏览器搜索；每家都有独立资料页。需要多条件筛选可下载仓库后运行：\n\n```bash\npython3 scripts/catalog.py search --query 海獭\npython3 scripts/catalog.py search --route 直连 --max-monthly 20 --currency CNY\npython3 scripts/catalog.py search --protocol AnyTLS --reset total\n```\n\n'
     intro+='预算筛选按折合月费，全年共用与不限时包单独标识；真实支付金额见详情。下载 [JSON](reports/catalog.json) 或 [CSV](reports/plans.csv) 可在表格中筛选全部套餐。\n\n'
     intro+='## 机场概览\n\n'
     rows=[]; trial=[]; exported=[]
     for p in ps:
-        entry=f"[详情](../providers/{p['id']}.md)"; official=f"[官方入口]({p['official_url']})"; register=f"[注册入口]({link(p)})"
-        rows.append([p['name'],p['route'],' / '.join(p['protocols']),p['status'],entry,official])
+        entry=f"[详情](../providers/{p['id']}.md)"; official=f"[{'官方入口（来源记录）' if p['official_url'] else '来源入口（官网待补）'}]({lookup_url(p)})"; register=f"[注册入口]({link(p)})"
+        price,quota=overview_offer(p)
+        rows.append([p['name'],price,quota,recommendation(p),p['route'],p['status'],entry,official])
         text=f"# {p['name']}\n\n{official} · {register}\n\n"
         text+=f"资料观察日期：{p['observed_at']}；运营状态：{p['status']}（unverified=未实测，watch=来源提示问题）。\n\n"
+        text+=f"推荐指数：**{recommendation(p)}**；[指数依据](../docs/recommendation.md)。\n\n"
         text+=f"线路记录：{p['route']}\n\n协议记录：{' / '.join(p['protocols'])}\n\n客户端限制：{p['client_policy']}\n\n设备限制：{p['device_limit'] or '待核验'}\n\n地区：{'、'.join(p['regions']) or '待官网核验'}\n\n备注：{p['notes']}\n\n## 套餐\n\n"
         prows=[]
         for x in p['plans']:
@@ -117,6 +176,9 @@ def generate():
             prows.append([x['name'],f"{x['price']:g} {x['currency']}",period,flow,x['reset'],fee,f'{unit:.2f}' if unit is not None else '不参与流量排名',x['verified_at'] or '社区参考 / 待核验'])
             exported.append({'provider':p['name'],'id':p['id'],**x,'cost_per_100gb':unit,'registration_url':link(p)})
         text+=table(['套餐','支付金额','付费周期','额度','重置周期','手续费','每100GB价格（原币）','官网核验日期'],prows)
+        if not prows: text+='\n尚未录入可核对的付费套餐；不将历史免费／试用活动当作当前零元套餐。\n'
+        if p.get('trial_records'):
+            text+='\n### 免费／试用历史记录\n\n'+table(['来源','活动记录','资料观察日期'],[[x['source'],x['offer'],x['observed_at']] for x in p['trial_records']])
         text+='\nmonthly=每月重置；total=整个有效期共用；unlimited=不限量。倍率暂按1计算，实际节点倍率另查。手续费未知时单价不含手续费。\n\n## 信息查询入口\n\n'
         details=p.get('details',{})
         if details:
@@ -129,9 +191,12 @@ def generate():
         text+='\n[返回全部机场](../docs/catalog.md) · [查看排名方法](../docs/rankings.md)\n'
         write(f"providers/{p['id']}.md",text)
         if p['trial']: trial.append([p['name'],p['trial'],entry,official,'社区记录 / 待核验'])
-    catalog='# 全部机场与查询入口\n\n状态为资料标记，不是实时可用性。入口可达不代表代理节点可用。\n\n'+table(['机场','线路','协议','状态','资料','查询入口'],rows)
+    catalog='# 全部机场与查询入口\n\n价格与容量对应同一入门套餐；全年总量不等于每月额度。推荐指数采用[来源等级规则](recommendation.md)，不是未经测试的速度评分。状态为资料标记，不是实时可用性。\n\n'+table(['机场','参考价格','对应容量','推荐指数','线路','状态','资料','查询入口'],rows)
     write('docs/catalog.md',catalog)
-    intro+=table(['机场','线路','资料'],[[p['name'],p['route'],f"[查看](providers/{p['id']}.md)"] for p in ps])
+    intro+='价格和容量对应**同一个入门套餐**；多周期套餐按同币种最低折合月费选取，显示真实支付金额。全年共用流量标为总量。来源记录可能过期，未知手续费未计入。\n\n推荐指数采用[来源推荐等级](docs/recommendation.md)：★★★★☆ 来源当前主推、★★★☆☆ 来源普通收录、★★☆☆☆ 待核验候选；1/5 暂缓。**这些参考等级不等于本仓库实测评分**，仅反映收录依据。\n\n'
+    for title,group in [('有套餐资料', [p for p in ps if p['plans'] and p.get('category')!='historical']),('免费／试用及待核验候选',[p for p in ps if not p['plans'] and p.get('category')!='historical']),('已撤下的历史条目',[p for p in ps if p.get('category')=='historical'])]:
+        if group:
+            intro+=f'### {title}\n\n'+table(['机场','参考价格','对应容量','推荐指数','线路','资料'],[[p['name'],*overview_offer(p),recommendation(p),p['route'],f"[查看](providers/{p['id']}.md)"] for p in group])+'\n'
     intro+='\n## 透明原则\n\n价格按来源和核验日期公开；参考数据不冒充实测。推广链接不参与评分，默认全部使用无邀请码的入口，配置后可能包含推广收益。榜单按币种、重置方式分组，不通过猜测汇率混排。\n\n仅检查公开网站，不公开用户订阅、节点凭据或账号信息。速度与解锁需要有日期、地区和运营商的测试证据。建议先短期验证自己的网络体验。\n\n## 更新与贡献\n\n每天北京时间 10:17 自动检查入口和参考来源，生成报告；每次提交自动校验数据和页面。资料修改用 JSON 单一来源，避免 README 与详情互相矛盾。参见 [维护说明](docs/maintenance.md) 和 [贡献流程](CONTRIBUTING.md)。\n\n代码采用 MIT；社区参考仓库文章、截图与品牌标识未复制，相关权利归原作者。\n'
     write('README.md',intro)
     ranking='# 性价比排行\n\n价格单价只是一个维度。低价格不代表节点稳定、解锁可靠或未来持续运营。\n\n**每100GB成本 = 支付价格 × (1 + 已知手续费) ÷ 可用流量 × 节点倍率 × 100**。月重置流量乘付费月数；全年共用和不限时流量不乘。未知手续费与倍率差异另行核验。\n\n榜单展示每家在该组的最低单位成本套餐，保留真实预付金额。美元与人民币分组；不限量套餐没有可比流量单价。\n\n'
@@ -170,7 +235,7 @@ def search(args):
         if args.route and args.route not in p['route']: continue
         if args.protocol and args.protocol.casefold() not in ' '.join(p['protocols']).casefold(): continue
         plans=[x for x in p['plans'] if (not args.currency or x['currency']==args.currency) and (not args.reset or x['reset']==args.reset) and (args.max_monthly is None or x['billing_months'] and x['price']/x['billing_months']<=args.max_monthly)]
-        if not plans: continue
+        if not plans and (p['plans'] or args.currency or args.reset or args.max_monthly is not None): continue
         print(json.dumps({'name':p['name'],'status':p['status'],'official_url':p['official_url'],'registration_url':link(p),'plans':plans},ensure_ascii=False))
 
 if __name__=='__main__':

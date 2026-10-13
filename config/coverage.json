@@ -1,0 +1,824 @@
+{
+  "audited_at": "2026-10-13",
+  "items": [
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "灯塔加速器",
+      "provider_id": "dengta",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "freesocks",
+      "provider_id": "freesocks",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "幽速101",
+      "provider_id": "ghost101",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "乐猫",
+      "provider_id": "lemao",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "榴莲加速器",
+      "provider_id": "liulian",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "ikuuu",
+      "provider_id": "ikuuu",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "万达云",
+      "provider_id": "wandayun",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "泰山机场",
+      "provider_id": "taishan",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "白变小樱",
+      "provider_id": "bbxy",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "flybit",
+      "provider_id": "flybit",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "纵云梯",
+      "provider_id": "zongyunti",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "加速啦",
+      "provider_id": "jiasula",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "白羊星",
+      "provider_id": "baiyangxing",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "爱翻机场",
+      "provider_id": "afun",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "中国国际机场",
+      "provider_id": "china-international",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "Arisaka",
+      "provider_id": "arisaka",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "Free机场",
+      "provider_id": "free-airport",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "ssrsub",
+      "provider_id": "ssrsub",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "Speedy",
+      "provider_id": "speedy",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "qlgq",
+      "provider_id": "qlgq",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "xqc.best",
+      "provider_id": "xqc",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "奈云",
+      "provider_id": "naiyun",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "ikuuu",
+      "provider_id": "ikuuu",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "盛丰",
+      "provider_id": "shengfeng",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "极光加速",
+      "provider_id": "jiguang",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "一元机场",
+      "provider_id": "yiyuan",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "雨燕云",
+      "provider_id": "yuyan",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "极客加速器",
+      "provider_id": "jike",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "FSCloud",
+      "provider_id": "fscloud",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "逗猫",
+      "provider_id": "doucat",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "魔戒",
+      "provider_id": "mojie",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "besnow",
+      "provider_id": "besnow",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "狗头加速器",
+      "provider_id": "goutou",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "TaiShan Net",
+      "provider_id": "taishan",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "速云",
+      "provider_id": "suyun",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "GLaDOS",
+      "provider_id": "glados",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "tly",
+      "provider_id": "tly",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "sockboom",
+      "provider_id": "sockboom",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "KELECLOUD",
+      "provider_id": "kelecloud",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "大牛机场",
+      "provider_id": "daniu",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "快乐星球",
+      "provider_id": "kuailexingqiu",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "BT3rd-Speed",
+      "provider_id": "bt3",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "彩虹云",
+      "provider_id": "caihong",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "宝贝云",
+      "provider_id": "baobei",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "proxyvip",
+      "provider_id": "proxyvip",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "大迅云",
+      "provider_id": "daxun",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "BCast",
+      "provider_id": "bcast",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "Bochidev",
+      "provider_id": "bochidev",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "cd520",
+      "provider_id": "cd520",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "翱翔云",
+      "provider_id": "aoxiang",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "Mickey",
+      "provider_id": "mickey",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "农夫山泉",
+      "provider_id": "nfsq",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "cocolink",
+      "provider_id": "cocolink",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "alori",
+      "provider_id": "alori",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "aimacloud",
+      "provider_id": "aimacloud",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "Synapse",
+      "provider_id": "synapse",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "难民机场",
+      "provider_id": "nanmin",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "BBQ烧烤店",
+      "provider_id": "bbq",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "猫熊网络加速器",
+      "provider_id": "maoxiong",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "纵横加速",
+      "provider_id": "zongheng",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "JetFast 极快代理",
+      "provider_id": "jetfast",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费／试用名单",
+      "name": "闪电狗",
+      "provider_id": "shandiangou",
+      "coverage": "资料条目；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "付费补充名单",
+      "name": "疾风",
+      "provider_id": "jifeng",
+      "coverage": "查询入口；套餐待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "付费补充名单",
+      "name": "edCloud",
+      "provider_id": "edcloud",
+      "coverage": "查询入口；套餐待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "付费补充名单",
+      "name": "贝贝云",
+      "provider_id": "beibei",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "付费补充名单",
+      "name": "海獭",
+      "provider_id": "haita",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "付费补充名单",
+      "name": "TAG",
+      "provider_id": "tag",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "付费补充名单",
+      "name": "Kycloud",
+      "provider_id": "kycloud",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "hwanz-paid",
+      "section": "已撤下／注释历史条目",
+      "name": "瑶瑶领先",
+      "provider_id": "yylx",
+      "coverage": "历史记录；暂缓推荐"
+    },
+    {
+      "source": "hwanz-paid",
+      "section": "已撤下／注释历史条目",
+      "name": "web3加速器",
+      "provider_id": "web3",
+      "coverage": "历史记录；暂缓推荐"
+    },
+    {
+      "source": "hwanz-paid",
+      "section": "已撤下／注释历史条目",
+      "name": "龙猫云",
+      "provider_id": "longmaoyun",
+      "coverage": "历史记录；暂缓推荐"
+    },
+    {
+      "source": "hwanz-paid",
+      "section": "已撤下／注释历史条目",
+      "name": "万达云",
+      "provider_id": "wandayun",
+      "coverage": "历史记录；暂缓推荐"
+    },
+    {
+      "source": "panda",
+      "section": "套餐对比表",
+      "name": "念云",
+      "provider_id": "nianyun",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "hwanz-paid",
+      "section": "当前推荐名单",
+      "name": "TAG",
+      "provider_id": "tag",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "hwanz-paid",
+      "section": "当前推荐名单",
+      "name": "海獭",
+      "provider_id": "haita",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "panda",
+      "section": "套餐对比表",
+      "name": "农夫山泉",
+      "provider_id": "nfsq",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "hwanz-paid",
+      "section": "当前推荐名单",
+      "name": "365VPN",
+      "provider_id": "365vpn",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "hwanz-paid",
+      "section": "当前推荐名单",
+      "name": "老猫云",
+      "provider_id": "laomao",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "panda",
+      "section": "套餐对比表",
+      "name": "ofoNET",
+      "provider_id": "ofonet",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "hwanz-paid",
+      "section": "当前推荐名单",
+      "name": "BoostNet",
+      "provider_id": "boostnet",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "hwanz-paid",
+      "section": "当前推荐名单",
+      "name": "悠兔",
+      "provider_id": "youtu",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "hwanz-paid",
+      "section": "当前推荐名单",
+      "name": "Just My Socks",
+      "provider_id": "jms",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "panda",
+      "section": "套餐对比表",
+      "name": "兔兔云",
+      "provider_id": "tutuyun",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "panda",
+      "section": "套餐对比表",
+      "name": "iNetS",
+      "provider_id": "inets",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "hwanz-paid",
+      "section": "当前推荐名单",
+      "name": "山海",
+      "provider_id": "shanhai",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "panda",
+      "section": "套餐对比表",
+      "name": "FlyBit",
+      "provider_id": "flybit",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "panda",
+      "section": "套餐对比表",
+      "name": "NyanSS",
+      "provider_id": "nyanss",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "panda",
+      "section": "套餐对比表",
+      "name": "自由猫",
+      "provider_id": "freecat",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "panda",
+      "section": "套餐对比表",
+      "name": "赔钱机场",
+      "provider_id": "peiqian",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "panda",
+      "section": "套餐对比表",
+      "name": "壹速云",
+      "provider_id": "onesy",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "panda",
+      "section": "套餐对比表",
+      "name": "happy猫",
+      "provider_id": "happymao",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "panda",
+      "section": "套餐对比表",
+      "name": "良心云",
+      "provider_id": "liangxin",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "panda",
+      "section": "套餐对比表",
+      "name": "蜂窝云",
+      "provider_id": "fwcloud",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "panda",
+      "section": "套餐对比表",
+      "name": "次元雲",
+      "provider_id": "ciyy",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "hwanz-paid",
+      "section": "当前推荐名单",
+      "name": "E-IX",
+      "provider_id": "eix",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "panda",
+      "section": "套餐对比表",
+      "name": "M78星云",
+      "provider_id": "m78star",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "panda",
+      "section": "套餐对比表",
+      "name": "飞喵云",
+      "provider_id": "fmyun",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "hwanz-paid",
+      "section": "当前推荐名单",
+      "name": "贝贝云",
+      "provider_id": "beibei",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "hwanz-paid",
+      "section": "当前推荐名单",
+      "name": "WgetCloud",
+      "provider_id": "wgetcloud",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "panda",
+      "section": "套餐对比表",
+      "name": "一分机场",
+      "provider_id": "yifen",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "hwanz-paid",
+      "section": "当前推荐名单",
+      "name": "Kycloud",
+      "provider_id": "kycloud",
+      "coverage": "已有套餐与详情"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费软件",
+      "name": "365VPN",
+      "provider_id": "365vpn",
+      "coverage": "工具查询；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费软件",
+      "name": "迷雾通",
+      "provider_id": null,
+      "coverage": "工具查询；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费软件",
+      "name": "Lantern",
+      "provider_id": null,
+      "coverage": "工具查询；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "免费软件",
+      "name": "绿茶VPN",
+      "provider_id": null,
+      "coverage": "工具查询；活动待核验"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "节点池／订阅工具",
+      "name": "pmsub",
+      "provider_id": null,
+      "coverage": "仅记录名称与来源，不转载公共订阅或流量刷取方案"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "节点池／订阅工具",
+      "name": "fovi",
+      "provider_id": null,
+      "coverage": "仅记录名称与来源，不转载公共订阅或流量刷取方案"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "节点池／订阅工具",
+      "name": "sharecentre",
+      "provider_id": null,
+      "coverage": "仅记录名称与来源，不转载公共订阅或流量刷取方案"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "节点池／订阅工具",
+      "name": "小三VPN",
+      "provider_id": null,
+      "coverage": "仅记录名称与来源，不转载公共订阅或流量刷取方案"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "节点池／订阅工具",
+      "name": "橘子公益云",
+      "provider_id": null,
+      "coverage": "仅记录名称与来源，不转载公共订阅或流量刷取方案"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "节点池／订阅工具",
+      "name": "WARP-Clash-API",
+      "provider_id": null,
+      "coverage": "仅记录名称与来源，不转载公共订阅或流量刷取方案"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "节点池／订阅工具",
+      "name": "bocchi2b",
+      "provider_id": null,
+      "coverage": "仅记录名称与来源，不转载公共订阅或流量刷取方案"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "节点池／订阅工具",
+      "name": "chromego_merge",
+      "provider_id": null,
+      "coverage": "仅记录名称与来源，不转载公共订阅或流量刷取方案"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "其它辅助栏目",
+      "name": "改hosts",
+      "provider_id": null,
+      "coverage": "范围记录，非机场条目；具体链接未搬运"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "其它辅助栏目",
+      "name": "学术镜像",
+      "provider_id": null,
+      "coverage": "范围记录，非机场条目；具体链接未搬运"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "其它辅助栏目",
+      "name": "GitHub代理",
+      "provider_id": null,
+      "coverage": "范围记录，非机场条目；具体链接未搬运"
+    },
+    {
+      "source": "hwanz-free",
+      "section": "其它辅助栏目",
+      "name": "其它博客",
+      "provider_id": null,
+      "coverage": "范围记录，非机场条目；具体链接未搬运"
+    }
+  ]
+}

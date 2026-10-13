@@ -89,6 +89,319 @@
     ]
   },
   {
+    "id": "afun",
+    "name": "爱翻机场",
+    "official_url": "https://dash.afun.la/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "3天 / 10GB；来源称限速200Mbps",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "3天 / 10GB；来源称限速200Mbps",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "aimacloud",
+    "name": "aimacloud",
+    "official_url": "https://www.aimacloud.info/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "6天 / 20GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "6天 / 20GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "alori",
+    "name": "alori",
+    "official_url": "https://oukasou.xyz/index.php",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "6天 / 50GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "6天 / 50GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "aoxiang",
+    "name": "翱翔云",
+    "official_url": "https://www.aoxiangyun.top/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "7天 / 20GB；签到规则待核验",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "7天 / 20GB；签到规则待核验",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "arisaka",
+    "name": "Arisaka",
+    "official_url": null,
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "10GB；期限待核验",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。 原文只提供不透明短链，未保留可能含邀请码的跳转；入口待补。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [
+      {
+        "name": "来源入门套餐",
+        "price": 15.99,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 80,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-free",
+        "verified_at": null
+      }
+    ],
+    "quality": null,
+    "category": "paid",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "10GB；期限待核验",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "baiyangxing",
+    "name": "白羊星",
+    "official_url": "https://baiyangxing.com/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "1天 / 5GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "1天 / 5GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "baobei",
+    "name": "宝贝云",
+    "official_url": "https://v3ssy.xyz/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "1天 / 2GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "1天 / 2GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "bbq",
+    "name": "BBQ烧烤店",
+    "official_url": "https://qiaoxbbq.com/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "7天 / 10GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "7天 / 10GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "bbxy",
+    "name": "白变小樱",
+    "official_url": "https://bbxy.xn--cesw6hd3s99f.com/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "3天 / 10GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "3天 / 10GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "bcast",
+    "name": "BCast",
+    "official_url": "https://bcast.ink/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "6天 / 10GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "6天 / 10GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
     "id": "beibei",
     "name": "贝贝云",
     "official_url": "https://jctj.beibei.cloud",
@@ -111,7 +424,8 @@
     "notes": "来源提示地区限制及支付手续费，购买前核对。",
     "observed_at": "2026-10-13",
     "sources": [
-      "hwanz-paid"
+      "hwanz-paid",
+      "hwanz-free"
     ],
     "plans": [
       {
@@ -178,6 +492,66 @@
     "review_links": [
       "https://jichangcesu.com/beibeicloud.html",
       "https://jichangcesu.com/uploads/vpn/beibei.webp"
+    ]
+  },
+  {
+    "id": "besnow",
+    "name": "besnow",
+    "official_url": "https://besnow.me/index.php",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "3天 / 9GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "3天 / 9GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "bochidev",
+    "name": "Bochidev",
+    "official_url": "https://b0chi.r-yu.me/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "不限时 / 50GB；领取规则待核验",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "不限时 / 50GB；领取规则待核验",
+        "observed_at": "2026-10-13"
+      }
     ]
   },
   {
@@ -273,6 +647,126 @@
     ]
   },
   {
+    "id": "bt3",
+    "name": "BT3rd-Speed",
+    "official_url": "https://px.bt3.one/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "6天 / 10GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "6天 / 10GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "caihong",
+    "name": "彩虹云",
+    "official_url": "https://chy.fit/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "1天 / 10GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "1天 / 10GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "cd520",
+    "name": "cd520",
+    "official_url": "https://cd520.xyz/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "3天 / 5GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "3天 / 5GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "china-international",
+    "name": "中国国际机场",
+    "official_url": "https://affman.mellanox.fyi/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "2天 / 15GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "2天 / 15GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
     "id": "ciyy",
     "name": "次元雲",
     "official_url": "https://ciyy.one/",
@@ -318,6 +812,179 @@
       }
     ],
     "quality": null
+  },
+  {
+    "id": "cocolink",
+    "name": "cocolink",
+    "official_url": "https://cocolink.org/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "7天 / 64GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "7天 / 64GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "daniu",
+    "name": "大牛机场",
+    "official_url": "https://daniu.e300daniu.top/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "1小时 / 1GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "1小时 / 1GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "daxun",
+    "name": "大迅云",
+    "official_url": "https://daxun.club/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "2天 / 10GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "2天 / 10GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "dengta",
+    "name": "灯塔加速器",
+    "official_url": "https://www.dengta12.com/reg",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "3天；额度待核验",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "3天；额度待核验",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "doucat",
+    "name": "逗猫",
+    "official_url": "https://doucat.top/index.php",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "1天 / 3GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "1天 / 3GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "edcloud",
+    "name": "edCloud",
+    "official_url": "https://cdn.ednovas.org/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": null,
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "paid"
   },
   {
     "id": "eix",
@@ -410,7 +1077,8 @@
     "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。",
     "observed_at": "2026-10-13",
     "sources": [
-      "panda"
+      "panda",
+      "hwanz-free"
     ],
     "plans": [
       {
@@ -438,7 +1106,14 @@
         "verified_at": null
       }
     ],
-    "quality": null
+    "quality": null,
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "1天 / 2GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
   },
   {
     "id": "fmyun",
@@ -488,6 +1163,36 @@
     "quality": null
   },
   {
+    "id": "free-airport",
+    "name": "Free机场",
+    "official_url": "https://zero.76898102.xyz",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "公益节点；领取方式待核验",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "公益节点；领取方式待核验",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
     "id": "freecat",
     "name": "自由猫",
     "official_url": "https://us.freecat.cloud/",
@@ -535,6 +1240,66 @@
     "quality": null
   },
   {
+    "id": "freesocks",
+    "name": "freesocks",
+    "official_url": "https://freesocks.org/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "免费节点；额度待核验",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。 来源列付费价格5美元/月，付费容量未说明，未录入排名。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "免费节点；额度待核验",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "fscloud",
+    "name": "FSCloud",
+    "official_url": "https://dash.fscloud.cc/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "3天 / 10GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "3天 / 10GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
     "id": "fwcloud",
     "name": "蜂窝云",
     "official_url": "https://api.fwcloud.life/",
@@ -570,6 +1335,96 @@
     "quality": null
   },
   {
+    "id": "ghost101",
+    "name": "幽速101",
+    "official_url": "https://101ghost.com/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "公益节点；额度待核验",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "公益节点；额度待核验",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "glados",
+    "name": "GLaDOS",
+    "official_url": "https://glados.space/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "4天 / 10GB；签到规则待核验",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "4天 / 10GB；签到规则待核验",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "goutou",
+    "name": "狗头加速器",
+    "official_url": "https://lksi.xyz/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "5天 / 5GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "5天 / 5GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
     "id": "haita",
     "name": "海獭",
     "official_url": "https://haita.link",
@@ -594,7 +1449,8 @@
     "notes": "解锁与地区限制待实测；导入兼容性向官方客服确认。",
     "observed_at": "2026-10-13",
     "sources": [
-      "hwanz-paid"
+      "hwanz-paid",
+      "hwanz-free"
     ],
     "plans": [
       {
@@ -711,6 +1567,36 @@
     "quality": null
   },
   {
+    "id": "ikuuu",
+    "name": "ikuuu",
+    "official_url": "https://ikuuu.de/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "50GB；来源称不限时",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "50GB；来源称不限时",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
     "id": "inets",
     "name": "iNetS",
     "official_url": "https://inets.io/",
@@ -744,6 +1630,149 @@
       }
     ],
     "quality": null
+  },
+  {
+    "id": "jetfast",
+    "name": "JetFast 极快代理",
+    "official_url": "https://my.jetfast.dev/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "1个月 / 5GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "1个月 / 5GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "jiasula",
+    "name": "加速啦",
+    "official_url": "https://jiasu.la/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "不限时 / 1GB；签到规则待核验",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "不限时 / 1GB；签到规则待核验",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "jifeng",
+    "name": "疾风",
+    "official_url": "https://jifeng468.xyz/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": null,
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "paid"
+  },
+  {
+    "id": "jiguang",
+    "name": "极光加速",
+    "official_url": "https://jgjs02.com/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "2天 / 10GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "2天 / 10GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "jike",
+    "name": "极客加速器",
+    "official_url": "https://board.jike99.xyz/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "3天 / 5GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "3天 / 5GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
   },
   {
     "id": "jms",
@@ -830,6 +1859,66 @@
     "review_links": []
   },
   {
+    "id": "kelecloud",
+    "name": "KELECLOUD",
+    "official_url": "https://panel.keleofficial.com/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "1天 / 1GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "1天 / 1GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "kuailexingqiu",
+    "name": "快乐星球",
+    "official_url": "https://klxq.djgskc.top/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "7天 / 10GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "7天 / 10GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
     "id": "kycloud",
     "name": "Kycloud",
     "official_url": "https://my.ihcloud.cc",
@@ -864,7 +1953,8 @@
     "notes": "部分高档套餐流量周期在来源中存疑，暂不收录；付款可能有手续费。",
     "observed_at": "2026-10-13",
     "sources": [
-      "hwanz-paid"
+      "hwanz-paid",
+      "hwanz-free"
     ],
     "plans": [
       {
@@ -1016,6 +2106,36 @@
     ]
   },
   {
+    "id": "lemao",
+    "name": "乐猫",
+    "official_url": "https://a1.lemao888.top/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "30天 / 500GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "30天 / 500GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
     "id": "liangxin",
     "name": "良心云",
     "official_url": "https://xn--9kqz23b19z.com/",
@@ -1061,6 +2181,59 @@
       }
     ],
     "quality": null
+  },
+  {
+    "id": "liulian",
+    "name": "榴莲加速器",
+    "official_url": "https://www.liulianvpn.org/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "30天 / 100GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "30天 / 100GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "longmaoyun",
+    "name": "龙猫云",
+    "official_url": "https://jichangtj01.lmvipaff.com/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": null,
+    "status": "watch",
+    "notes": "来源将该条目置于HTML注释中，已不在当前推荐名单；保留历史查询，当前套餐和恢复状态待核验。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-paid"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "historical"
   },
   {
     "id": "m78star",
@@ -1110,6 +2283,156 @@
     "quality": null
   },
   {
+    "id": "maoxiong",
+    "name": "猫熊网络加速器",
+    "official_url": "https://mxwljsq.xyz/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "3天 / 5GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "3天 / 5GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "mickey",
+    "name": "Mickey",
+    "official_url": "https://www.mickey.business/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "3天 / 2GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "3天 / 2GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "mojie",
+    "name": "魔戒",
+    "official_url": "https://www.mojie.me/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "试用价1元 / 2GB；期限待核验",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "试用价1元 / 2GB；期限待核验",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "naiyun",
+    "name": "奈云",
+    "official_url": "https://www.v2ny.com/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "3天 / 5GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "3天 / 5GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "nanmin",
+    "name": "难民机场",
+    "official_url": "https://nanmin.xyz/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "2天 / 5GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "2天 / 5GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
     "id": "nfsq",
     "name": "农夫山泉",
     "official_url": "https://w05.nfsqweba01.cc/",
@@ -1121,12 +2444,13 @@
     "regions": [],
     "client_policy": "仅官方客户端（社区记录）",
     "device_limit": null,
-    "trial": null,
+    "trial": "2天 / 1GB",
     "status": "watch",
     "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。 来源标为存在问题，排除排行；需核实恢复情况。",
     "observed_at": "2026-10-13",
     "sources": [
-      "panda"
+      "panda",
+      "hwanz-free"
     ],
     "plans": [
       {
@@ -1154,7 +2478,14 @@
         "verified_at": null
       }
     ],
-    "quality": null
+    "quality": null,
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "2天 / 1GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
   },
   {
     "id": "nianyun",
@@ -1380,6 +2711,96 @@
     "quality": null
   },
   {
+    "id": "proxyvip",
+    "name": "proxyvip",
+    "official_url": "https://www.proxyvip.xyz/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "1天 / 1GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "1天 / 1GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "qlgq",
+    "name": "qlgq",
+    "official_url": "https://www.qlgq.top/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "7天 / 888GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "7天 / 888GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "shandiangou",
+    "name": "闪电狗",
+    "official_url": "https://shandiandog.com/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "3天 / 50GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "3天 / 50GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
     "id": "shanhai",
     "name": "山海",
     "official_url": "https://shanhai.me",
@@ -1472,6 +2893,186 @@
     ]
   },
   {
+    "id": "shengfeng",
+    "name": "盛丰",
+    "official_url": "https://xn--iiq540h.com/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "5天 / 1GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "5天 / 1GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "sockboom",
+    "name": "sockboom",
+    "official_url": "https://sockboom.love/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "1天 / 1GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "1天 / 1GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "speedy",
+    "name": "Speedy",
+    "official_url": "https://cloud.speedypro.xyz/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "7天 / 10GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "7天 / 10GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "ssrsub",
+    "name": "ssrsub",
+    "official_url": "https://sub.ssrsub.com/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "来源称有零元活动；是否有效待核验",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "来源称有零元活动；是否有效待核验",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "suyun",
+    "name": "速云",
+    "official_url": "https://zhu.suyun.bio/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "3天 / 10GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "3天 / 10GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "synapse",
+    "name": "Synapse",
+    "official_url": "https://user.xinna.co/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "3天 / 5GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "3天 / 5GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
     "id": "tag",
     "name": "TAG",
     "official_url": "https://honven.l49.net",
@@ -1492,7 +3093,8 @@
     "notes": "冷门地区与家宽IP为社区描述；国际站可能需单独购买。",
     "observed_at": "2026-10-13",
     "sources": [
-      "hwanz-paid"
+      "hwanz-paid",
+      "hwanz-free"
     ],
     "plans": [
       {
@@ -1550,6 +3152,79 @@
     ]
   },
   {
+    "id": "taishan",
+    "name": "泰山机场",
+    "official_url": "https://jp.taishan.pro/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "7天 / 10GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [
+      {
+        "name": "来源入门套餐",
+        "price": 8.5,
+        "currency": "CNY",
+        "billing_months": 1,
+        "traffic_gb": 64,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-free",
+        "verified_at": null
+      }
+    ],
+    "quality": null,
+    "category": "paid",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "7天 / 10GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "tly",
+    "name": "tly",
+    "official_url": "https://tly.sh/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "3天 / 2GB；签到规则待核验",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "3天 / 2GB；签到规则待核验",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
     "id": "tutuyun",
     "name": "兔兔云",
     "official_url": "https://www.tutuyun.uk/",
@@ -1595,6 +3270,60 @@
       }
     ],
     "quality": null
+  },
+  {
+    "id": "wandayun",
+    "name": "万达云",
+    "official_url": "https://www.z1z1.top/vip",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "3GB；期限待核验",
+    "status": "watch",
+    "notes": "来源将该条目置于HTML注释中，已不在当前推荐名单；保留历史查询，当前套餐和恢复状态待核验。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free",
+      "hwanz-paid"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "historical",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "3GB；期限待核验",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "web3",
+    "name": "web3加速器",
+    "official_url": null,
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": null,
+    "status": "watch",
+    "notes": "来源将该条目置于HTML注释中，已不在当前推荐名单；保留历史查询，当前套餐和恢复状态待核验。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-paid"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "historical"
   },
   {
     "id": "wgetcloud",
@@ -1692,6 +3421,36 @@
     ]
   },
   {
+    "id": "xqc",
+    "name": "xqc.best",
+    "official_url": "https://xqc.best/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "来源称可能已无活动，待核验",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "来源称可能已无活动，待核验",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
     "id": "yifen",
     "name": "一分机场",
     "official_url": "https://xn--4gqx1hgtfdmt.com/",
@@ -1737,6 +3496,42 @@
       }
     ],
     "quality": null
+  },
+  {
+    "id": "yiyuan",
+    "name": "一元机场",
+    "official_url": "https://xn--4gq62f52gdss.com/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": null,
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [
+      {
+        "name": "来源入门套餐",
+        "price": 11,
+        "currency": "CNY",
+        "billing_months": 12,
+        "traffic_gb": 50,
+        "reset": "monthly",
+        "multiplier": 1,
+        "fee_percent": null,
+        "source": "hwanz-free",
+        "verified_at": null
+      }
+    ],
+    "quality": null,
+    "category": "paid"
   },
   {
     "id": "youtu",
@@ -1816,6 +3611,119 @@
     "review_links": [
       "https://jichangcesu.com/便宜SS机场推荐之悠兔.html",
       "https://jichangcesu.com/uploads/vpn/youtu.webp"
+    ]
+  },
+  {
+    "id": "yuyan",
+    "name": "雨燕云",
+    "official_url": "https://yuyan.online/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "8小时 / 1GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "8小时 / 1GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "yylx",
+    "name": "瑶瑶领先",
+    "official_url": "https://yyssr.net/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": null,
+    "status": "watch",
+    "notes": "来源将该条目置于HTML注释中，已不在当前推荐名单；保留历史查询，当前套餐和恢复状态待核验。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-paid"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "historical"
+  },
+  {
+    "id": "zongheng",
+    "name": "纵横加速",
+    "official_url": "https://www.okvpn.cc/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "7天 / 2GB",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "7天 / 2GB",
+        "observed_at": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "id": "zongyunti",
+    "name": "纵云梯",
+    "official_url": "https://zongyunti.com/",
+    "mirrors": [],
+    "route": "待核验",
+    "protocols": [
+      "待核验"
+    ],
+    "regions": [],
+    "client_policy": "待核验",
+    "device_limit": null,
+    "trial": "不限时 / 1GB；签到规则待核验",
+    "status": "unverified",
+    "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+    "observed_at": "2026-10-13",
+    "sources": [
+      "hwanz-free"
+    ],
+    "plans": [],
+    "quality": null,
+    "category": "trial",
+    "trial_records": [
+      {
+        "source": "hwanz-free",
+        "offer": "不限时 / 1GB；签到规则待核验",
+        "observed_at": "2026-10-13"
+      }
     ]
   }
 ]

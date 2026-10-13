@@ -1,0 +1,31 @@
+{
+  "id": "wandayun",
+  "name": "万达云",
+  "official_url": "https://www.z1z1.top/vip",
+  "mirrors": [],
+  "route": "待核验",
+  "protocols": [
+    "待核验"
+  ],
+  "regions": [],
+  "client_policy": "待核验",
+  "device_limit": null,
+  "trial": "3GB；期限待核验",
+  "status": "watch",
+  "notes": "来源将该条目置于HTML注释中，已不在当前推荐名单；保留历史查询，当前套餐和恢复状态待核验。",
+  "observed_at": "2026-10-13",
+  "sources": [
+    "hwanz-free",
+    "hwanz-paid"
+  ],
+  "plans": [],
+  "quality": null,
+  "category": "historical",
+  "trial_records": [
+    {
+      "source": "hwanz-free",
+      "offer": "3GB；期限待核验",
+      "observed_at": "2026-10-13"
+    }
+  ]
+}

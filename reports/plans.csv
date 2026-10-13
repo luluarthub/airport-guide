@@ -1,6 +1,7 @@
 provider,id,name,price,currency,billing_months,traffic_gb,reset,multiplier,fee_percent,source,verified_at,cost_per_100gb,registration_url
 365VPN,365vpn,基础月卡,38.88,CNY,1,,unlimited,1,,hwanz-paid,,,https://365vpn.org
 365VPN,365vpn,标准月卡,58.88,CNY,1,,unlimited,1,,hwanz-paid,,,https://365vpn.org
+Arisaka,arisaka,来源入门套餐,15.99,CNY,1,80,monthly,1,,hwanz-free,,19.9875,https://github.com/hwanz/SSR-V2ray-Trojan-vpn
 贝贝云,beibei,半年100G,129.9,CNY,6,100,monthly,1,,hwanz-paid,,21.65,https://jctj.beibei.cloud
 贝贝云,beibei,年付100G,249.9,CNY,12,100,monthly,1,,hwanz-paid,,20.825000000000003,https://jctj.beibei.cloud
 贝贝云,beibei,半年200G,189.9,CNY,6,200,monthly,1,,hwanz-paid,,15.825,https://jctj.beibei.cloud
@@ -60,6 +61,7 @@ ofoNET,ofonet,月付,12.87,CNY,1,200.0,monthly,1,,panda,,6.434999999999999,https
 TAG,tag,特选全年包,154,CNY,12,200,total,1,,hwanz-paid,,77.0,https://honven.l49.net
 TAG,tag,Bronze季付,176,CNY,3,250,monthly,1,,hwanz-paid,,23.466666666666665,https://honven.l49.net
 TAG,tag,Silver月付,109,CNY,1,500,monthly,1,,hwanz-paid,,21.8,https://honven.l49.net
+泰山机场,taishan,来源入门套餐,8.5,CNY,1,64,monthly,1,,hwanz-free,,13.28125,https://jp.taishan.pro/
 兔兔云,tutuyun,月付,11.88,CNY,1,140.0,monthly,1,,panda,,8.485714285714288,https://www.tutuyun.uk/
 兔兔云,tutuyun,不限时流量包,18.0,CNY,,60.0,total,1,,panda,,30.0,https://www.tutuyun.uk/
 WgetCloud,wgetcloud,基础月付,59,CNY,1,140,monthly,1,,hwanz-paid,,42.142857142857146,https://invite.wgetcloud.ltd
@@ -67,6 +69,7 @@ WgetCloud,wgetcloud,优质月付,69,CNY,1,160,monthly,1,,hwanz-paid,,43.125,http
 WgetCloud,wgetcloud,精品月付,79,CNY,1,180,monthly,1,,hwanz-paid,,43.888888888888886,https://invite.wgetcloud.ltd
 一分机场,yifen,月付,2.0,CNY,1,100.0,monthly,1,,panda,,2.0,https://xn--4gqx1hgtfdmt.com/
 一分机场,yifen,不限时流量包,19.88,CNY,,1000.0,total,1,,panda,,1.9879999999999998,https://xn--4gqx1hgtfdmt.com/
+一元机场,yiyuan,来源入门套餐,11,CNY,12,50,monthly,1,,hwanz-free,,1.8333333333333333,https://xn--4gq62f52gdss.com/
 悠兔,youtu,全年流量包,199,CNY,12,200,total,1,,hwanz-paid,,99.5,https://jctj.youtunice.com
 悠兔,youtu,半年标准,210,CNY,6,150,monthly,1,,hwanz-paid,,23.333333333333332,https://jctj.youtunice.com
 悠兔,youtu,大流量月付,119,CNY,1,1000,monthly,1,,hwanz-paid,,11.899999999999999,https://jctj.youtunice.com

@@ -21,7 +21,8 @@
   "notes": "来源提示地区限制及支付手续费，购买前核对。",
   "observed_at": "2026-10-13",
   "sources": [
-    "hwanz-paid"
+    "hwanz-paid",
+    "hwanz-free"
   ],
   "plans": [
     {

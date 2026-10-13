@@ -1,8 +1,10 @@
 # 海獭
 
-[官方入口](https://haita.link) · [注册入口](https://haita.link)
+[官方入口（来源记录）](https://haita.link) · [注册入口](https://haita.link)
 
 资料观察日期：2026-10-13；运营状态：unverified（unverified=未实测，watch=来源提示问题）。
+
+推荐指数：**★★★★☆ · 来源主推**；[指数依据](../docs/recommendation.md)。
 
 线路记录：中转 / 透传
 
@@ -40,7 +42,7 @@ monthly=每月重置；total=整个有效期共用；unlimited=不限量。倍�
 | 境外使用条件 | 待核验 |
 | 解锁记录 | 部分解锁 |
 
-- [官方入口](https://haita.link)：查套餐、公告、工单、客服和退款规则
+- [官方入口（来源记录）](https://haita.link)：查套餐、公告、工单、客服和退款规则
 - [GitHub 公开信息检索](https://github.com/search?q=%E6%B5%B7%E7%8D%AD%20%E6%9C%BA%E5%9C%BA&type=repositories)
 - [公开资料检索](https://www.google.com/search?q=%E6%B5%B7%E7%8D%AD%20%E6%9C%BA%E5%9C%BA)：搜索结果须自行确认同名与仿冒问题
 - [报告问题](https://github.com/luluarthub/airport-guide/issues/new/choose)
@@ -50,5 +52,6 @@ monthly=每月重置；total=整个有效期共用；unlimited=不限量。倍�
 ## 资料来源
 
 - [hwanz-paid](https://github.com/hwanz/SSR-V2ray-Trojan)；资料核对日期 2026-10-13
+- [hwanz-free](https://github.com/hwanz/SSR-V2ray-Trojan-vpn)；资料核对日期 2026-10-13
 
 [返回全部机场](../docs/catalog.md) · [查看排名方法](../docs/rankings.md)

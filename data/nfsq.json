@@ -10,12 +10,13 @@
   "regions": [],
   "client_policy": "仅官方客户端（社区记录）",
   "device_limit": null,
-  "trial": null,
+  "trial": "2天 / 1GB",
   "status": "watch",
   "notes": "社区套餐记录；多倍率节点按1倍率保守估算，低倍率不视为全部节点通用。 来源标为存在问题，排除排行；需核实恢复情况。",
   "observed_at": "2026-10-13",
   "sources": [
-    "panda"
+    "panda",
+    "hwanz-free"
   ],
   "plans": [
     {
@@ -43,5 +44,12 @@
       "verified_at": null
     }
   ],
-  "quality": null
+  "quality": null,
+  "trial_records": [
+    {
+      "source": "hwanz-free",
+      "offer": "2天 / 1GB",
+      "observed_at": "2026-10-13"
+    }
+  ]
 }

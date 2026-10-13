@@ -82,3 +82,9 @@ python3 scripts/catalog.py generate
 ```
 
 程序只依赖Python标准库。JSON/CSV在reports，Markdown在providers和docs。不需要本地服务或额外部署。
+
+## 概览与汇总范围
+
+概览的参考价格、容量自动从同一个套餐生成。推荐指数规则见 [推荐指数依据](recommendation.md)；没有实测证据时仅显示来源等级。`category=historical` 的历史条目单列，`official_url=null` 表示原文只有不透明短链而尚无可信官网，此时展示来源查询，巡检跳过缺失官网。
+
+`config/coverage.json` 保存三个来源逐条核对后的项目名与本仓库ID映射，生成 `docs/coverage.md`。免费来源同名重复入口已合并；不能仅因为两个不同名字使用相似域名就合并。新来源变更后需要人工重新核对这份映射。

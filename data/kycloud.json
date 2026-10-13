@@ -33,7 +33,8 @@
   "notes": "部分高档套餐流量周期在来源中存疑，暂不收录；付款可能有手续费。",
   "observed_at": "2026-10-13",
   "sources": [
-    "hwanz-paid"
+    "hwanz-paid",
+    "hwanz-free"
   ],
   "plans": [
     {

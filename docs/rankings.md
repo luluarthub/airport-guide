@@ -25,29 +25,32 @@
 | 排名 | 机场 | 套餐 | 每100GB | 实际支付 | 核验 |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [赔钱机场](../providers/peiqian.md) | 月付 | 0.60 | 2.99 CNY | 待核验 |
-| 2 | [良心云](../providers/liangxin.md) | 月付 | 2.00 | 2 CNY | 待核验 |
-| 3 | [一分机场](../providers/yifen.md) | 月付 | 2.00 | 2 CNY | 待核验 |
-| 4 | [happy猫](../providers/happymao.md) | 月付 | 4.95 | 9.9 CNY | 待核验 |
-| 5 | [ofoNET](../providers/ofonet.md) | 月付 | 6.43 | 12.87 CNY | 待核验 |
-| 6 | [海獭](../providers/haita.md) | 月付700G | 7.86 | 54.99 CNY | 待核验 |
-| 7 | [念云](../providers/nianyun.md) | 月付 | 8.00 | 12 CNY | 待核验 |
-| 8 | [兔兔云](../providers/tutuyun.md) | 月付 | 8.49 | 11.88 CNY | 待核验 |
-| 9 | [M78星云](../providers/m78star.md) | 月付 | 8.53 | 12.8 CNY | 待核验 |
-| 10 | [山海](../providers/shanhai.md) | 月付512G | 8.79 | 45 CNY | 待核验 |
-| 11 | [飞喵云](../providers/fmyun.md) | 月付 | 9.88 | 9.88 CNY | 待核验 |
-| 12 | [蜂窝云](../providers/fwcloud.md) | 月付 | 10.00 | 20 CNY | 待核验 |
-| 13 | [老猫云](../providers/laomao.md) | F月付 | 10.00 | 50 CNY | 待核验 |
-| 14 | [次元雲](../providers/ciyy.md) | 月付 | 10.76 | 17 CNY | 待核验 |
-| 15 | [贝贝云](../providers/beibei.md) | 大流量月付 | 10.99 | 109.9 CNY | 待核验 |
-| 16 | [FlyBit](../providers/flybit.md) | 月付 | 11.72 | 15 CNY | 待核验 |
-| 17 | [悠兔](../providers/youtu.md) | 大流量月付 | 11.90 | 119 CNY | 待核验 |
-| 18 | [自由猫](../providers/freecat.md) | 月付 | 12.00 | 12 CNY | 待核验 |
-| 19 | [BoostNet](../providers/boostnet.md) | 大流量月付 | 12.90 | 129 CNY | 待核验 |
-| 20 | [E-IX](../providers/eix.md) | 标准月付 | 14.65 | 75 CNY | 待核验 |
-| 21 | [iNetS](../providers/inets.md) | 月付 | 15.00 | 7.5 CNY | 待核验 |
-| 22 | [TAG](../providers/tag.md) | Silver月付 | 21.80 | 109 CNY | 待核验 |
-| 23 | [Kycloud](../providers/kycloud.md) | Silver季付 | 35.00 | 105 CNY | 待核验 |
-| 24 | [WgetCloud](../providers/wgetcloud.md) | 基础月付 | 42.14 | 59 CNY | 待核验 |
+| 2 | [一元机场](../providers/yiyuan.md) | 来源入门套餐 | 1.83 | 11 CNY | 待核验 |
+| 3 | [良心云](../providers/liangxin.md) | 月付 | 2.00 | 2 CNY | 待核验 |
+| 4 | [一分机场](../providers/yifen.md) | 月付 | 2.00 | 2 CNY | 待核验 |
+| 5 | [happy猫](../providers/happymao.md) | 月付 | 4.95 | 9.9 CNY | 待核验 |
+| 6 | [ofoNET](../providers/ofonet.md) | 月付 | 6.43 | 12.87 CNY | 待核验 |
+| 7 | [海獭](../providers/haita.md) | 月付700G | 7.86 | 54.99 CNY | 待核验 |
+| 8 | [念云](../providers/nianyun.md) | 月付 | 8.00 | 12 CNY | 待核验 |
+| 9 | [兔兔云](../providers/tutuyun.md) | 月付 | 8.49 | 11.88 CNY | 待核验 |
+| 10 | [M78星云](../providers/m78star.md) | 月付 | 8.53 | 12.8 CNY | 待核验 |
+| 11 | [山海](../providers/shanhai.md) | 月付512G | 8.79 | 45 CNY | 待核验 |
+| 12 | [飞喵云](../providers/fmyun.md) | 月付 | 9.88 | 9.88 CNY | 待核验 |
+| 13 | [蜂窝云](../providers/fwcloud.md) | 月付 | 10.00 | 20 CNY | 待核验 |
+| 14 | [老猫云](../providers/laomao.md) | F月付 | 10.00 | 50 CNY | 待核验 |
+| 15 | [次元雲](../providers/ciyy.md) | 月付 | 10.76 | 17 CNY | 待核验 |
+| 16 | [贝贝云](../providers/beibei.md) | 大流量月付 | 10.99 | 109.9 CNY | 待核验 |
+| 17 | [FlyBit](../providers/flybit.md) | 月付 | 11.72 | 15 CNY | 待核验 |
+| 18 | [悠兔](../providers/youtu.md) | 大流量月付 | 11.90 | 119 CNY | 待核验 |
+| 19 | [自由猫](../providers/freecat.md) | 月付 | 12.00 | 12 CNY | 待核验 |
+| 20 | [BoostNet](../providers/boostnet.md) | 大流量月付 | 12.90 | 129 CNY | 待核验 |
+| 21 | [泰山机场](../providers/taishan.md) | 来源入门套餐 | 13.28 | 8.5 CNY | 待核验 |
+| 22 | [E-IX](../providers/eix.md) | 标准月付 | 14.65 | 75 CNY | 待核验 |
+| 23 | [iNetS](../providers/inets.md) | 月付 | 15.00 | 7.5 CNY | 待核验 |
+| 24 | [Arisaka](../providers/arisaka.md) | 来源入门套餐 | 19.99 | 15.99 CNY | 待核验 |
+| 25 | [TAG](../providers/tag.md) | Silver月付 | 21.80 | 109 CNY | 待核验 |
+| 26 | [Kycloud](../providers/kycloud.md) | Silver季付 | 35.00 | 105 CNY | 待核验 |
+| 27 | [WgetCloud](../providers/wgetcloud.md) | 基础月付 | 42.14 | 59 CNY | 待核验 |
 
 ### CNY · total
 

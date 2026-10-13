@@ -48,7 +48,7 @@ def run():
     ps=validate(); stamp=dt.datetime.now(dt.timezone(dt.timedelta(hours=8))).isoformat(timespec='seconds')
     old=read('reports/health.json') if (ROOT/'reports/health.json').exists() else {'checks':[]}
     previous={r['id']:r for r in old['checks']}
-    targets=[('provider:'+p['id'],url,'entry') for p in ps for url in [p['official_url']]]
+    targets=[('provider:'+p['id'],p['official_url'],'entry') for p in ps if p['official_url']]
     targets += [('mirror:'+p['id']+':'+str(i),url,'entry') for p in ps for i,url in enumerate(p['mirrors'])]
     for source in read('config/sources.json'):
         url=source['url']

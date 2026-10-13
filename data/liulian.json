@@ -1,0 +1,30 @@
+{
+  "id": "liulian",
+  "name": "榴莲加速器",
+  "official_url": "https://www.liulianvpn.org/",
+  "mirrors": [],
+  "route": "待核验",
+  "protocols": [
+    "待核验"
+  ],
+  "regions": [],
+  "client_policy": "待核验",
+  "device_limit": null,
+  "trial": "30天 / 100GB",
+  "status": "unverified",
+  "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。",
+  "observed_at": "2026-10-13",
+  "sources": [
+    "hwanz-free"
+  ],
+  "plans": [],
+  "quality": null,
+  "category": "trial",
+  "trial_records": [
+    {
+      "source": "hwanz-free",
+      "offer": "30天 / 100GB",
+      "observed_at": "2026-10-13"
+    }
+  ]
+}

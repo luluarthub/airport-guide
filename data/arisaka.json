@@ -1,0 +1,43 @@
+{
+  "id": "arisaka",
+  "name": "Arisaka",
+  "official_url": null,
+  "mirrors": [],
+  "route": "待核验",
+  "protocols": [
+    "待核验"
+  ],
+  "regions": [],
+  "client_policy": "待核验",
+  "device_limit": null,
+  "trial": "10GB；期限待核验",
+  "status": "unverified",
+  "notes": "来源中的免费／试用历史记录，当前活动与运营状态待官网确认。 原文只提供不透明短链，未保留可能含邀请码的跳转；入口待补。",
+  "observed_at": "2026-10-13",
+  "sources": [
+    "hwanz-free"
+  ],
+  "plans": [
+    {
+      "name": "来源入门套餐",
+      "price": 15.99,
+      "currency": "CNY",
+      "billing_months": 1,
+      "traffic_gb": 80,
+      "reset": "monthly",
+      "multiplier": 1,
+      "fee_percent": null,
+      "source": "hwanz-free",
+      "verified_at": null
+    }
+  ],
+  "quality": null,
+  "category": "paid",
+  "trial_records": [
+    {
+      "source": "hwanz-free",
+      "offer": "10GB；期限待核验",
+      "observed_at": "2026-10-13"
+    }
+  ]
+}

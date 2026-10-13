@@ -1,8 +1,10 @@
 # happy猫
 
-[官方入口](https://www.happymao.cat/) · [注册入口](https://www.happymao.cat/)
+[官方入口（来源记录）](https://www.happymao.cat/) · [注册入口](https://www.happymao.cat/)
 
 资料观察日期：2026-10-13；运营状态：unverified（unverified=未实测，watch=来源提示问题）。
+
+推荐指数：**★★★☆☆ · 来源收录**；[指数依据](../docs/recommendation.md)。
 
 线路记录：中转
 
@@ -27,7 +29,7 @@ monthly=每月重置；total=整个有效期共用；unlimited=不限量。倍�
 
 ## 信息查询入口
 
-- [官方入口](https://www.happymao.cat/)：查套餐、公告、工单、客服和退款规则
+- [官方入口（来源记录）](https://www.happymao.cat/)：查套餐、公告、工单、客服和退款规则
 - [GitHub 公开信息检索](https://github.com/search?q=happy%E7%8C%AB%20%E6%9C%BA%E5%9C%BA&type=repositories)
 - [公开资料检索](https://www.google.com/search?q=happy%E7%8C%AB%20%E6%9C%BA%E5%9C%BA)：搜索结果须自行确认同名与仿冒问题
 - [报告问题](https://github.com/luluarthub/airport-guide/issues/new/choose)
