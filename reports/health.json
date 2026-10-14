@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-13T12:52:24+08:00",
+  "checked_at": "2026-10-14T15:41:04+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -33,8 +33,8 @@
       "id": "provider:aoxiang",
       "url": "https://www.aoxiangyun.top/",
       "kind": "entry",
-      "status": "unknown",
-      "error_type": "URLError"
+      "status": "reachable",
+      "http_code": 200
     },
     {
       "id": "provider:baiyangxing",
@@ -82,8 +82,8 @@
       "id": "provider:besnow",
       "url": "https://besnow.me/index.php",
       "kind": "entry",
-      "status": "reachable",
-      "http_code": 200
+      "status": "http_error",
+      "http_code": 404
     },
     {
       "id": "provider:bochidev",
@@ -140,6 +140,13 @@
       "kind": "entry",
       "status": "unknown",
       "error_type": "gaierror"
+    },
+    {
+      "id": "provider:dageyun",
+      "url": "https://a03.dgy02.com/",
+      "kind": "entry",
+      "status": "reachable",
+      "http_code": 200
     },
     {
       "id": "provider:daniu",
@@ -664,17 +671,37 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "fd0609bdf475942a6ca4a90bdd1f33d6ad05454ff5963a3c0724feffa925fb99",
+      "sha256": "23fb217cd788ed567c92d11f1b41549c3239df8f6f32dbb93af602f21c60f86a",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
+    },
+    {
+      "id": "source:dageyun-entry",
+      "url": "https://a03.dgy02.com/",
+      "kind": "source",
+      "status": "reachable",
+      "http_code": 200,
+      "sha256": "5cdf2c6cef50de6f0d41e69423825504333705f8eb7244cf7cf65c6a83f01bab",
+      "baseline_sha256": "5cdf2c6cef50de6f0d41e69423825504333705f8eb7244cf7cf65c6a83f01bab"
+    },
+    {
+      "id": "source:dageyun-screenshot",
+      "url": "https://raw.githubusercontent.com/luluarthub/airport-guide/main/docs/evidence/dageyun-20261013.md",
+      "kind": "source",
+      "status": "reachable",
+      "http_code": 200,
+      "sha256": "67f8bcf0340b29015633a7cebd43759298a7a768d2c49347d3055dc6461f7b4e",
+      "baseline_sha256": "67f8bcf0340b29015633a7cebd43759298a7a768d2c49347d3055dc6461f7b4e"
     }
   ],
   "attention": [
     "provider:aimacloud: unknown",
     "provider:alori: unknown",
-    "provider:aoxiang: unknown",
+    "provider:aoxiang: unknown → reachable",
     "provider:bbq: unknown",
     "provider:bbxy: unknown",
     "provider:bcast: unknown",
+    "provider:besnow: http_error",
+    "provider:besnow: reachable → http_error",
     "provider:bochidev: unknown",
     "provider:caihong: unknown",
     "provider:cd520: unknown",
@@ -742,5 +769,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "f93c02fef449b811f1b60e7532c576e9f389203464ea81ec2977e2bd26ff94bd"
+  "fingerprint": "da475e29c79e43918cab183e5eb7a0e7ccdde25b2251519472f5cf61369ec8a6"
 }

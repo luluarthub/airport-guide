@@ -1,6 +1,6 @@
 # 入口与来源巡检
 
-最近运行：2026-10-13T12:52:24+08:00（北京时间）
+最近运行：2026-10-14T15:41:04+08:00（北京时间）
 
 检查位置：本机或 GitHub Actions 执行环境；不代表中国内地各运营商访问结果，也不代表节点可用性。403/429归类为访问限制，DNS/超时归类为未知，不自动认定跑路。首次运行只建立来源内容基线。
 
@@ -10,14 +10,14 @@
 | provider:afun | entry | reachable | 200 |
 | provider:aimacloud | entry | unknown | — |
 | provider:alori | entry | unknown | — |
-| provider:aoxiang | entry | unknown | — |
+| provider:aoxiang | entry | reachable | 200 |
 | provider:baiyangxing | entry | reachable | 200 |
 | provider:baobei | entry | reachable | 200 |
 | provider:bbq | entry | unknown | — |
 | provider:bbxy | entry | unknown | — |
 | provider:bcast | entry | unknown | — |
 | provider:beibei | entry | reachable | 200 |
-| provider:besnow | entry | reachable | 200 |
+| provider:besnow | entry | http_error | 404 |
 | provider:bochidev | entry | unknown | — |
 | provider:boostnet | entry | reachable | 200 |
 | provider:bt3 | entry | reachable | 200 |
@@ -26,6 +26,7 @@
 | provider:china-international | entry | unknown | — |
 | provider:ciyy | entry | restricted | 403 |
 | provider:cocolink | entry | unknown | — |
+| provider:dageyun | entry | reachable | 200 |
 | provider:daniu | entry | unknown | — |
 | provider:daxun | entry | unknown | — |
 | provider:dengta | entry | reachable | 200 |
@@ -100,15 +101,19 @@
 | source:panda | source | reachable | 200 |
 | source:hwanz-free | source | reachable | 200 |
 | source:jms-official | source | reachable | 200 |
+| source:dageyun-entry | source | reachable | 200 |
+| source:dageyun-screenshot | source | reachable | 200 |
 
 ## 需关注
 
 - provider:aimacloud: unknown
 - provider:alori: unknown
-- provider:aoxiang: unknown
+- provider:aoxiang: unknown → reachable
 - provider:bbq: unknown
 - provider:bbxy: unknown
 - provider:bcast: unknown
+- provider:besnow: http_error
+- provider:besnow: reachable → http_error
 - provider:bochidev: unknown
 - provider:caihong: unknown
 - provider:cd520: unknown
