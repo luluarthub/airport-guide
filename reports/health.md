@@ -1,6 +1,6 @@
 # 入口与来源巡检
 
-最近运行：2026-10-14T15:41:04+08:00（北京时间）
+最近运行：2026-10-15T15:29:28+08:00（北京时间）
 
 检查位置：本机或 GitHub Actions 执行环境；不代表中国内地各运营商访问结果，也不代表节点可用性。403/429归类为访问限制，DNS/超时归类为未知，不自动认定跑路。首次运行只建立来源内容基线。
 
@@ -35,7 +35,7 @@
 | provider:eix | entry | reachable | 200 |
 | provider:flybit | entry | reachable | 200 |
 | provider:fmyun | entry | reachable | 200 |
-| provider:free-airport | entry | restricted | 429 |
+| provider:free-airport | entry | restricted | 403 |
 | provider:freecat | entry | reachable | 200 |
 | provider:freesocks | entry | reachable | 200 |
 | provider:fscloud | entry | reachable | 200 |
@@ -108,12 +108,10 @@
 
 - provider:aimacloud: unknown
 - provider:alori: unknown
-- provider:aoxiang: unknown → reachable
 - provider:bbq: unknown
 - provider:bbxy: unknown
 - provider:bcast: unknown
 - provider:besnow: http_error
-- provider:besnow: reachable → http_error
 - provider:bochidev: unknown
 - provider:caihong: unknown
 - provider:cd520: unknown
@@ -147,6 +145,7 @@
 - provider:yiyuan: restricted
 - provider:zongheng: http_error
 - source:jms-official: 来源正文变化，需复核
+- source:panda: 来源正文变化，需复核
 
 ## 待价格核验
 
