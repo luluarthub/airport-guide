@@ -1,6 +1,6 @@
 # 入口与来源巡检
 
-最近运行：2026-10-15T15:29:28+08:00（北京时间）
+最近运行：2026-10-16T15:14:00+08:00（北京时间）
 
 检查位置：本机或 GitHub Actions 执行环境；不代表中国内地各运营商访问结果，也不代表节点可用性。403/429归类为访问限制，DNS/超时归类为未知，不自动认定跑路。首次运行只建立来源内容基线。
 
@@ -17,7 +17,7 @@
 | provider:bbxy | entry | unknown | — |
 | provider:bcast | entry | unknown | — |
 | provider:beibei | entry | reachable | 200 |
-| provider:besnow | entry | http_error | 404 |
+| provider:besnow | entry | restricted | 403 |
 | provider:bochidev | entry | unknown | — |
 | provider:boostnet | entry | reachable | 200 |
 | provider:bt3 | entry | reachable | 200 |
@@ -30,7 +30,7 @@
 | provider:daniu | entry | unknown | — |
 | provider:daxun | entry | unknown | — |
 | provider:dengta | entry | reachable | 200 |
-| provider:doucat | entry | reachable | 200 |
+| provider:doucat | entry | unknown | — |
 | provider:edcloud | entry | reachable | 200 |
 | provider:eix | entry | reachable | 200 |
 | provider:flybit | entry | reachable | 200 |
@@ -50,14 +50,14 @@
 | provider:jetfast | entry | unknown | — |
 | provider:jiasula | entry | reachable | 200 |
 | provider:jifeng | entry | unknown | — |
-| provider:jiguang | entry | reachable | 200 |
+| provider:jiguang | entry | unknown | — |
 | provider:jike | entry | unknown | — |
 | provider:jms | entry | reachable | 200 |
 | provider:kelecloud | entry | unknown | — |
 | provider:kuailexingqiu | entry | unknown | — |
 | provider:kycloud | entry | reachable | 200 |
 | provider:laomao | entry | reachable | 200 |
-| provider:lemao | entry | reachable | 200 |
+| provider:lemao | entry | unknown | — |
 | provider:liangxin | entry | reachable | 200 |
 | provider:liulian | entry | unknown | — |
 | provider:longmaoyun | entry | reachable | 200 |
@@ -111,7 +111,8 @@
 - provider:bbq: unknown
 - provider:bbxy: unknown
 - provider:bcast: unknown
-- provider:besnow: http_error
+- provider:besnow: http_error → restricted
+- provider:besnow: restricted
 - provider:bochidev: unknown
 - provider:caihong: unknown
 - provider:cd520: unknown
@@ -120,15 +121,21 @@
 - provider:cocolink: unknown
 - provider:daniu: unknown
 - provider:daxun: unknown
+- provider:doucat: reachable → unknown
+- provider:doucat: unknown
 - provider:free-airport: restricted
 - provider:fwcloud: restricted
 - provider:happymao: restricted
 - provider:inets: restricted
 - provider:jetfast: unknown
 - provider:jifeng: unknown
+- provider:jiguang: reachable → unknown
+- provider:jiguang: unknown
 - provider:jike: unknown
 - provider:kelecloud: unknown
 - provider:kuailexingqiu: unknown
+- provider:lemao: reachable → unknown
+- provider:lemao: unknown
 - provider:liulian: unknown
 - provider:mickey: unknown
 - provider:mojie: restricted
