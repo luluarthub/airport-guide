@@ -1,6 +1,6 @@
 # 入口与来源巡检
 
-最近运行：2026-10-16T15:14:00+08:00（北京时间）
+最近运行：2026-10-17T14:59:51+08:00（北京时间）
 
 检查位置：本机或 GitHub Actions 执行环境；不代表中国内地各运营商访问结果，也不代表节点可用性。403/429归类为访问限制，DNS/超时归类为未知，不自动认定跑路。首次运行只建立来源内容基线。
 
@@ -10,7 +10,7 @@
 | provider:afun | entry | reachable | 200 |
 | provider:aimacloud | entry | unknown | — |
 | provider:alori | entry | unknown | — |
-| provider:aoxiang | entry | reachable | 200 |
+| provider:aoxiang | entry | unknown | — |
 | provider:baiyangxing | entry | reachable | 200 |
 | provider:baobei | entry | reachable | 200 |
 | provider:bbq | entry | unknown | — |
@@ -30,12 +30,12 @@
 | provider:daniu | entry | unknown | — |
 | provider:daxun | entry | unknown | — |
 | provider:dengta | entry | reachable | 200 |
-| provider:doucat | entry | unknown | — |
+| provider:doucat | entry | reachable | 200 |
 | provider:edcloud | entry | reachable | 200 |
 | provider:eix | entry | reachable | 200 |
 | provider:flybit | entry | reachable | 200 |
 | provider:fmyun | entry | reachable | 200 |
-| provider:free-airport | entry | restricted | 403 |
+| provider:free-airport | entry | restricted | 429 |
 | provider:freecat | entry | reachable | 200 |
 | provider:freesocks | entry | reachable | 200 |
 | provider:fscloud | entry | reachable | 200 |
@@ -50,14 +50,14 @@
 | provider:jetfast | entry | unknown | — |
 | provider:jiasula | entry | reachable | 200 |
 | provider:jifeng | entry | unknown | — |
-| provider:jiguang | entry | unknown | — |
+| provider:jiguang | entry | reachable | 200 |
 | provider:jike | entry | unknown | — |
 | provider:jms | entry | reachable | 200 |
 | provider:kelecloud | entry | unknown | — |
 | provider:kuailexingqiu | entry | unknown | — |
 | provider:kycloud | entry | reachable | 200 |
 | provider:laomao | entry | reachable | 200 |
-| provider:lemao | entry | unknown | — |
+| provider:lemao | entry | reachable | 200 |
 | provider:liangxin | entry | reachable | 200 |
 | provider:liulian | entry | unknown | — |
 | provider:longmaoyun | entry | reachable | 200 |
@@ -66,7 +66,7 @@
 | provider:mickey | entry | unknown | — |
 | provider:mojie | entry | restricted | 403 |
 | provider:naiyun | entry | unknown | — |
-| provider:nanmin | entry | reachable | 200 |
+| provider:nanmin | entry | unknown | — |
 | provider:nfsq | entry | reachable | 200 |
 | provider:nianyun | entry | reachable | 200 |
 | provider:nyanss | entry | reachable | 200 |
@@ -78,7 +78,7 @@
 | provider:shandiangou | entry | reachable | 200 |
 | provider:shanhai | entry | reachable | 200 |
 | provider:shengfeng | entry | unknown | — |
-| provider:sockboom | entry | unknown | — |
+| provider:sockboom | entry | reachable | 200 |
 | provider:speedy | entry | reachable | 200 |
 | provider:ssrsub | entry | reachable | 200 |
 | provider:suyun | entry | reachable | 200 |
@@ -108,10 +108,11 @@
 
 - provider:aimacloud: unknown
 - provider:alori: unknown
+- provider:aoxiang: reachable → unknown
+- provider:aoxiang: unknown
 - provider:bbq: unknown
 - provider:bbxy: unknown
 - provider:bcast: unknown
-- provider:besnow: http_error → restricted
 - provider:besnow: restricted
 - provider:bochidev: unknown
 - provider:caihong: unknown
@@ -121,29 +122,28 @@
 - provider:cocolink: unknown
 - provider:daniu: unknown
 - provider:daxun: unknown
-- provider:doucat: reachable → unknown
-- provider:doucat: unknown
+- provider:doucat: unknown → reachable
 - provider:free-airport: restricted
 - provider:fwcloud: restricted
 - provider:happymao: restricted
 - provider:inets: restricted
 - provider:jetfast: unknown
 - provider:jifeng: unknown
-- provider:jiguang: reachable → unknown
-- provider:jiguang: unknown
+- provider:jiguang: unknown → reachable
 - provider:jike: unknown
 - provider:kelecloud: unknown
 - provider:kuailexingqiu: unknown
-- provider:lemao: reachable → unknown
-- provider:lemao: unknown
+- provider:lemao: unknown → reachable
 - provider:liulian: unknown
 - provider:mickey: unknown
 - provider:mojie: restricted
 - provider:naiyun: unknown
+- provider:nanmin: reachable → unknown
+- provider:nanmin: unknown
 - provider:proxyvip: unknown
 - provider:qlgq: unknown
 - provider:shengfeng: unknown
-- provider:sockboom: unknown
+- provider:sockboom: unknown → reachable
 - provider:synapse: unknown
 - provider:tag: restricted
 - provider:tly: unknown
