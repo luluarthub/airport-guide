@@ -2,7 +2,7 @@
 
 # 入口与来源巡检
 
-最近运行：2026-10-17T14:59:51+08:00（北京时间）
+最近运行：2026-10-18T15:15:45+08:00（北京时间）
 
 检查位置：本机或 GitHub Actions 执行环境；不代表中国内地各运营商访问结果，也不代表节点可用性。403/429归类为访问限制，DNS/超时归类为未知，不自动认定跑路。首次运行只建立来源内容基线。
 
@@ -12,7 +12,7 @@
 | provider:afun | entry | reachable | 200 |
 | provider:aimacloud | entry | unknown | — |
 | provider:alori | entry | unknown | — |
-| provider:aoxiang | entry | unknown | — |
+| provider:aoxiang | entry | reachable | 200 |
 | provider:baiyangxing | entry | reachable | 200 |
 | provider:baobei | entry | reachable | 200 |
 | provider:bbq | entry | unknown | — |
@@ -37,7 +37,7 @@
 | provider:eix | entry | reachable | 200 |
 | provider:flybit | entry | reachable | 200 |
 | provider:fmyun | entry | reachable | 200 |
-| provider:free-airport | entry | restricted | 429 |
+| provider:free-airport | entry | restricted | 403 |
 | provider:freecat | entry | reachable | 200 |
 | provider:freesocks | entry | reachable | 200 |
 | provider:fscloud | entry | reachable | 200 |
@@ -68,19 +68,19 @@
 | provider:mickey | entry | unknown | — |
 | provider:mojie | entry | restricted | 403 |
 | provider:naiyun | entry | unknown | — |
-| provider:nanmin | entry | unknown | — |
+| provider:nanmin | entry | reachable | 200 |
 | provider:nfsq | entry | reachable | 200 |
 | provider:nianyun | entry | reachable | 200 |
 | provider:nyanss | entry | reachable | 200 |
 | provider:ofonet | entry | reachable | 200 |
 | provider:onesy | entry | reachable | 200 |
 | provider:peiqian | entry | reachable | 200 |
-| provider:proxyvip | entry | unknown | — |
+| provider:proxyvip | entry | reachable | 200 |
 | provider:qlgq | entry | unknown | — |
 | provider:shandiangou | entry | reachable | 200 |
 | provider:shanhai | entry | reachable | 200 |
 | provider:shengfeng | entry | unknown | — |
-| provider:sockboom | entry | reachable | 200 |
+| provider:sockboom | entry | unknown | — |
 | provider:speedy | entry | reachable | 200 |
 | provider:ssrsub | entry | reachable | 200 |
 | provider:suyun | entry | reachable | 200 |
@@ -110,8 +110,7 @@
 
 - provider:aimacloud: unknown
 - provider:alori: unknown
-- provider:aoxiang: reachable → unknown
-- provider:aoxiang: unknown
+- provider:aoxiang: unknown → reachable
 - provider:bbq: unknown
 - provider:bbxy: unknown
 - provider:bcast: unknown
@@ -124,28 +123,25 @@
 - provider:cocolink: unknown
 - provider:daniu: unknown
 - provider:daxun: unknown
-- provider:doucat: unknown → reachable
 - provider:free-airport: restricted
 - provider:fwcloud: restricted
 - provider:happymao: restricted
 - provider:inets: restricted
 - provider:jetfast: unknown
 - provider:jifeng: unknown
-- provider:jiguang: unknown → reachable
 - provider:jike: unknown
 - provider:kelecloud: unknown
 - provider:kuailexingqiu: unknown
-- provider:lemao: unknown → reachable
 - provider:liulian: unknown
 - provider:mickey: unknown
 - provider:mojie: restricted
 - provider:naiyun: unknown
-- provider:nanmin: reachable → unknown
-- provider:nanmin: unknown
-- provider:proxyvip: unknown
+- provider:nanmin: unknown → reachable
+- provider:proxyvip: unknown → reachable
 - provider:qlgq: unknown
 - provider:shengfeng: unknown
-- provider:sockboom: unknown → reachable
+- provider:sockboom: reachable → unknown
+- provider:sockboom: unknown
 - provider:synapse: unknown
 - provider:tag: restricted
 - provider:tly: unknown

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-17T14:59:51+08:00",
+  "checked_at": "2026-10-18T15:15:45+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -33,8 +33,8 @@
       "id": "provider:aoxiang",
       "url": "https://www.aoxiangyun.top/",
       "kind": "entry",
-      "status": "unknown",
-      "error_type": "URLError"
+      "status": "reachable",
+      "http_code": 200
     },
     {
       "id": "provider:baiyangxing",
@@ -209,7 +209,7 @@
       "url": "https://zero.76898102.xyz",
       "kind": "entry",
       "status": "restricted",
-      "http_code": 429
+      "http_code": 403
     },
     {
       "id": "provider:freecat",
@@ -425,8 +425,8 @@
       "id": "provider:nanmin",
       "url": "https://nanmin.xyz/",
       "kind": "entry",
-      "status": "unknown",
-      "error_type": "URLError"
+      "status": "reachable",
+      "http_code": 200
     },
     {
       "id": "provider:nfsq",
@@ -474,8 +474,8 @@
       "id": "provider:proxyvip",
       "url": "https://www.proxyvip.xyz/",
       "kind": "entry",
-      "status": "unknown",
-      "error_type": "gaierror"
+      "status": "reachable",
+      "http_code": 200
     },
     {
       "id": "provider:qlgq",
@@ -509,8 +509,8 @@
       "id": "provider:sockboom",
       "url": "https://sockboom.love/",
       "kind": "entry",
-      "status": "reachable",
-      "http_code": 200
+      "status": "unknown",
+      "error_type": "ValueError"
     },
     {
       "id": "provider:speedy",
@@ -653,7 +653,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "f13542aa36f8ba9ddf57c65ac22ff77d792f469bd23cfef2005a5a692e684a70",
+      "sha256": "544540b5c0ff9e530b0f47d89dd9ecf90dce9d69e25f5f0da59ce015f0d0a72d",
       "baseline_sha256": "e28e3458197943dbe295a13bf1451dac522b72b5099420b08bcf8d2cd042cfec"
     },
     {
@@ -671,7 +671,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "62e5da21f43a4893eb4d10dae6aef01fa7c3a30445511ed43f5aafc93db7c7c6",
+      "sha256": "2a4952fc23b0083e8f7a5263de5674432c4199213a2f62b996d73518c4207ef4",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     },
     {
@@ -696,8 +696,7 @@
   "attention": [
     "provider:aimacloud: unknown",
     "provider:alori: unknown",
-    "provider:aoxiang: reachable → unknown",
-    "provider:aoxiang: unknown",
+    "provider:aoxiang: unknown → reachable",
     "provider:bbq: unknown",
     "provider:bbxy: unknown",
     "provider:bcast: unknown",
@@ -710,28 +709,25 @@
     "provider:cocolink: unknown",
     "provider:daniu: unknown",
     "provider:daxun: unknown",
-    "provider:doucat: unknown → reachable",
     "provider:free-airport: restricted",
     "provider:fwcloud: restricted",
     "provider:happymao: restricted",
     "provider:inets: restricted",
     "provider:jetfast: unknown",
     "provider:jifeng: unknown",
-    "provider:jiguang: unknown → reachable",
     "provider:jike: unknown",
     "provider:kelecloud: unknown",
     "provider:kuailexingqiu: unknown",
-    "provider:lemao: unknown → reachable",
     "provider:liulian: unknown",
     "provider:mickey: unknown",
     "provider:mojie: restricted",
     "provider:naiyun: unknown",
-    "provider:nanmin: reachable → unknown",
-    "provider:nanmin: unknown",
-    "provider:proxyvip: unknown",
+    "provider:nanmin: unknown → reachable",
+    "provider:proxyvip: unknown → reachable",
     "provider:qlgq: unknown",
     "provider:shengfeng: unknown",
-    "provider:sockboom: unknown → reachable",
+    "provider:sockboom: reachable → unknown",
+    "provider:sockboom: unknown",
     "provider:synapse: unknown",
     "provider:tag: restricted",
     "provider:tly: unknown",
@@ -775,5 +771,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "70d5fc3f86d4f9ff60676b6dd3dc160730077575469e42b2e7c97eee00a2ae68"
+  "fingerprint": "db71b6379f534c87cc8fc44b087f1a3966a8dc1a67a3da39385032b572c7a23e"
 }
