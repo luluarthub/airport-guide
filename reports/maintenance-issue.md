@@ -2,7 +2,7 @@
 
 # 入口与来源巡检
 
-最近运行：2026-10-18T15:15:45+08:00（北京时间）
+最近运行：2026-10-19T15:50:36+08:00（北京时间）
 
 检查位置：本机或 GitHub Actions 执行环境；不代表中国内地各运营商访问结果，也不代表节点可用性。403/429归类为访问限制，DNS/超时归类为未知，不自动认定跑路。首次运行只建立来源内容基线。
 
@@ -37,7 +37,7 @@
 | provider:eix | entry | reachable | 200 |
 | provider:flybit | entry | reachable | 200 |
 | provider:fmyun | entry | reachable | 200 |
-| provider:free-airport | entry | restricted | 403 |
+| provider:free-airport | entry | restricted | 429 |
 | provider:freecat | entry | reachable | 200 |
 | provider:freesocks | entry | reachable | 200 |
 | provider:fscloud | entry | reachable | 200 |
@@ -110,7 +110,6 @@
 
 - provider:aimacloud: unknown
 - provider:alori: unknown
-- provider:aoxiang: unknown → reachable
 - provider:bbq: unknown
 - provider:bbxy: unknown
 - provider:bcast: unknown
@@ -136,11 +135,8 @@
 - provider:mickey: unknown
 - provider:mojie: restricted
 - provider:naiyun: unknown
-- provider:nanmin: unknown → reachable
-- provider:proxyvip: unknown → reachable
 - provider:qlgq: unknown
 - provider:shengfeng: unknown
-- provider:sockboom: reachable → unknown
 - provider:sockboom: unknown
 - provider:synapse: unknown
 - provider:tag: restricted

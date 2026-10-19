@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-18T15:15:45+08:00",
+  "checked_at": "2026-10-19T15:50:36+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -209,7 +209,7 @@
       "url": "https://zero.76898102.xyz",
       "kind": "entry",
       "status": "restricted",
-      "http_code": 403
+      "http_code": 429
     },
     {
       "id": "provider:freecat",
@@ -671,7 +671,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "2a4952fc23b0083e8f7a5263de5674432c4199213a2f62b996d73518c4207ef4",
+      "sha256": "3845cbeb382fbfa81b86ef0a2d983730e465b6bbc8bf6403e7ced3c824b4fabf",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     },
     {
@@ -696,7 +696,6 @@
   "attention": [
     "provider:aimacloud: unknown",
     "provider:alori: unknown",
-    "provider:aoxiang: unknown → reachable",
     "provider:bbq: unknown",
     "provider:bbxy: unknown",
     "provider:bcast: unknown",
@@ -722,11 +721,8 @@
     "provider:mickey: unknown",
     "provider:mojie: restricted",
     "provider:naiyun: unknown",
-    "provider:nanmin: unknown → reachable",
-    "provider:proxyvip: unknown → reachable",
     "provider:qlgq: unknown",
     "provider:shengfeng: unknown",
-    "provider:sockboom: reachable → unknown",
     "provider:sockboom: unknown",
     "provider:synapse: unknown",
     "provider:tag: restricted",
@@ -771,5 +767,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "db71b6379f534c87cc8fc44b087f1a3966a8dc1a67a3da39385032b572c7a23e"
+  "fingerprint": "9ce84211d87cc49f808398bbbd39f39679e68b8ea637abf84db82be4af888661"
 }
