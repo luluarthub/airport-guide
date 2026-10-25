@@ -1,6 +1,6 @@
 # 入口与来源巡检
 
-最近运行：2026-10-24T15:20:40+08:00（北京时间）
+最近运行：2026-10-25T15:37:23+08:00（北京时间）
 
 检查位置：本机或 GitHub Actions 执行环境；不代表中国内地各运营商访问结果，也不代表节点可用性。403/429归类为访问限制，DNS/超时归类为未知，不自动认定跑路。首次运行只建立来源内容基线。
 
@@ -30,12 +30,12 @@
 | provider:daniu | entry | unknown | — |
 | provider:daxun | entry | unknown | — |
 | provider:dengta | entry | reachable | 200 |
-| provider:doucat | entry | unknown | — |
+| provider:doucat | entry | reachable | 200 |
 | provider:edcloud | entry | reachable | 200 |
 | provider:eix | entry | reachable | 200 |
 | provider:flybit | entry | reachable | 200 |
 | provider:fmyun | entry | reachable | 200 |
-| provider:free-airport | entry | restricted | 403 |
+| provider:free-airport | entry | restricted | 429 |
 | provider:freecat | entry | reachable | 200 |
 | provider:freesocks | entry | reachable | 200 |
 | provider:fscloud | entry | reachable | 200 |
@@ -57,7 +57,7 @@
 | provider:kuailexingqiu | entry | unknown | — |
 | provider:kycloud | entry | reachable | 200 |
 | provider:laomao | entry | reachable | 200 |
-| provider:lemao | entry | reachable | 200 |
+| provider:lemao | entry | unknown | — |
 | provider:liangxin | entry | reachable | 200 |
 | provider:liulian | entry | unknown | — |
 | provider:longmaoyun | entry | reachable | 200 |
@@ -75,7 +75,7 @@
 | provider:peiqian | entry | reachable | 200 |
 | provider:proxyvip | entry | reachable | 200 |
 | provider:qlgq | entry | reachable | 200 |
-| provider:shandiangou | entry | unknown | — |
+| provider:shandiangou | entry | reachable | 200 |
 | provider:shanhai | entry | reachable | 200 |
 | provider:shengfeng | entry | unknown | — |
 | provider:sockboom | entry | unknown | — |
@@ -107,7 +107,6 @@
 ## 需关注
 
 - provider:aimacloud: unknown
-- provider:alori: unknown → reachable
 - provider:bbq: unknown
 - provider:bbxy: unknown
 - provider:bcast: unknown
@@ -120,8 +119,7 @@
 - provider:cocolink: unknown
 - provider:daniu: unknown
 - provider:daxun: unknown
-- provider:doucat: reachable → unknown
-- provider:doucat: unknown
+- provider:doucat: unknown → reachable
 - provider:free-airport: restricted
 - provider:fwcloud: restricted
 - provider:happymao: restricted
@@ -131,12 +129,13 @@
 - provider:jike: unknown
 - provider:kelecloud: unknown
 - provider:kuailexingqiu: unknown
+- provider:lemao: reachable → unknown
+- provider:lemao: unknown
 - provider:liulian: unknown
 - provider:mickey: unknown
 - provider:mojie: restricted
 - provider:naiyun: unknown
-- provider:shandiangou: reachable → unknown
-- provider:shandiangou: unknown
+- provider:shandiangou: unknown → reachable
 - provider:shengfeng: unknown
 - provider:sockboom: unknown
 - provider:suyun: restricted
