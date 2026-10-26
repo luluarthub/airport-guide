@@ -2,7 +2,7 @@
 
 # 入口与来源巡检
 
-最近运行：2026-10-25T15:37:23+08:00（北京时间）
+最近运行：2026-10-26T15:50:48+08:00（北京时间）
 
 检查位置：本机或 GitHub Actions 执行环境；不代表中国内地各运营商访问结果，也不代表节点可用性。403/429归类为访问限制，DNS/超时归类为未知，不自动认定跑路。首次运行只建立来源内容基线。
 
@@ -44,7 +44,7 @@
 | provider:fwcloud | entry | restricted | 403 |
 | provider:ghost101 | entry | reachable | 200 |
 | provider:glados | entry | reachable | 200 |
-| provider:goutou | entry | reachable | 200 |
+| provider:goutou | entry | unknown | — |
 | provider:haita | entry | reachable | 200 |
 | provider:happymao | entry | restricted | 403 |
 | provider:ikuuu | entry | reachable | 200 |
@@ -59,7 +59,7 @@
 | provider:kuailexingqiu | entry | unknown | — |
 | provider:kycloud | entry | reachable | 200 |
 | provider:laomao | entry | reachable | 200 |
-| provider:lemao | entry | unknown | — |
+| provider:lemao | entry | reachable | 200 |
 | provider:liangxin | entry | reachable | 200 |
 | provider:liulian | entry | unknown | — |
 | provider:longmaoyun | entry | reachable | 200 |
@@ -80,7 +80,7 @@
 | provider:shandiangou | entry | reachable | 200 |
 | provider:shanhai | entry | reachable | 200 |
 | provider:shengfeng | entry | unknown | — |
-| provider:sockboom | entry | unknown | — |
+| provider:sockboom | entry | reachable | 200 |
 | provider:speedy | entry | reachable | 200 |
 | provider:ssrsub | entry | reachable | 200 |
 | provider:suyun | entry | restricted | 403 |
@@ -121,9 +121,10 @@
 - provider:cocolink: unknown
 - provider:daniu: unknown
 - provider:daxun: unknown
-- provider:doucat: unknown → reachable
 - provider:free-airport: restricted
 - provider:fwcloud: restricted
+- provider:goutou: reachable → unknown
+- provider:goutou: unknown
 - provider:happymao: restricted
 - provider:inets: restricted
 - provider:jetfast: unknown
@@ -131,15 +132,13 @@
 - provider:jike: unknown
 - provider:kelecloud: unknown
 - provider:kuailexingqiu: unknown
-- provider:lemao: reachable → unknown
-- provider:lemao: unknown
+- provider:lemao: unknown → reachable
 - provider:liulian: unknown
 - provider:mickey: unknown
 - provider:mojie: restricted
 - provider:naiyun: unknown
-- provider:shandiangou: unknown → reachable
 - provider:shengfeng: unknown
-- provider:sockboom: unknown
+- provider:sockboom: unknown → reachable
 - provider:suyun: restricted
 - provider:synapse: unknown
 - provider:tag: restricted

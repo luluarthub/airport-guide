@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-25T15:37:23+08:00",
+  "checked_at": "2026-10-26T15:50:48+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -257,8 +257,8 @@
       "id": "provider:goutou",
       "url": "https://lksi.xyz/",
       "kind": "entry",
-      "status": "reachable",
-      "http_code": 200
+      "status": "unknown",
+      "error_type": "URLError"
     },
     {
       "id": "provider:haita",
@@ -362,8 +362,8 @@
       "id": "provider:lemao",
       "url": "https://a1.lemao888.top/",
       "kind": "entry",
-      "status": "unknown",
-      "error_type": "URLError"
+      "status": "reachable",
+      "http_code": 200
     },
     {
       "id": "provider:liangxin",
@@ -509,8 +509,8 @@
       "id": "provider:sockboom",
       "url": "https://sockboom.love/",
       "kind": "entry",
-      "status": "unknown",
-      "error_type": "ValueError"
+      "status": "reachable",
+      "http_code": 200
     },
     {
       "id": "provider:speedy",
@@ -653,7 +653,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "d99ce246a62dce135bc4127d4e3fd8d087d32f502f003edd09766e8db1b86fda",
+      "sha256": "8e882f595c765c2f9ec6c3e802decb2f03a6b118fd3a4f27b94ca9533406f821",
       "baseline_sha256": "e28e3458197943dbe295a13bf1451dac522b72b5099420b08bcf8d2cd042cfec"
     },
     {
@@ -671,7 +671,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "a92dcf18b0f1dfd06c3c6d764b074d1283067d5f6b6b4a73354ca5cb9fce9027",
+      "sha256": "93f31a6a60afe2807efeb8ae14dad88123db16746a9aa10379eeabcb122025b0",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     },
     {
@@ -707,9 +707,10 @@
     "provider:cocolink: unknown",
     "provider:daniu: unknown",
     "provider:daxun: unknown",
-    "provider:doucat: unknown → reachable",
     "provider:free-airport: restricted",
     "provider:fwcloud: restricted",
+    "provider:goutou: reachable → unknown",
+    "provider:goutou: unknown",
     "provider:happymao: restricted",
     "provider:inets: restricted",
     "provider:jetfast: unknown",
@@ -717,15 +718,13 @@
     "provider:jike: unknown",
     "provider:kelecloud: unknown",
     "provider:kuailexingqiu: unknown",
-    "provider:lemao: reachable → unknown",
-    "provider:lemao: unknown",
+    "provider:lemao: unknown → reachable",
     "provider:liulian: unknown",
     "provider:mickey: unknown",
     "provider:mojie: restricted",
     "provider:naiyun: unknown",
-    "provider:shandiangou: unknown → reachable",
     "provider:shengfeng: unknown",
-    "provider:sockboom: unknown",
+    "provider:sockboom: unknown → reachable",
     "provider:suyun: restricted",
     "provider:synapse: unknown",
     "provider:tag: restricted",
@@ -771,5 +770,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "301fa0230cc13d84fbbaa02381f9a99d3e2568d407a9287a7ca0b5fbff1c0019"
+  "fingerprint": "be361faa0c39979e86fe26ad5412f1bc35ac16a45ef34a40b312de548df4a378"
 }
