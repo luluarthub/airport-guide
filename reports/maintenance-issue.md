@@ -2,7 +2,7 @@
 
 # 入口与来源巡检
 
-最近运行：2026-10-26T15:50:48+08:00（北京时间）
+最近运行：2026-10-27T15:55:29+08:00（北京时间）
 
 检查位置：本机或 GitHub Actions 执行环境；不代表中国内地各运营商访问结果，也不代表节点可用性。403/429归类为访问限制，DNS/超时归类为未知，不自动认定跑路。首次运行只建立来源内容基线。
 
@@ -80,10 +80,10 @@
 | provider:shandiangou | entry | reachable | 200 |
 | provider:shanhai | entry | reachable | 200 |
 | provider:shengfeng | entry | unknown | — |
-| provider:sockboom | entry | reachable | 200 |
+| provider:sockboom | entry | unknown | — |
 | provider:speedy | entry | reachable | 200 |
 | provider:ssrsub | entry | reachable | 200 |
-| provider:suyun | entry | restricted | 403 |
+| provider:suyun | entry | reachable | 200 |
 | provider:synapse | entry | unknown | — |
 | provider:tag | entry | restricted | 403 |
 | provider:taishan | entry | reachable | 200 |
@@ -123,7 +123,6 @@
 - provider:daxun: unknown
 - provider:free-airport: restricted
 - provider:fwcloud: restricted
-- provider:goutou: reachable → unknown
 - provider:goutou: unknown
 - provider:happymao: restricted
 - provider:inets: restricted
@@ -132,14 +131,14 @@
 - provider:jike: unknown
 - provider:kelecloud: unknown
 - provider:kuailexingqiu: unknown
-- provider:lemao: unknown → reachable
 - provider:liulian: unknown
 - provider:mickey: unknown
 - provider:mojie: restricted
 - provider:naiyun: unknown
 - provider:shengfeng: unknown
-- provider:sockboom: unknown → reachable
-- provider:suyun: restricted
+- provider:sockboom: reachable → unknown
+- provider:sockboom: unknown
+- provider:suyun: restricted → reachable
 - provider:synapse: unknown
 - provider:tag: restricted
 - provider:tly: unknown
