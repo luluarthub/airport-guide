@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-27T15:55:29+08:00",
+  "checked_at": "2026-10-28T16:37:23+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -33,8 +33,8 @@
       "id": "provider:aoxiang",
       "url": "https://www.aoxiangyun.top/",
       "kind": "entry",
-      "status": "reachable",
-      "http_code": 200
+      "status": "unknown",
+      "error_type": "URLError"
     },
     {
       "id": "provider:baiyangxing",
@@ -209,7 +209,7 @@
       "url": "https://zero.76898102.xyz",
       "kind": "entry",
       "status": "restricted",
-      "http_code": 429
+      "http_code": 403
     },
     {
       "id": "provider:freecat",
@@ -258,7 +258,7 @@
       "url": "https://lksi.xyz/",
       "kind": "entry",
       "status": "unknown",
-      "error_type": "gaierror"
+      "error_type": "URLError"
     },
     {
       "id": "provider:haita",
@@ -321,7 +321,7 @@
       "url": "https://board.jike99.xyz/",
       "kind": "entry",
       "status": "unknown",
-      "error_type": "URLError"
+      "error_type": "ValueError"
     },
     {
       "id": "provider:jms",
@@ -530,8 +530,8 @@
       "id": "provider:suyun",
       "url": "https://zhu.suyun.bio/",
       "kind": "entry",
-      "status": "reachable",
-      "http_code": 200
+      "status": "http_error",
+      "http_code": 520
     },
     {
       "id": "provider:synapse",
@@ -653,7 +653,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "8e882f595c765c2f9ec6c3e802decb2f03a6b118fd3a4f27b94ca9533406f821",
+      "sha256": "426dfb572ab6e14302a7ec9d7be57d59a8637f990959fa30453477916bd2c5f7",
       "baseline_sha256": "e28e3458197943dbe295a13bf1451dac522b72b5099420b08bcf8d2cd042cfec"
     },
     {
@@ -671,7 +671,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "c5bfab1f0ac7e0b07d9e19337a85678e084d6370e9c001d8098254975be63687",
+      "sha256": "a9853961160fc947760becb2787791b0678a6a940a0c8e0ee23e6d5a7b37aa0b",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     },
     {
@@ -695,6 +695,8 @@
   ],
   "attention": [
     "provider:aimacloud: unknown",
+    "provider:aoxiang: reachable → unknown",
+    "provider:aoxiang: unknown",
     "provider:bbq: unknown",
     "provider:bbxy: unknown",
     "provider:bcast: unknown",
@@ -722,9 +724,9 @@
     "provider:mojie: restricted",
     "provider:naiyun: unknown",
     "provider:shengfeng: unknown",
-    "provider:sockboom: reachable → unknown",
     "provider:sockboom: unknown",
-    "provider:suyun: restricted → reachable",
+    "provider:suyun: http_error",
+    "provider:suyun: reachable → http_error",
     "provider:synapse: unknown",
     "provider:tag: restricted",
     "provider:tly: unknown",
@@ -769,5 +771,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "49f89a9bff7b7ed05cac9a328c6a64f2dbdd1652f83a37eeb49ee1b282eb1d66"
+  "fingerprint": "973439bc0e05c13520935d84e46985b93e728d65f42a2718c7970085d32b5b39"
 }
