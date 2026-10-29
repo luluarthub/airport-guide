@@ -1,6 +1,6 @@
 # 入口与来源巡检
 
-最近运行：2026-10-28T16:37:23+08:00（北京时间）
+最近运行：2026-10-29T16:33:25+08:00（北京时间）
 
 检查位置：本机或 GitHub Actions 执行环境；不代表中国内地各运营商访问结果，也不代表节点可用性。403/429归类为访问限制，DNS/超时归类为未知，不自动认定跑路。首次运行只建立来源内容基线。
 
@@ -10,7 +10,7 @@
 | provider:afun | entry | reachable | 200 |
 | provider:aimacloud | entry | unknown | — |
 | provider:alori | entry | reachable | 200 |
-| provider:aoxiang | entry | unknown | — |
+| provider:aoxiang | entry | reachable | 200 |
 | provider:baiyangxing | entry | reachable | 200 |
 | provider:baobei | entry | reachable | 200 |
 | provider:bbq | entry | unknown | — |
@@ -30,7 +30,7 @@
 | provider:daniu | entry | unknown | — |
 | provider:daxun | entry | unknown | — |
 | provider:dengta | entry | reachable | 200 |
-| provider:doucat | entry | reachable | 200 |
+| provider:doucat | entry | unknown | — |
 | provider:edcloud | entry | reachable | 200 |
 | provider:eix | entry | reachable | 200 |
 | provider:flybit | entry | reachable | 200 |
@@ -81,13 +81,13 @@
 | provider:sockboom | entry | unknown | — |
 | provider:speedy | entry | reachable | 200 |
 | provider:ssrsub | entry | reachable | 200 |
-| provider:suyun | entry | http_error | 520 |
+| provider:suyun | entry | reachable | 200 |
 | provider:synapse | entry | unknown | — |
 | provider:tag | entry | restricted | 403 |
 | provider:taishan | entry | reachable | 200 |
 | provider:tly | entry | unknown | — |
 | provider:tutuyun | entry | reachable | 200 |
-| provider:wandayun | entry | reachable | 200 |
+| provider:wandayun | entry | unknown | — |
 | provider:wgetcloud | entry | unknown | — |
 | provider:xqc | entry | reachable | 200 |
 | provider:yifen | entry | restricted | 403 |
@@ -107,8 +107,7 @@
 ## 需关注
 
 - provider:aimacloud: unknown
-- provider:aoxiang: reachable → unknown
-- provider:aoxiang: unknown
+- provider:aoxiang: unknown → reachable
 - provider:bbq: unknown
 - provider:bbxy: unknown
 - provider:bcast: unknown
@@ -121,6 +120,8 @@
 - provider:cocolink: unknown
 - provider:daniu: unknown
 - provider:daxun: unknown
+- provider:doucat: reachable → unknown
+- provider:doucat: unknown
 - provider:free-airport: restricted
 - provider:fwcloud: restricted
 - provider:goutou: unknown
@@ -137,11 +138,12 @@
 - provider:naiyun: unknown
 - provider:shengfeng: unknown
 - provider:sockboom: unknown
-- provider:suyun: http_error
-- provider:suyun: reachable → http_error
+- provider:suyun: http_error → reachable
 - provider:synapse: unknown
 - provider:tag: restricted
 - provider:tly: unknown
+- provider:wandayun: reachable → unknown
+- provider:wandayun: unknown
 - provider:wgetcloud: unknown
 - provider:yifen: restricted
 - provider:yiyuan: restricted
