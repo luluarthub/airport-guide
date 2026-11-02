@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-01T17:19:20+08:00",
+  "checked_at": "2026-11-02T17:33:50+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -201,8 +201,8 @@
       "id": "provider:fmyun",
       "url": "https://www.fmyun.top/",
       "kind": "entry",
-      "status": "http_error",
-      "http_code": 521
+      "status": "reachable",
+      "http_code": 200
     },
     {
       "id": "provider:free-airport",
@@ -320,8 +320,8 @@
       "id": "provider:jike",
       "url": "https://board.jike99.xyz/",
       "kind": "entry",
-      "status": "unknown",
-      "error_type": "ValueError"
+      "status": "restricted",
+      "http_code": 429
     },
     {
       "id": "provider:jms",
@@ -488,8 +488,8 @@
       "id": "provider:shandiangou",
       "url": "https://shandiandog.com/",
       "kind": "entry",
-      "status": "unknown",
-      "error_type": "URLError"
+      "status": "reachable",
+      "http_code": 200
     },
     {
       "id": "provider:shanhai",
@@ -653,7 +653,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "273265995807e884b0ae75054ecbe812ef9f799ca7ee8cba07229f1e25595711",
+      "sha256": "33a02528860fb0a9bddf7dcf03cb45eac6a2927e1827da7dcfe8b344b1aa38ee",
       "baseline_sha256": "e28e3458197943dbe295a13bf1451dac522b72b5099420b08bcf8d2cd042cfec"
     },
     {
@@ -671,7 +671,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "711534036b07bdc9c53ea9de74272c44a0d2a0beb16fab747849449be20bf6f2",
+      "sha256": "0c03e970297bd618ddcce1e3406979910ea0d8ed159f85863ab539817b4f2908",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     },
     {
@@ -707,8 +707,7 @@
     "provider:cocolink: unknown",
     "provider:daniu: unknown",
     "provider:daxun: unknown",
-    "provider:fmyun: http_error",
-    "provider:fmyun: reachable → http_error",
+    "provider:fmyun: http_error → reachable",
     "provider:free-airport: restricted",
     "provider:fwcloud: restricted",
     "provider:goutou: unknown",
@@ -716,15 +715,15 @@
     "provider:inets: restricted",
     "provider:jetfast: unknown",
     "provider:jifeng: unknown",
-    "provider:jike: unknown",
+    "provider:jike: restricted",
+    "provider:jike: unknown → restricted",
     "provider:kelecloud: unknown",
     "provider:kuailexingqiu: unknown",
     "provider:liulian: unknown",
     "provider:mickey: unknown",
     "provider:mojie: restricted",
     "provider:naiyun: unknown",
-    "provider:shandiangou: reachable → unknown",
-    "provider:shandiangou: unknown",
+    "provider:shandiangou: unknown → reachable",
     "provider:shengfeng: unknown",
     "provider:sockboom: unknown",
     "provider:synapse: unknown",
@@ -771,5 +770,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "d8fa8235d650360f44a4730ef10a2e2fe15c92c789a43c0371d55e7aa8164789"
+  "fingerprint": "92df4437cc304c2bfb723245852dac347edd7773b140e6a9fc1013959160f149"
 }
