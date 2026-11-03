@@ -2,7 +2,7 @@
 
 # 入口与来源巡检
 
-最近运行：2026-11-02T17:33:50+08:00（北京时间）
+最近运行：2026-11-03T17:36:48+08:00（北京时间）
 
 检查位置：本机或 GitHub Actions 执行环境；不代表中国内地各运营商访问结果，也不代表节点可用性。403/429归类为访问限制，DNS/超时归类为未知，不自动认定跑路。首次运行只建立来源内容基线。
 
@@ -53,7 +53,7 @@
 | provider:jiasula | entry | reachable | 200 |
 | provider:jifeng | entry | unknown | — |
 | provider:jiguang | entry | reachable | 200 |
-| provider:jike | entry | restricted | 429 |
+| provider:jike | entry | unknown | — |
 | provider:jms | entry | reachable | 200 |
 | provider:kelecloud | entry | unknown | — |
 | provider:kuailexingqiu | entry | unknown | — |
@@ -121,7 +121,6 @@
 - provider:cocolink: unknown
 - provider:daniu: unknown
 - provider:daxun: unknown
-- provider:fmyun: http_error → reachable
 - provider:free-airport: restricted
 - provider:fwcloud: restricted
 - provider:goutou: unknown
@@ -129,15 +128,14 @@
 - provider:inets: restricted
 - provider:jetfast: unknown
 - provider:jifeng: unknown
-- provider:jike: restricted
-- provider:jike: unknown → restricted
+- provider:jike: restricted → unknown
+- provider:jike: unknown
 - provider:kelecloud: unknown
 - provider:kuailexingqiu: unknown
 - provider:liulian: unknown
 - provider:mickey: unknown
 - provider:mojie: restricted
 - provider:naiyun: unknown
-- provider:shandiangou: unknown → reachable
 - provider:shengfeng: unknown
 - provider:sockboom: unknown
 - provider:synapse: unknown

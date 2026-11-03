@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-02T17:33:50+08:00",
+  "checked_at": "2026-11-03T17:36:48+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -320,8 +320,8 @@
       "id": "provider:jike",
       "url": "https://board.jike99.xyz/",
       "kind": "entry",
-      "status": "restricted",
-      "http_code": 429
+      "status": "unknown",
+      "error_type": "ValueError"
     },
     {
       "id": "provider:jms",
@@ -671,7 +671,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "0c03e970297bd618ddcce1e3406979910ea0d8ed159f85863ab539817b4f2908",
+      "sha256": "6e3a1013aba1021a1a78e5911238642470c3c0813a7d5260748da64bc7f893d8",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     },
     {
@@ -707,7 +707,6 @@
     "provider:cocolink: unknown",
     "provider:daniu: unknown",
     "provider:daxun: unknown",
-    "provider:fmyun: http_error → reachable",
     "provider:free-airport: restricted",
     "provider:fwcloud: restricted",
     "provider:goutou: unknown",
@@ -715,15 +714,14 @@
     "provider:inets: restricted",
     "provider:jetfast: unknown",
     "provider:jifeng: unknown",
-    "provider:jike: restricted",
-    "provider:jike: unknown → restricted",
+    "provider:jike: restricted → unknown",
+    "provider:jike: unknown",
     "provider:kelecloud: unknown",
     "provider:kuailexingqiu: unknown",
     "provider:liulian: unknown",
     "provider:mickey: unknown",
     "provider:mojie: restricted",
     "provider:naiyun: unknown",
-    "provider:shandiangou: unknown → reachable",
     "provider:shengfeng: unknown",
     "provider:sockboom: unknown",
     "provider:synapse: unknown",
@@ -770,5 +768,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "92df4437cc304c2bfb723245852dac347edd7773b140e6a9fc1013959160f149"
+  "fingerprint": "281b3edee71175ed8e243441ca5bafb0da77c726b0ad525b507e1751f7b0304b"
 }
