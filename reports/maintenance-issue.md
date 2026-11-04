@@ -2,7 +2,7 @@
 
 # 入口与来源巡检
 
-最近运行：2026-11-03T17:36:48+08:00（北京时间）
+最近运行：2026-11-04T17:19:48+08:00（北京时间）
 
 检查位置：本机或 GitHub Actions 执行环境；不代表中国内地各运营商访问结果，也不代表节点可用性。403/429归类为访问限制，DNS/超时归类为未知，不自动认定跑路。首次运行只建立来源内容基线。
 
@@ -10,7 +10,7 @@
 | --- | --- | --- | --- |
 | provider:365vpn | entry | reachable | 200 |
 | provider:afun | entry | reachable | 200 |
-| provider:aimacloud | entry | unknown | — |
+| provider:aimacloud | entry | reachable | 200 |
 | provider:alori | entry | reachable | 200 |
 | provider:aoxiang | entry | reachable | 200 |
 | provider:baiyangxing | entry | reachable | 200 |
@@ -108,7 +108,7 @@
 
 ## 需关注
 
-- provider:aimacloud: unknown
+- provider:aimacloud: unknown → reachable
 - provider:bbq: unknown
 - provider:bbxy: unknown
 - provider:bcast: unknown
@@ -128,7 +128,6 @@
 - provider:inets: restricted
 - provider:jetfast: unknown
 - provider:jifeng: unknown
-- provider:jike: restricted → unknown
 - provider:jike: unknown
 - provider:kelecloud: unknown
 - provider:kuailexingqiu: unknown

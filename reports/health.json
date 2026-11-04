@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-03T17:36:48+08:00",
+  "checked_at": "2026-11-04T17:19:48+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -19,8 +19,8 @@
       "id": "provider:aimacloud",
       "url": "https://www.aimacloud.info/",
       "kind": "entry",
-      "status": "unknown",
-      "error_type": "URLError"
+      "status": "reachable",
+      "http_code": 200
     },
     {
       "id": "provider:alori",
@@ -653,7 +653,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "33a02528860fb0a9bddf7dcf03cb45eac6a2927e1827da7dcfe8b344b1aa38ee",
+      "sha256": "f717fdebb1cc0cc9f2ffc05b9445566772e8a485ad2c3579037d415d41033401",
       "baseline_sha256": "e28e3458197943dbe295a13bf1451dac522b72b5099420b08bcf8d2cd042cfec"
     },
     {
@@ -671,7 +671,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "6e3a1013aba1021a1a78e5911238642470c3c0813a7d5260748da64bc7f893d8",
+      "sha256": "46343ad13dbe681f6ef0503100a6f94ddf3853cccc468f86f85682dd7811ecd2",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     },
     {
@@ -694,7 +694,7 @@
     }
   ],
   "attention": [
-    "provider:aimacloud: unknown",
+    "provider:aimacloud: unknown → reachable",
     "provider:bbq: unknown",
     "provider:bbxy: unknown",
     "provider:bcast: unknown",
@@ -714,7 +714,6 @@
     "provider:inets: restricted",
     "provider:jetfast: unknown",
     "provider:jifeng: unknown",
-    "provider:jike: restricted → unknown",
     "provider:jike: unknown",
     "provider:kelecloud: unknown",
     "provider:kuailexingqiu: unknown",
@@ -768,5 +767,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "281b3edee71175ed8e243441ca5bafb0da77c726b0ad525b507e1751f7b0304b"
+  "fingerprint": "11c2c08242336568580bdf72cc2b2137939e3802fe7ed2ca8c2107bb1584723d"
 }
