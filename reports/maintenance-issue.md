@@ -2,7 +2,7 @@
 
 # 入口与来源巡检
 
-最近运行：2026-11-05T17:32:28+08:00（北京时间）
+最近运行：2026-11-06T17:27:52+08:00（北京时间）
 
 检查位置：本机或 GitHub Actions 执行环境；不代表中国内地各运营商访问结果，也不代表节点可用性。403/429归类为访问限制，DNS/超时归类为未知，不自动认定跑路。首次运行只建立来源内容基线。
 
@@ -10,7 +10,7 @@
 | --- | --- | --- | --- |
 | provider:365vpn | entry | reachable | 200 |
 | provider:afun | entry | reachable | 200 |
-| provider:aimacloud | entry | reachable | 200 |
+| provider:aimacloud | entry | unknown | — |
 | provider:alori | entry | reachable | 200 |
 | provider:aoxiang | entry | reachable | 200 |
 | provider:baiyangxing | entry | reachable | 200 |
@@ -37,7 +37,7 @@
 | provider:eix | entry | reachable | 200 |
 | provider:flybit | entry | reachable | 200 |
 | provider:fmyun | entry | reachable | 200 |
-| provider:free-airport | entry | restricted | 429 |
+| provider:free-airport | entry | restricted | 403 |
 | provider:freecat | entry | reachable | 200 |
 | provider:freesocks | entry | reachable | 200 |
 | provider:fscloud | entry | reachable | 200 |
@@ -80,7 +80,7 @@
 | provider:shandiangou | entry | reachable | 200 |
 | provider:shanhai | entry | reachable | 200 |
 | provider:shengfeng | entry | unknown | — |
-| provider:sockboom | entry | reachable | 200 |
+| provider:sockboom | entry | unknown | — |
 | provider:speedy | entry | reachable | 200 |
 | provider:ssrsub | entry | reachable | 200 |
 | provider:suyun | entry | reachable | 200 |
@@ -108,6 +108,8 @@
 
 ## 需关注
 
+- provider:aimacloud: reachable → unknown
+- provider:aimacloud: unknown
 - provider:bbq: unknown
 - provider:bbxy: unknown
 - provider:bcast: unknown
@@ -135,7 +137,8 @@
 - provider:mojie: restricted
 - provider:naiyun: unknown
 - provider:shengfeng: unknown
-- provider:sockboom: unknown → reachable
+- provider:sockboom: reachable → unknown
+- provider:sockboom: unknown
 - provider:synapse: unknown
 - provider:tag: restricted
 - provider:tly: unknown
