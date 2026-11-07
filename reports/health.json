@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-06T17:27:52+08:00",
+  "checked_at": "2026-11-07T16:50:13+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -19,8 +19,8 @@
       "id": "provider:aimacloud",
       "url": "https://www.aimacloud.info/",
       "kind": "entry",
-      "status": "unknown",
-      "error_type": "URLError"
+      "status": "reachable",
+      "http_code": 200
     },
     {
       "id": "provider:alori",
@@ -209,7 +209,7 @@
       "url": "https://zero.76898102.xyz",
       "kind": "entry",
       "status": "restricted",
-      "http_code": 403
+      "http_code": 429
     },
     {
       "id": "provider:freecat",
@@ -653,7 +653,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "f717fdebb1cc0cc9f2ffc05b9445566772e8a485ad2c3579037d415d41033401",
+      "sha256": "3c3a87cefe338a45c9c261e5f9b6c4408a2c50493f7620f1a52f4f73ae5197b7",
       "baseline_sha256": "e28e3458197943dbe295a13bf1451dac522b72b5099420b08bcf8d2cd042cfec"
     },
     {
@@ -671,7 +671,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "a75db62e49ba5be2f6b2f2fbdf9458e50326c20fdb11279d6127b4e05567a943",
+      "sha256": "daa6f8211ed71bc57426e03a09465616f44c71cbc793733abe55c049bfce1cf8",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     },
     {
@@ -694,8 +694,7 @@
     }
   ],
   "attention": [
-    "provider:aimacloud: reachable → unknown",
-    "provider:aimacloud: unknown",
+    "provider:aimacloud: unknown → reachable",
     "provider:bbq: unknown",
     "provider:bbxy: unknown",
     "provider:bcast: unknown",
@@ -723,7 +722,6 @@
     "provider:mojie: restricted",
     "provider:naiyun: unknown",
     "provider:shengfeng: unknown",
-    "provider:sockboom: reachable → unknown",
     "provider:sockboom: unknown",
     "provider:synapse: unknown",
     "provider:tag: restricted",
@@ -769,5 +767,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "b1a61a50cb489c6d8a19d71c90d4b89e2440073cc153d3921234e5f1b31aa11d"
+  "fingerprint": "11c2c08242336568580bdf72cc2b2137939e3802fe7ed2ca8c2107bb1584723d"
 }
