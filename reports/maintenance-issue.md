@@ -2,7 +2,7 @@
 
 # 入口与来源巡检
 
-最近运行：2026-11-07T16:50:13+08:00（北京时间）
+最近运行：2026-11-08T17:02:54+08:00（北京时间）
 
 检查位置：本机或 GitHub Actions 执行环境；不代表中国内地各运营商访问结果，也不代表节点可用性。403/429归类为访问限制，DNS/超时归类为未知，不自动认定跑路。首次运行只建立来源内容基线。
 
@@ -37,7 +37,7 @@
 | provider:eix | entry | reachable | 200 |
 | provider:flybit | entry | reachable | 200 |
 | provider:fmyun | entry | reachable | 200 |
-| provider:free-airport | entry | restricted | 429 |
+| provider:free-airport | entry | restricted | 403 |
 | provider:freecat | entry | reachable | 200 |
 | provider:freesocks | entry | reachable | 200 |
 | provider:fscloud | entry | reachable | 200 |
@@ -98,7 +98,7 @@
 | provider:yuyan | entry | reachable | 200 |
 | provider:yylx | entry | reachable | 200 |
 | provider:zongheng | entry | http_error | 521 |
-| provider:zongyunti | entry | reachable | 200 |
+| provider:zongyunti | entry | unknown | — |
 | source:hwanz-paid | source | reachable | 200 |
 | source:panda | source | reachable | 200 |
 | source:hwanz-free | source | reachable | 200 |
@@ -108,7 +108,6 @@
 
 ## 需关注
 
-- provider:aimacloud: unknown → reachable
 - provider:bbq: unknown
 - provider:bbxy: unknown
 - provider:bcast: unknown
@@ -144,6 +143,8 @@
 - provider:yifen: restricted
 - provider:yiyuan: restricted
 - provider:zongheng: http_error
+- provider:zongyunti: reachable → unknown
+- provider:zongyunti: unknown
 - source:hwanz-paid: 来源正文变化，需复核
 - source:jms-official: 来源正文变化，需复核
 - source:panda: 来源正文变化，需复核
