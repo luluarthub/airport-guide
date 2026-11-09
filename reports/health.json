@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-08T17:02:54+08:00",
+  "checked_at": "2026-11-09T17:51:30+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -19,15 +19,15 @@
       "id": "provider:aimacloud",
       "url": "https://www.aimacloud.info/",
       "kind": "entry",
-      "status": "reachable",
-      "http_code": 200
+      "status": "unknown",
+      "error_type": "URLError"
     },
     {
       "id": "provider:alori",
       "url": "https://oukasou.xyz/index.php",
       "kind": "entry",
-      "status": "reachable",
-      "http_code": 200
+      "status": "unknown",
+      "error_type": "URLError"
     },
     {
       "id": "provider:aoxiang",
@@ -209,7 +209,7 @@
       "url": "https://zero.76898102.xyz",
       "kind": "entry",
       "status": "restricted",
-      "http_code": 403
+      "http_code": 429
     },
     {
       "id": "provider:freecat",
@@ -509,8 +509,8 @@
       "id": "provider:sockboom",
       "url": "https://sockboom.love/",
       "kind": "entry",
-      "status": "unknown",
-      "error_type": "ValueError"
+      "status": "reachable",
+      "http_code": 200
     },
     {
       "id": "provider:speedy",
@@ -635,8 +635,8 @@
       "id": "provider:zongyunti",
       "url": "https://zongyunti.com/",
       "kind": "entry",
-      "status": "unknown",
-      "error_type": "URLError"
+      "status": "reachable",
+      "http_code": 200
     },
     {
       "id": "source:hwanz-paid",
@@ -671,7 +671,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "7f63bd316ee34a603af94a52864a0abc7b8f51b225387742e03712bc0ad4fe9b",
+      "sha256": "b8b030950f66836fadd89b455e4ffdd05375e8fff006cade7654d738c9645169",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     },
     {
@@ -694,6 +694,10 @@
     }
   ],
   "attention": [
+    "provider:aimacloud: reachable → unknown",
+    "provider:aimacloud: unknown",
+    "provider:alori: reachable → unknown",
+    "provider:alori: unknown",
     "provider:bbq: unknown",
     "provider:bbxy: unknown",
     "provider:bcast: unknown",
@@ -721,7 +725,7 @@
     "provider:mojie: restricted",
     "provider:naiyun: unknown",
     "provider:shengfeng: unknown",
-    "provider:sockboom: unknown",
+    "provider:sockboom: unknown → reachable",
     "provider:synapse: unknown",
     "provider:tag: restricted",
     "provider:tly: unknown",
@@ -729,8 +733,7 @@
     "provider:yifen: restricted",
     "provider:yiyuan: restricted",
     "provider:zongheng: http_error",
-    "provider:zongyunti: reachable → unknown",
-    "provider:zongyunti: unknown",
+    "provider:zongyunti: unknown → reachable",
     "source:hwanz-paid: 来源正文变化，需复核",
     "source:jms-official: 来源正文变化，需复核",
     "source:panda: 来源正文变化，需复核"
@@ -768,5 +771,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "c9b86a4690478df9a0fcf2c043e630989ee3410ec4e06fbe28f0ffb23ccf7a3a"
+  "fingerprint": "bbdfedb569e08f5a4c0f37869761ead55f771873c39bafae8f989e92da483e5b"
 }
