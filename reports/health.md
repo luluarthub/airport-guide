@@ -1,6 +1,6 @@
 # 入口与来源巡检
 
-最近运行：2026-11-10T17:55:00+08:00（北京时间）
+最近运行：2026-11-11T17:29:08+08:00（北京时间）
 
 检查位置：本机或 GitHub Actions 执行环境；不代表中国内地各运营商访问结果，也不代表节点可用性。403/429归类为访问限制，DNS/超时归类为未知，不自动认定跑路。首次运行只建立来源内容基线。
 
@@ -34,7 +34,7 @@
 | provider:edcloud | entry | reachable | 200 |
 | provider:eix | entry | reachable | 200 |
 | provider:flybit | entry | reachable | 200 |
-| provider:fmyun | entry | reachable | 200 |
+| provider:fmyun | entry | unknown | — |
 | provider:free-airport | entry | restricted | 403 |
 | provider:freecat | entry | reachable | 200 |
 | provider:freesocks | entry | reachable | 200 |
@@ -75,7 +75,7 @@
 | provider:peiqian | entry | reachable | 200 |
 | provider:proxyvip | entry | reachable | 200 |
 | provider:qlgq | entry | reachable | 200 |
-| provider:shandiangou | entry | unknown | — |
+| provider:shandiangou | entry | reachable | 200 |
 | provider:shanhai | entry | reachable | 200 |
 | provider:shengfeng | entry | unknown | — |
 | provider:sockboom | entry | unknown | — |
@@ -106,8 +106,6 @@
 
 ## 需关注
 
-- provider:aimacloud: unknown → reachable
-- provider:alori: unknown → reachable
 - provider:bbq: unknown
 - provider:bbxy: unknown
 - provider:bcast: unknown
@@ -120,6 +118,8 @@
 - provider:cocolink: unknown
 - provider:daniu: unknown
 - provider:daxun: unknown
+- provider:fmyun: reachable → unknown
+- provider:fmyun: unknown
 - provider:free-airport: restricted
 - provider:fwcloud: restricted
 - provider:goutou: unknown
@@ -134,10 +134,8 @@
 - provider:mickey: unknown
 - provider:mojie: restricted
 - provider:naiyun: unknown
-- provider:shandiangou: reachable → unknown
-- provider:shandiangou: unknown
+- provider:shandiangou: unknown → reachable
 - provider:shengfeng: unknown
-- provider:sockboom: reachable → unknown
 - provider:sockboom: unknown
 - provider:synapse: unknown
 - provider:tag: restricted

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T17:55:00+08:00",
+  "checked_at": "2026-11-11T17:29:08+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -201,8 +201,8 @@
       "id": "provider:fmyun",
       "url": "https://www.fmyun.top/",
       "kind": "entry",
-      "status": "reachable",
-      "http_code": 200
+      "status": "unknown",
+      "error_type": "TimeoutError"
     },
     {
       "id": "provider:free-airport",
@@ -258,7 +258,7 @@
       "url": "https://lksi.xyz/",
       "kind": "entry",
       "status": "unknown",
-      "error_type": "gaierror"
+      "error_type": "URLError"
     },
     {
       "id": "provider:haita",
@@ -488,8 +488,8 @@
       "id": "provider:shandiangou",
       "url": "https://shandiandog.com/",
       "kind": "entry",
-      "status": "unknown",
-      "error_type": "URLError"
+      "status": "reachable",
+      "http_code": 200
     },
     {
       "id": "provider:shanhai",
@@ -510,7 +510,7 @@
       "url": "https://sockboom.love/",
       "kind": "entry",
       "status": "unknown",
-      "error_type": "ValueError"
+      "error_type": "URLError"
     },
     {
       "id": "provider:speedy",
@@ -671,7 +671,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "50667426f5f130a32c7efd90bea64dc98f21430181525c53b9904e7c46c48aaa",
+      "sha256": "2fe07bfd13841f8aa0ec4da237f7467d882410d0c3ebd50a7a68211f3825fc74",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     },
     {
@@ -694,8 +694,6 @@
     }
   ],
   "attention": [
-    "provider:aimacloud: unknown → reachable",
-    "provider:alori: unknown → reachable",
     "provider:bbq: unknown",
     "provider:bbxy: unknown",
     "provider:bcast: unknown",
@@ -708,6 +706,8 @@
     "provider:cocolink: unknown",
     "provider:daniu: unknown",
     "provider:daxun: unknown",
+    "provider:fmyun: reachable → unknown",
+    "provider:fmyun: unknown",
     "provider:free-airport: restricted",
     "provider:fwcloud: restricted",
     "provider:goutou: unknown",
@@ -722,10 +722,8 @@
     "provider:mickey: unknown",
     "provider:mojie: restricted",
     "provider:naiyun: unknown",
-    "provider:shandiangou: reachable → unknown",
-    "provider:shandiangou: unknown",
+    "provider:shandiangou: unknown → reachable",
     "provider:shengfeng: unknown",
-    "provider:sockboom: reachable → unknown",
     "provider:sockboom: unknown",
     "provider:synapse: unknown",
     "provider:tag: restricted",
@@ -771,5 +769,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "978fa95883b80d31d31edf4bd82de30cb73e5719ac1c5d0a9e5b3b1467ee6d22"
+  "fingerprint": "549c1253039f04c669ef08b15a6a53b7f067b3b0646bd9cf0aeaff56cec0a0d4"
 }
