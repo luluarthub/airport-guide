@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-12T17:52:47+08:00",
+  "checked_at": "2026-11-13T17:35:26+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -258,7 +258,7 @@
       "url": "https://lksi.xyz/",
       "kind": "entry",
       "status": "unknown",
-      "error_type": "URLError"
+      "error_type": "gaierror"
     },
     {
       "id": "provider:haita",
@@ -321,7 +321,7 @@
       "url": "https://board.jike99.xyz/",
       "kind": "entry",
       "status": "unknown",
-      "error_type": "URLError"
+      "error_type": "ValueError"
     },
     {
       "id": "provider:jms",
@@ -509,8 +509,8 @@
       "id": "provider:sockboom",
       "url": "https://sockboom.love/",
       "kind": "entry",
-      "status": "unknown",
-      "error_type": "ValueError"
+      "status": "reachable",
+      "http_code": 200
     },
     {
       "id": "provider:speedy",
@@ -653,7 +653,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "04c32d63cda6355d0cd33b86feb1eb00a099a2f6a53c81a63294371ce879dfc9",
+      "sha256": "14a65e98b3640d8803b32a9f0d35a957a1f4e8da39444c12220a70d66eee762a",
       "baseline_sha256": "e28e3458197943dbe295a13bf1451dac522b72b5099420b08bcf8d2cd042cfec"
     },
     {
@@ -671,7 +671,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "f56504093dcd64102c3c162f4436b90e773d3ee0b7c683f95c7caab61d2e39a9",
+      "sha256": "c4cdd4e5646f48ec4056ab3f4ca1df2b082990b34e8b166a142a1f8877f43f36",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     },
     {
@@ -706,7 +706,6 @@
     "provider:cocolink: unknown",
     "provider:daniu: unknown",
     "provider:daxun: unknown",
-    "provider:fmyun: unknown → reachable",
     "provider:free-airport: restricted",
     "provider:fwcloud: restricted",
     "provider:goutou: unknown",
@@ -721,10 +720,9 @@
     "provider:mickey: unknown",
     "provider:mojie: restricted",
     "provider:naiyun: unknown",
-    "provider:nanmin: reachable → unknown",
     "provider:nanmin: unknown",
     "provider:shengfeng: unknown",
-    "provider:sockboom: unknown",
+    "provider:sockboom: unknown → reachable",
     "provider:synapse: unknown",
     "provider:tag: restricted",
     "provider:tly: unknown",
@@ -769,5 +767,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "eb6790b4654e44fdcc15ab690dbca4335b75161a57cdb1cc42c159d8cb4798d7"
+  "fingerprint": "023c1d825aff64e7a1537b859b479a7e4d87a86404eea5f4446a60a99c662931"
 }

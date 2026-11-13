@@ -2,7 +2,7 @@
 
 # 入口与来源巡检
 
-最近运行：2026-11-12T17:52:47+08:00（北京时间）
+最近运行：2026-11-13T17:35:26+08:00（北京时间）
 
 检查位置：本机或 GitHub Actions 执行环境；不代表中国内地各运营商访问结果，也不代表节点可用性。403/429归类为访问限制，DNS/超时归类为未知，不自动认定跑路。首次运行只建立来源内容基线。
 
@@ -80,7 +80,7 @@
 | provider:shandiangou | entry | reachable | 200 |
 | provider:shanhai | entry | reachable | 200 |
 | provider:shengfeng | entry | unknown | — |
-| provider:sockboom | entry | unknown | — |
+| provider:sockboom | entry | reachable | 200 |
 | provider:speedy | entry | reachable | 200 |
 | provider:ssrsub | entry | reachable | 200 |
 | provider:suyun | entry | reachable | 200 |
@@ -120,7 +120,6 @@
 - provider:cocolink: unknown
 - provider:daniu: unknown
 - provider:daxun: unknown
-- provider:fmyun: unknown → reachable
 - provider:free-airport: restricted
 - provider:fwcloud: restricted
 - provider:goutou: unknown
@@ -135,10 +134,9 @@
 - provider:mickey: unknown
 - provider:mojie: restricted
 - provider:naiyun: unknown
-- provider:nanmin: reachable → unknown
 - provider:nanmin: unknown
 - provider:shengfeng: unknown
-- provider:sockboom: unknown
+- provider:sockboom: unknown → reachable
 - provider:synapse: unknown
 - provider:tag: restricted
 - provider:tly: unknown
