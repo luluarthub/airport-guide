@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-13T17:35:26+08:00",
+  "checked_at": "2026-11-14T17:00:19+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -258,7 +258,7 @@
       "url": "https://lksi.xyz/",
       "kind": "entry",
       "status": "unknown",
-      "error_type": "gaierror"
+      "error_type": "URLError"
     },
     {
       "id": "provider:haita",
@@ -671,7 +671,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "c4cdd4e5646f48ec4056ab3f4ca1df2b082990b34e8b166a142a1f8877f43f36",
+      "sha256": "ad62a6407d0b52f91178d1c3c9efe31c39a9891e1838468d900a33ea10a860c4",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     },
     {
@@ -722,7 +722,6 @@
     "provider:naiyun: unknown",
     "provider:nanmin: unknown",
     "provider:shengfeng: unknown",
-    "provider:sockboom: unknown → reachable",
     "provider:synapse: unknown",
     "provider:tag: restricted",
     "provider:tly: unknown",
@@ -767,5 +766,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "023c1d825aff64e7a1537b859b479a7e4d87a86404eea5f4446a60a99c662931"
+  "fingerprint": "23ce8dac48b1e09b07a52c77ad901c281b55f6cd59fd51d82800a65bb5deb842"
 }
