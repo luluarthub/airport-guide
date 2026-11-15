@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-14T17:00:19+08:00",
+  "checked_at": "2026-11-15T17:30:01+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -209,7 +209,7 @@
       "url": "https://zero.76898102.xyz",
       "kind": "entry",
       "status": "restricted",
-      "http_code": 403
+      "http_code": 429
     },
     {
       "id": "provider:freecat",
@@ -509,8 +509,8 @@
       "id": "provider:sockboom",
       "url": "https://sockboom.love/",
       "kind": "entry",
-      "status": "reachable",
-      "http_code": 200
+      "status": "unknown",
+      "error_type": "ValueError"
     },
     {
       "id": "provider:speedy",
@@ -671,7 +671,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "ad62a6407d0b52f91178d1c3c9efe31c39a9891e1838468d900a33ea10a860c4",
+      "sha256": "084f2372bd4c8b4fc01c4737398e7d82b718b25bba804ebc9f2789bded963963",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     },
     {
@@ -722,6 +722,8 @@
     "provider:naiyun: unknown",
     "provider:nanmin: unknown",
     "provider:shengfeng: unknown",
+    "provider:sockboom: reachable → unknown",
+    "provider:sockboom: unknown",
     "provider:synapse: unknown",
     "provider:tag: restricted",
     "provider:tly: unknown",
@@ -766,5 +768,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "23ce8dac48b1e09b07a52c77ad901c281b55f6cd59fd51d82800a65bb5deb842"
+  "fingerprint": "ac7d1d6e209513901c2b82782f6180f74d45acab2291c2418532b43901335db5"
 }
