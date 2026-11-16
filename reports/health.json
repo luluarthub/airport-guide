@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-15T17:30:01+08:00",
+  "checked_at": "2026-11-16T17:48:55+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -19,8 +19,8 @@
       "id": "provider:aimacloud",
       "url": "https://www.aimacloud.info/",
       "kind": "entry",
-      "status": "reachable",
-      "http_code": 200
+      "status": "unknown",
+      "error_type": "URLError"
     },
     {
       "id": "provider:alori",
@@ -258,7 +258,7 @@
       "url": "https://lksi.xyz/",
       "kind": "entry",
       "status": "unknown",
-      "error_type": "URLError"
+      "error_type": "gaierror"
     },
     {
       "id": "provider:haita",
@@ -509,8 +509,8 @@
       "id": "provider:sockboom",
       "url": "https://sockboom.love/",
       "kind": "entry",
-      "status": "unknown",
-      "error_type": "ValueError"
+      "status": "reachable",
+      "http_code": 200
     },
     {
       "id": "provider:speedy",
@@ -671,7 +671,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "084f2372bd4c8b4fc01c4737398e7d82b718b25bba804ebc9f2789bded963963",
+      "sha256": "e8c78c62a739d82312259fa7f0b6ed8d1d55db909eb9d922b306324201c58df8",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     },
     {
@@ -694,6 +694,8 @@
     }
   ],
   "attention": [
+    "provider:aimacloud: reachable → unknown",
+    "provider:aimacloud: unknown",
     "provider:bbq: unknown",
     "provider:bbxy: unknown",
     "provider:bcast: unknown",
@@ -722,8 +724,7 @@
     "provider:naiyun: unknown",
     "provider:nanmin: unknown",
     "provider:shengfeng: unknown",
-    "provider:sockboom: reachable → unknown",
-    "provider:sockboom: unknown",
+    "provider:sockboom: unknown → reachable",
     "provider:synapse: unknown",
     "provider:tag: restricted",
     "provider:tly: unknown",
@@ -768,5 +769,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "ac7d1d6e209513901c2b82782f6180f74d45acab2291c2418532b43901335db5"
+  "fingerprint": "8796c66573a0d10d526c0b20b4e0f4bf0ca7a4448536b19d0b2320a44e682eea"
 }
