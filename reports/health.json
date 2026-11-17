@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-16T17:48:55+08:00",
+  "checked_at": "2026-11-17T18:46:20+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -209,7 +209,7 @@
       "url": "https://zero.76898102.xyz",
       "kind": "entry",
       "status": "restricted",
-      "http_code": 429
+      "http_code": 403
     },
     {
       "id": "provider:freecat",
@@ -509,8 +509,8 @@
       "id": "provider:sockboom",
       "url": "https://sockboom.love/",
       "kind": "entry",
-      "status": "reachable",
-      "http_code": 200
+      "status": "unknown",
+      "error_type": "ValueError"
     },
     {
       "id": "provider:speedy",
@@ -653,7 +653,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "14a65e98b3640d8803b32a9f0d35a957a1f4e8da39444c12220a70d66eee762a",
+      "sha256": "af304d63c8b732b20b61b964f102e4fd54496a5c6de9fb424ae7f8ecd98f3896",
       "baseline_sha256": "e28e3458197943dbe295a13bf1451dac522b72b5099420b08bcf8d2cd042cfec"
     },
     {
@@ -671,7 +671,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "e8c78c62a739d82312259fa7f0b6ed8d1d55db909eb9d922b306324201c58df8",
+      "sha256": "8f5d7bbd94dab87eee710b22e608605bd27ad21a532778378b19d4961eb1382b",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     },
     {
@@ -694,7 +694,6 @@
     }
   ],
   "attention": [
-    "provider:aimacloud: reachable → unknown",
     "provider:aimacloud: unknown",
     "provider:bbq: unknown",
     "provider:bbxy: unknown",
@@ -724,7 +723,8 @@
     "provider:naiyun: unknown",
     "provider:nanmin: unknown",
     "provider:shengfeng: unknown",
-    "provider:sockboom: unknown → reachable",
+    "provider:sockboom: reachable → unknown",
+    "provider:sockboom: unknown",
     "provider:synapse: unknown",
     "provider:tag: restricted",
     "provider:tly: unknown",
@@ -769,5 +769,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "8796c66573a0d10d526c0b20b4e0f4bf0ca7a4448536b19d0b2320a44e682eea"
+  "fingerprint": "eb6ba42a2984e036d8a3999e0144ccf73cc91934131a27e668a429b56169b22b"
 }
