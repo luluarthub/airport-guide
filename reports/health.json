@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-18T18:14:04+08:00",
+  "checked_at": "2026-11-19T18:25:15+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -62,7 +62,7 @@
       "url": "https://bbxy.xn--cesw6hd3s99f.com/",
       "kind": "entry",
       "status": "unknown",
-      "error_type": "URLError"
+      "error_type": "ValueError"
     },
     {
       "id": "provider:bcast",
@@ -166,8 +166,8 @@
       "id": "provider:dengta",
       "url": "https://www.dengta12.com/reg",
       "kind": "entry",
-      "status": "reachable",
-      "http_code": 200
+      "status": "restricted",
+      "http_code": 403
     },
     {
       "id": "provider:doucat",
@@ -313,8 +313,8 @@
       "id": "provider:jiguang",
       "url": "https://jgjs02.com/",
       "kind": "entry",
-      "status": "reachable",
-      "http_code": 200
+      "status": "unknown",
+      "error_type": "URLError"
     },
     {
       "id": "provider:jike",
@@ -530,8 +530,8 @@
       "id": "provider:suyun",
       "url": "https://zhu.suyun.bio/",
       "kind": "entry",
-      "status": "reachable",
-      "http_code": 200
+      "status": "restricted",
+      "http_code": 403
     },
     {
       "id": "provider:synapse",
@@ -671,7 +671,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "1a1c58306a5e0d564918ce81f1346c10613061dc7ad0b7cdce16f6463706f62e",
+      "sha256": "901009dc2be2fcb126646dbb30828a93101aa2d71d35a81e279a889af50cc555",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     },
     {
@@ -707,6 +707,8 @@
     "provider:cocolink: unknown",
     "provider:daniu: unknown",
     "provider:daxun: unknown",
+    "provider:dengta: reachable → restricted",
+    "provider:dengta: restricted",
     "provider:free-airport: restricted",
     "provider:fwcloud: restricted",
     "provider:goutou: unknown",
@@ -714,6 +716,8 @@
     "provider:inets: restricted",
     "provider:jetfast: unknown",
     "provider:jifeng: unknown",
+    "provider:jiguang: reachable → unknown",
+    "provider:jiguang: unknown",
     "provider:jike: unknown",
     "provider:kelecloud: unknown",
     "provider:kuailexingqiu: unknown",
@@ -724,6 +728,8 @@
     "provider:nanmin: unknown",
     "provider:shengfeng: unknown",
     "provider:sockboom: unknown",
+    "provider:suyun: reachable → restricted",
+    "provider:suyun: restricted",
     "provider:synapse: unknown",
     "provider:tag: restricted",
     "provider:tly: unknown",
@@ -768,5 +774,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "37fca79656fd912910e6d9573ceb480d0ae9747a131141341efc33a5611f9a21"
+  "fingerprint": "00beabf3aa949736386f44e1100967d232dd2bd651469a38b2c73ac5c0e4d9c0"
 }
