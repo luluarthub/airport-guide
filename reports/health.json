@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-19T18:25:15+08:00",
+  "checked_at": "2026-11-20T18:04:54+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -258,7 +258,7 @@
       "url": "https://lksi.xyz/",
       "kind": "entry",
       "status": "unknown",
-      "error_type": "URLError"
+      "error_type": "gaierror"
     },
     {
       "id": "provider:haita",
@@ -313,8 +313,8 @@
       "id": "provider:jiguang",
       "url": "https://jgjs02.com/",
       "kind": "entry",
-      "status": "unknown",
-      "error_type": "URLError"
+      "status": "reachable",
+      "http_code": 200
     },
     {
       "id": "provider:jike",
@@ -644,7 +644,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "e1d6b93723c0e1b85f713153d175be1dd04d23ee42db5e8a0cd0002cb2ed3ccb",
+      "sha256": "76bd5ea282f95eeb0114df550c67133673e0199d09899b9f90744f0e6847933e",
       "baseline_sha256": "b6f116c75a9d6dcc00e9425effb609f081bb49561ff61ce26eabe6e7a7fc173d"
     },
     {
@@ -671,7 +671,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "901009dc2be2fcb126646dbb30828a93101aa2d71d35a81e279a889af50cc555",
+      "sha256": "8b5c55e4c0763215ac0878b4004801db992398596599d4ab9a3105f5da3361cf",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     },
     {
@@ -707,7 +707,6 @@
     "provider:cocolink: unknown",
     "provider:daniu: unknown",
     "provider:daxun: unknown",
-    "provider:dengta: reachable → restricted",
     "provider:dengta: restricted",
     "provider:free-airport: restricted",
     "provider:fwcloud: restricted",
@@ -716,8 +715,7 @@
     "provider:inets: restricted",
     "provider:jetfast: unknown",
     "provider:jifeng: unknown",
-    "provider:jiguang: reachable → unknown",
-    "provider:jiguang: unknown",
+    "provider:jiguang: unknown → reachable",
     "provider:jike: unknown",
     "provider:kelecloud: unknown",
     "provider:kuailexingqiu: unknown",
@@ -728,7 +726,6 @@
     "provider:nanmin: unknown",
     "provider:shengfeng: unknown",
     "provider:sockboom: unknown",
-    "provider:suyun: reachable → restricted",
     "provider:suyun: restricted",
     "provider:synapse: unknown",
     "provider:tag: restricted",
@@ -774,5 +771,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "00beabf3aa949736386f44e1100967d232dd2bd651469a38b2c73ac5c0e4d9c0"
+  "fingerprint": "85aa558cdaf8b3baa958c3a281d9d5cf228c474e7eb6563579a84d2c3827f620"
 }
