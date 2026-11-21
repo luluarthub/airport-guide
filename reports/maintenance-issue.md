@@ -2,7 +2,7 @@
 
 # 入口与来源巡检
 
-最近运行：2026-11-20T18:04:54+08:00（北京时间）
+最近运行：2026-11-21T17:53:05+08:00（北京时间）
 
 检查位置：本机或 GitHub Actions 执行环境；不代表中国内地各运营商访问结果，也不代表节点可用性。403/429归类为访问限制，DNS/超时归类为未知，不自动认定跑路。首次运行只建立来源内容基线。
 
@@ -53,7 +53,7 @@
 | provider:jiasula | entry | reachable | 200 |
 | provider:jifeng | entry | unknown | — |
 | provider:jiguang | entry | reachable | 200 |
-| provider:jike | entry | unknown | — |
+| provider:jike | entry | restricted | 429 |
 | provider:jms | entry | reachable | 200 |
 | provider:kelecloud | entry | unknown | — |
 | provider:kuailexingqiu | entry | unknown | — |
@@ -129,8 +129,8 @@
 - provider:inets: restricted
 - provider:jetfast: unknown
 - provider:jifeng: unknown
-- provider:jiguang: unknown → reachable
-- provider:jike: unknown
+- provider:jike: restricted
+- provider:jike: unknown → restricted
 - provider:kelecloud: unknown
 - provider:kuailexingqiu: unknown
 - provider:liulian: unknown
