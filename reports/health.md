@@ -1,6 +1,6 @@
 # 入口与来源巡检
 
-最近运行：2026-11-22T17:49:46+08:00（北京时间）
+最近运行：2026-11-23T18:50:03+08:00（北京时间）
 
 检查位置：本机或 GitHub Actions 执行环境；不代表中国内地各运营商访问结果，也不代表节点可用性。403/429归类为访问限制，DNS/超时归类为未知，不自动认定跑路。首次运行只建立来源内容基线。
 
@@ -44,14 +44,14 @@
 | provider:glados | entry | reachable | 200 |
 | provider:goutou | entry | unknown | — |
 | provider:haita | entry | reachable | 200 |
-| provider:happymao | entry | restricted | 403 |
+| provider:happymao | entry | reachable | 200 |
 | provider:ikuuu | entry | reachable | 200 |
 | provider:inets | entry | restricted | 403 |
 | provider:jetfast | entry | unknown | — |
 | provider:jiasula | entry | reachable | 200 |
 | provider:jifeng | entry | unknown | — |
 | provider:jiguang | entry | reachable | 200 |
-| provider:jike | entry | unknown | — |
+| provider:jike | entry | reachable | 200 |
 | provider:jms | entry | reachable | 200 |
 | provider:kelecloud | entry | unknown | — |
 | provider:kuailexingqiu | entry | unknown | — |
@@ -75,7 +75,7 @@
 | provider:peiqian | entry | reachable | 200 |
 | provider:proxyvip | entry | reachable | 200 |
 | provider:qlgq | entry | reachable | 200 |
-| provider:shandiangou | entry | reachable | 200 |
+| provider:shandiangou | entry | unknown | — |
 | provider:shanhai | entry | reachable | 200 |
 | provider:shengfeng | entry | unknown | — |
 | provider:sockboom | entry | unknown | — |
@@ -95,7 +95,7 @@
 | provider:youtu | entry | reachable | 200 |
 | provider:yuyan | entry | reachable | 200 |
 | provider:yylx | entry | reachable | 200 |
-| provider:zongheng | entry | http_error | 521 |
+| provider:zongheng | entry | unknown | — |
 | provider:zongyunti | entry | reachable | 200 |
 | source:hwanz-paid | source | reachable | 200 |
 | source:panda | source | reachable | 200 |
@@ -119,16 +119,14 @@
 - provider:cocolink: unknown
 - provider:daniu: unknown
 - provider:daxun: unknown
-- provider:dengta: restricted → reachable
 - provider:free-airport: restricted
 - provider:fwcloud: restricted
 - provider:goutou: unknown
-- provider:happymao: restricted
+- provider:happymao: restricted → reachable
 - provider:inets: restricted
 - provider:jetfast: unknown
 - provider:jifeng: unknown
-- provider:jike: restricted → unknown
-- provider:jike: unknown
+- provider:jike: unknown → reachable
 - provider:kelecloud: unknown
 - provider:kuailexingqiu: unknown
 - provider:liulian: unknown
@@ -136,6 +134,8 @@
 - provider:mojie: restricted
 - provider:naiyun: unknown
 - provider:nanmin: unknown
+- provider:shandiangou: reachable → unknown
+- provider:shandiangou: unknown
 - provider:shengfeng: unknown
 - provider:sockboom: unknown
 - provider:suyun: restricted
@@ -145,7 +145,8 @@
 - provider:wgetcloud: unknown
 - provider:yifen: restricted
 - provider:yiyuan: restricted
-- provider:zongheng: http_error
+- provider:zongheng: http_error → unknown
+- provider:zongheng: unknown
 - source:hwanz-paid: 来源正文变化，需复核
 - source:jms-official: 来源正文变化，需复核
 - source:panda: 来源正文变化，需复核
