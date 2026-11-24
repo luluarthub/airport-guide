@@ -1,6 +1,6 @@
 # 入口与来源巡检
 
-最近运行：2026-11-23T18:50:03+08:00（北京时间）
+最近运行：2026-11-24T20:32:57+08:00（北京时间）
 
 检查位置：本机或 GitHub Actions 执行环境；不代表中国内地各运营商访问结果，也不代表节点可用性。403/429归类为访问限制，DNS/超时归类为未知，不自动认定跑路。首次运行只建立来源内容基线。
 
@@ -20,7 +20,7 @@
 | provider:besnow | entry | restricted | 403 |
 | provider:bochidev | entry | unknown | — |
 | provider:boostnet | entry | reachable | 200 |
-| provider:bt3 | entry | reachable | 200 |
+| provider:bt3 | entry | unknown | — |
 | provider:caihong | entry | unknown | — |
 | provider:cd520 | entry | unknown | — |
 | provider:china-international | entry | unknown | — |
@@ -51,7 +51,7 @@
 | provider:jiasula | entry | reachable | 200 |
 | provider:jifeng | entry | unknown | — |
 | provider:jiguang | entry | reachable | 200 |
-| provider:jike | entry | reachable | 200 |
+| provider:jike | entry | unknown | — |
 | provider:jms | entry | reachable | 200 |
 | provider:kelecloud | entry | unknown | — |
 | provider:kuailexingqiu | entry | unknown | — |
@@ -112,6 +112,8 @@
 - provider:bcast: unknown
 - provider:besnow: restricted
 - provider:bochidev: unknown
+- provider:bt3: reachable → unknown
+- provider:bt3: unknown
 - provider:caihong: unknown
 - provider:cd520: unknown
 - provider:china-international: unknown
@@ -122,11 +124,11 @@
 - provider:free-airport: restricted
 - provider:fwcloud: restricted
 - provider:goutou: unknown
-- provider:happymao: restricted → reachable
 - provider:inets: restricted
 - provider:jetfast: unknown
 - provider:jifeng: unknown
-- provider:jike: unknown → reachable
+- provider:jike: reachable → unknown
+- provider:jike: unknown
 - provider:kelecloud: unknown
 - provider:kuailexingqiu: unknown
 - provider:liulian: unknown
@@ -134,7 +136,6 @@
 - provider:mojie: restricted
 - provider:naiyun: unknown
 - provider:nanmin: unknown
-- provider:shandiangou: reachable → unknown
 - provider:shandiangou: unknown
 - provider:shengfeng: unknown
 - provider:sockboom: unknown
@@ -145,7 +146,6 @@
 - provider:wgetcloud: unknown
 - provider:yifen: restricted
 - provider:yiyuan: restricted
-- provider:zongheng: http_error → unknown
 - provider:zongheng: unknown
 - source:hwanz-paid: 来源正文变化，需复核
 - source:jms-official: 来源正文变化，需复核

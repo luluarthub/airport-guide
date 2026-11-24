@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T18:50:03+08:00",
+  "checked_at": "2026-11-24T20:32:57+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -103,8 +103,8 @@
       "id": "provider:bt3",
       "url": "https://px.bt3.one/",
       "kind": "entry",
-      "status": "reachable",
-      "http_code": 200
+      "status": "unknown",
+      "error_type": "URLError"
     },
     {
       "id": "provider:caihong",
@@ -258,7 +258,7 @@
       "url": "https://lksi.xyz/",
       "kind": "entry",
       "status": "unknown",
-      "error_type": "URLError"
+      "error_type": "gaierror"
     },
     {
       "id": "provider:haita",
@@ -320,8 +320,8 @@
       "id": "provider:jike",
       "url": "https://board.jike99.xyz/",
       "kind": "entry",
-      "status": "reachable",
-      "http_code": 200
+      "status": "unknown",
+      "error_type": "ValueError"
     },
     {
       "id": "provider:jms",
@@ -653,7 +653,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "3b4f36849da38b7063f14ab21c6189ad604050f72591c6c113a4b35d3037e14f",
+      "sha256": "89ae423192dec2ac4b53fd7f55e5e2bc7b680dc65595b317a53175770aad02d9",
       "baseline_sha256": "e28e3458197943dbe295a13bf1451dac522b72b5099420b08bcf8d2cd042cfec"
     },
     {
@@ -671,7 +671,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "63a0f12d228cfb763f87a0c5d43803f200b153bb868bc8d269a2f6a20ed1d54e",
+      "sha256": "59c27e3d7cec41ffdf98e1ed03209ae5a8ac2aced8adaec9bfae5a3853177306",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     },
     {
@@ -700,6 +700,8 @@
     "provider:bcast: unknown",
     "provider:besnow: restricted",
     "provider:bochidev: unknown",
+    "provider:bt3: reachable → unknown",
+    "provider:bt3: unknown",
     "provider:caihong: unknown",
     "provider:cd520: unknown",
     "provider:china-international: unknown",
@@ -710,11 +712,11 @@
     "provider:free-airport: restricted",
     "provider:fwcloud: restricted",
     "provider:goutou: unknown",
-    "provider:happymao: restricted → reachable",
     "provider:inets: restricted",
     "provider:jetfast: unknown",
     "provider:jifeng: unknown",
-    "provider:jike: unknown → reachable",
+    "provider:jike: reachable → unknown",
+    "provider:jike: unknown",
     "provider:kelecloud: unknown",
     "provider:kuailexingqiu: unknown",
     "provider:liulian: unknown",
@@ -722,7 +724,6 @@
     "provider:mojie: restricted",
     "provider:naiyun: unknown",
     "provider:nanmin: unknown",
-    "provider:shandiangou: reachable → unknown",
     "provider:shandiangou: unknown",
     "provider:shengfeng: unknown",
     "provider:sockboom: unknown",
@@ -733,7 +734,6 @@
     "provider:wgetcloud: unknown",
     "provider:yifen: restricted",
     "provider:yiyuan: restricted",
-    "provider:zongheng: http_error → unknown",
     "provider:zongheng: unknown",
     "source:hwanz-paid: 来源正文变化，需复核",
     "source:jms-official: 来源正文变化，需复核",
@@ -772,5 +772,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "5c0a6988590a3105b65ea57c6e7edc3724edd4bf170373b64ff8908cfba563b3"
+  "fingerprint": "30fbe8dd0edeae9e9fad7f979a63641a58b63ee27e8ba4dc8b7f1a78cc5c9613"
 }
