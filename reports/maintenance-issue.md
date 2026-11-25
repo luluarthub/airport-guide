@@ -2,7 +2,7 @@
 
 # 入口与来源巡检
 
-最近运行：2026-11-24T20:32:57+08:00（北京时间）
+最近运行：2026-11-25T19:21:48+08:00（北京时间）
 
 检查位置：本机或 GitHub Actions 执行环境；不代表中国内地各运营商访问结果，也不代表节点可用性。403/429归类为访问限制，DNS/超时归类为未知，不自动认定跑路。首次运行只建立来源内容基线。
 
@@ -22,7 +22,7 @@
 | provider:besnow | entry | restricted | 403 |
 | provider:bochidev | entry | unknown | — |
 | provider:boostnet | entry | reachable | 200 |
-| provider:bt3 | entry | unknown | — |
+| provider:bt3 | entry | reachable | 200 |
 | provider:caihong | entry | unknown | — |
 | provider:cd520 | entry | unknown | — |
 | provider:china-international | entry | unknown | — |
@@ -57,7 +57,7 @@
 | provider:jms | entry | reachable | 200 |
 | provider:kelecloud | entry | unknown | — |
 | provider:kuailexingqiu | entry | unknown | — |
-| provider:kycloud | entry | reachable | 200 |
+| provider:kycloud | entry | restricted | 403 |
 | provider:laomao | entry | reachable | 200 |
 | provider:lemao | entry | reachable | 200 |
 | provider:liangxin | entry | reachable | 200 |
@@ -114,8 +114,7 @@
 - provider:bcast: unknown
 - provider:besnow: restricted
 - provider:bochidev: unknown
-- provider:bt3: reachable → unknown
-- provider:bt3: unknown
+- provider:bt3: unknown → reachable
 - provider:caihong: unknown
 - provider:cd520: unknown
 - provider:china-international: unknown
@@ -129,10 +128,11 @@
 - provider:inets: restricted
 - provider:jetfast: unknown
 - provider:jifeng: unknown
-- provider:jike: reachable → unknown
 - provider:jike: unknown
 - provider:kelecloud: unknown
 - provider:kuailexingqiu: unknown
+- provider:kycloud: reachable → restricted
+- provider:kycloud: restricted
 - provider:liulian: unknown
 - provider:mickey: unknown
 - provider:mojie: restricted
