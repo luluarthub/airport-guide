@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-25T19:21:48+08:00",
+  "checked_at": "2026-11-26T18:57:30+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -258,7 +258,7 @@
       "url": "https://lksi.xyz/",
       "kind": "entry",
       "status": "unknown",
-      "error_type": "gaierror"
+      "error_type": "URLError"
     },
     {
       "id": "provider:haita",
@@ -653,7 +653,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "e33b5da3468231cdca3451621d8277fa25a368e6a46b3695c711f89653c98d6f",
+      "sha256": "f6a4630055821ec824684cd3b75fd5f5d45fe0d6e4dec49a5a7bdb0bdf439901",
       "baseline_sha256": "e28e3458197943dbe295a13bf1451dac522b72b5099420b08bcf8d2cd042cfec"
     },
     {
@@ -671,7 +671,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "27875a367cbd98cb0a52a93cc301a711d1abc5fa37d2e1ff0e6404a94a543a4d",
+      "sha256": "9132a763426dcf0c6e3b1665a8565ef127300ef08d29b33349a4fb3132b82b1f",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     },
     {
@@ -700,7 +700,6 @@
     "provider:bcast: unknown",
     "provider:besnow: restricted",
     "provider:bochidev: unknown",
-    "provider:bt3: unknown → reachable",
     "provider:caihong: unknown",
     "provider:cd520: unknown",
     "provider:china-international: unknown",
@@ -717,7 +716,6 @@
     "provider:jike: unknown",
     "provider:kelecloud: unknown",
     "provider:kuailexingqiu: unknown",
-    "provider:kycloud: reachable → restricted",
     "provider:kycloud: restricted",
     "provider:liulian: unknown",
     "provider:mickey: unknown",
@@ -772,5 +770,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "3219087678c0ab1301fbc54af025ea95a7874d4c868f7b78af8e60d8bb27e9a8"
+  "fingerprint": "8592649ccbc0bfd9be833e715ea25038f44bd498fca36ea44c8cebe6b973713f"
 }
