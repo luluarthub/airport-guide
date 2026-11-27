@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-26T18:57:30+08:00",
+  "checked_at": "2026-11-27T18:55:23+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -125,7 +125,7 @@
       "url": "https://affman.mellanox.fyi/",
       "kind": "entry",
       "status": "unknown",
-      "error_type": "gaierror"
+      "error_type": "URLError"
     },
     {
       "id": "provider:ciyy",
@@ -509,8 +509,8 @@
       "id": "provider:sockboom",
       "url": "https://sockboom.love/",
       "kind": "entry",
-      "status": "unknown",
-      "error_type": "ValueError"
+      "status": "reachable",
+      "http_code": 200
     },
     {
       "id": "provider:speedy",
@@ -671,7 +671,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "9132a763426dcf0c6e3b1665a8565ef127300ef08d29b33349a4fb3132b82b1f",
+      "sha256": "ebe39f769ba4054133ef434a5714bfedfff7bbc5dc295e6b69d569738f864432",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     },
     {
@@ -724,7 +724,7 @@
     "provider:nanmin: unknown",
     "provider:shandiangou: unknown",
     "provider:shengfeng: unknown",
-    "provider:sockboom: unknown",
+    "provider:sockboom: unknown → reachable",
     "provider:suyun: restricted",
     "provider:synapse: unknown",
     "provider:tag: restricted",
@@ -770,5 +770,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "8592649ccbc0bfd9be833e715ea25038f44bd498fca36ea44c8cebe6b973713f"
+  "fingerprint": "19fdf38b967174e7ae9d0c320b85ff0f8e760f0d86a926df3b268eeb71b7819a"
 }
