@@ -2,7 +2,7 @@
 
 # 入口与来源巡检
 
-最近运行：2026-11-27T18:55:23+08:00（北京时间）
+最近运行：2026-11-28T18:30:37+08:00（北京时间）
 
 检查位置：本机或 GitHub Actions 执行环境；不代表中国内地各运营商访问结果，也不代表节点可用性。403/429归类为访问限制，DNS/超时归类为未知，不自动认定跑路。首次运行只建立来源内容基线。
 
@@ -73,7 +73,7 @@
 | provider:nianyun | entry | reachable | 200 |
 | provider:nyanss | entry | reachable | 200 |
 | provider:ofonet | entry | reachable | 200 |
-| provider:onesy | entry | reachable | 200 |
+| provider:onesy | entry | http_error | 502 |
 | provider:peiqian | entry | reachable | 200 |
 | provider:proxyvip | entry | reachable | 200 |
 | provider:qlgq | entry | reachable | 200 |
@@ -136,9 +136,10 @@
 - provider:mojie: restricted
 - provider:naiyun: unknown
 - provider:nanmin: unknown
+- provider:onesy: http_error
+- provider:onesy: reachable → http_error
 - provider:shandiangou: unknown
 - provider:shengfeng: unknown
-- provider:sockboom: unknown → reachable
 - provider:suyun: restricted
 - provider:synapse: unknown
 - provider:tag: restricted

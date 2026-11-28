@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-27T18:55:23+08:00",
+  "checked_at": "2026-11-28T18:30:37+08:00",
   "checks": [
     {
       "id": "provider:365vpn",
@@ -460,8 +460,8 @@
       "id": "provider:onesy",
       "url": "https://www.onesy1.cc/",
       "kind": "entry",
-      "status": "reachable",
-      "http_code": 200
+      "status": "http_error",
+      "http_code": 502
     },
     {
       "id": "provider:peiqian",
@@ -653,7 +653,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "f6a4630055821ec824684cd3b75fd5f5d45fe0d6e4dec49a5a7bdb0bdf439901",
+      "sha256": "1d93abd89c9339602a607a1fd1a85274aa40286eb00e81829bae206a85f5cfa6",
       "baseline_sha256": "e28e3458197943dbe295a13bf1451dac522b72b5099420b08bcf8d2cd042cfec"
     },
     {
@@ -671,7 +671,7 @@
       "kind": "source",
       "status": "reachable",
       "http_code": 200,
-      "sha256": "ebe39f769ba4054133ef434a5714bfedfff7bbc5dc295e6b69d569738f864432",
+      "sha256": "f97242571d939092601769c0c125210e0f45366df8cb018db6067e2d008191cd",
       "baseline_sha256": "b00e54c52e276bcb099e48a07431a2e3d73956d7a1c2fefcaeff53288de25068"
     },
     {
@@ -722,9 +722,10 @@
     "provider:mojie: restricted",
     "provider:naiyun: unknown",
     "provider:nanmin: unknown",
+    "provider:onesy: http_error",
+    "provider:onesy: reachable → http_error",
     "provider:shandiangou: unknown",
     "provider:shengfeng: unknown",
-    "provider:sockboom: unknown → reachable",
     "provider:suyun: restricted",
     "provider:synapse: unknown",
     "provider:tag: restricted",
@@ -770,5 +771,5 @@
     "yiyuan",
     "youtu"
   ],
-  "fingerprint": "19fdf38b967174e7ae9d0c320b85ff0f8e760f0d86a926df3b268eeb71b7819a"
+  "fingerprint": "803b79f7933b6d07179d1ca711b69e454aba5343409c2b576bd8df079243d040"
 }
